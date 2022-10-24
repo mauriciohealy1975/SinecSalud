@@ -43,18 +43,23 @@ Public Class ReporteDeSolicitudesMedicas
     Private Sub ReporteDeSolicitudesMedicas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ConfiguracionVentana()
         Dim online As Boolean = False
-
-        Dim objReporte As New CrisReportSolMedOnline
         If online Then
+            Dim objReporte As New CrisReportSolMedOnline
             objReporte.SetDatabaseLogon("antlion", "@75542023aA@", "190.181.23.234", "sinecsaluddemo") 'parametrizar usuario y contraceña para que no la solicite
+            objReporte.SetParameterValue("@nombre", nombre)
+            objReporte.SetParameterValue("@FechaDesde", desde)
+            objReporte.SetParameterValue("@fechahasta", hasta)
+            objReporte.SetParameterValue("@LugarTrabajo", lugartrabajo)
         Else
+            Dim objReporte As New CrisReportSolMedOffline
             objReporte.SetDatabaseLogon("antlion", "@75542023aA@", "192.168.100.175", "sinecsaluddemo") 'parametrizar usuario y contraceña para que no la solicite
+            objReporte.SetParameterValue("@nombre", nombre)
+            objReporte.SetParameterValue("@FechaDesde", desde)
+            objReporte.SetParameterValue("@fechahasta", hasta)
+            objReporte.SetParameterValue("@LugarTrabajo", lugartrabajo)
         End If
 
-        objReporte.SetParameterValue("@nombre", nombre)
-        objReporte.SetParameterValue("@FechaDesde", desde)
-        objReporte.SetParameterValue("@fechahasta", hasta)
-        objReporte.SetParameterValue("@LugarTrabajo", lugartrabajo)
+
 
 
         WindowState = FormWindowState.Maximized
