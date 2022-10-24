@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57B6A465-3B05-4CB6-92E2-C0A6BFB136BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NEGOCIO</RootNamespace>
+    <AssemblyName>NEGOCIO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NEGOCIO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NEGOCIO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Test\</OutputPath>
+    <DocumentationFile>NEGOCIO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Test\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases abstractas\FormularioItem.vb" />
+    <Compile Include="Clases entidad input\Modulo Administrador\AseguradoInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Administrador\ConceptoInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Administrador\UsuarioInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Labotorio\ConjuntoOpcionesResultadosLabInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Labotorio\DetalleOrdenLaboratorioInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Labotorio\OpcionResultadoLabInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Labotorio\OrdenLaboratorioInput.vb" />
+    <Compile Include="Clases entidad input\Modulo Labotorio\ResultadoLaboratorioInput.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\PermisoLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ReferenciaResultadoLaboratorio.vb" />
+    <Compile Include="Clases estructura de datos\Aviso Afiliación\ListaEnlazadaAvisosAfiliacion.vb" />
+    <Compile Include="Clases estructura de datos\Aviso Afiliación\NodoAvisoAfiliacion.vb" />
+    <Compile Include="Clases estructura de datos\Beneficiarios\ListaEnlazadaBeneficiarios.vb" />
+    <Compile Include="Clases estructura de datos\Beneficiarios\NodoBeneficiario.vb" />
+    <Compile Include="Clases estructura de datos\Titulares\ListaEnlazadaTitulares.vb" />
+    <Compile Include="Clases estructura de datos\Titulares\NodoTitular.vb" />
+    <Compile Include="Clases estructura de datos\Turnos\ListaEnlazadaTurnos.vb" />
+    <Compile Include="Clases estructura de datos\Turnos\NodoTurno.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\ActualizacionAsegurado.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\Clases Form Reportes\ReporteProgramacionReprogramacionExamenPreocupacional.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroAplicacionControlPrestaciones.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroAseguradoTitular.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroBaja.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroBajaPorEmpresa.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroBeneficiario.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroProcesoAvisoAsignacionesFamiliares.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroProcesoProgramcionExamenPreocupacional.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroProgramacionExamenPreocupacional.vb" />
+    <Compile Include="Clases form\Modulo Afiliacion\RegistroReingreso.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\AsignacionTurno.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\RegistroMedico.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\RegistroUsuario.vb" />
+    <Compile Include="Clases form\Modulo Enfermeria\RegistroEjecucionServicio.vb" />
+    <Compile Include="Clases form\Modulo Enfermeria\RegistroAtencionInyectables.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\Costructores\ConstructorDetalleTraspaso.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\Costructores\ConstructorTraspaso.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\Costructores\ConstructorDeInventarioFarmaco.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\Costructores\ConstructorDeSubProducto.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\Costructores\CostructorProveedor.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar orden\ConfirmacionOrdenLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroProveedorKitEquipo.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registro de resultados\ImpresionResultadosLab.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\RegistroAsignacionAreasLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroAreaLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroConjuntoOpcionesResultadoLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroKitEquipoLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroReferenciaResultadoLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroSubareaLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\SubareaLaboratorioInput.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registro de resultados\RegistroResultadoLabTipoValorComun.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registro de resultados\RegistroResultadoLabTipoValorTextual.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registro de resultados\RegistroResultadosLab.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registro de resultados\RegistroResultadoLabTipoValorOpcionSeleccion.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar examen\RegistroExamenLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\Registrar orden\RegistroOrdenLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\RegistroTomaMuestra.vb" />
+    <Compile Include="Clases form\Modulo Laboratorio\RegistroUnidadMedidaLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Medicos\RegistroOrdenAtencionServiciosEnfermeria.vb" />
+    <Compile Include="Clases form\Modulo Baja Medica\RegistroBajaMedica.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\AreaTrabajo.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Asegurado.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\ReprogramacionExamenPreocupacional.vb" />
+    <Compile Include="Clases entidad\Modulo Enfermeria\AtencionInyectables.vb" />
+    <Compile Include="Clases entidad\BajaMedica.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Beneficiario.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\CambioContrasenha.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Concepto.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\DatosPersonales.vb" />
+    <Compile Include="Clases entidad\Modulo Enfermeria\DetalleOrdenAtencionEnfermeria.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Parametro.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ConjuntoOpcionesResultadosLab.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\DetalleOrdenLab.vb" />
+    <Compile Include="Clases entidad\Modulo Enfermeria\EjecucionServicioEnfermeria.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\EntidadDesconcentrada.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ExamenLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\AreaLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\GrupoValoresOpcionales.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\KitEquipoLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\AvisoAfiliacion.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\AplicacionControlPrestaciones.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\AvisoAsignacionesFamiliares.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\DetalleControlPrestaciones.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\GrupoControlPrestaciones.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\ControlPrestaciones.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\ProgramacionExamenPreocupacional.vb" />
+    <Compile Include="Clases entidad\Modulo Enfermeria\OrdenAtencionEnfermeria.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\OpcionResultadoLab.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\OrdenLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\ProgramaProyecto.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ProveedorKit.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\PuestoTrabajo.vb" />
+    <Compile Include="Clases entidad\Modulo Enfermeria\ServicioEnfermeria.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ResultadoLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\SubareaLaboratorio.vb" />
+    <Compile Include="Clases entidad\TransferenciaMedica.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\UnidadMedidaLaboratorio.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\UsuarioEliminacion.vb" />
+    <Compile Include="Clases form\Modulo Rayos X\FuncionesRayosX.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\ConfirmacionSolMed.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\ControlProgSolMed.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\ControlRegSolMed.vb" />
+    <Compile Include="Clases entidad\Modulo Laboratorio\ValorOpcional.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\FuncionesTriaje.vb" />
+    <Compile Include="Csinec.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\EliminacionSolMed.vb" />
+    <Compile Include="Clases entidad\Especialidad.vb" />
+    <Compile Include="Clases entidad\FiltroFecha.vb" />
+    <Compile Include="Clases entidad\Horario.vb" />
+    <Compile Include="Clases entidad\Modulo Afiliacion\Empresa.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\InicioSesion.vb" />
+    <Compile Include="Clases entidad\Medico.vb" />
+    <Compile Include="Clases form\InicioSesionEliminacion.vb" />
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\MenuSolMedicas.vb" />
+    <Compile Include="Clases form\Modulo Farmacia\FuncionesFarmacia.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Clases form\Modulo Solicitudes Medicas\RegistroSolMedica.vb" />
+    <Compile Include="Clases entidad\SolicitudMedica.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Titular.vb" />
+    <Compile Include="Clases entidad\Turno.vb" />
+    <Compile Include="Clases entidad\Modulo Administrador\Usuario.vb" />
+    <Compile Include="Clases entidad\Utilitarios.vb" />
+    <Compile Include="Clases form\Modulo Medicos\RegistroTransferenciaMedica.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.vbproj">
+      <Project>{5a96e244-f85d-4a17-a81f-bb3d3953353e}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

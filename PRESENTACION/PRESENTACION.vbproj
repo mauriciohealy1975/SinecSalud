@@ -1,0 +1,1139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8B7F7F3-2846-4917-8C90-2EAD8F5548B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PRESENTACION.My.MyApplication</StartupObject>
+    <RootNamespace>PRESENTACION</RootNamespace>
+    <AssemblyName>PRESENTACION</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\Ejecutable\sinecProduccionTriaje\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>sinec salud</ProductName>
+    <PublisherName>sinecSalud</PublisherName>
+    <SuiteName>sistema escritorio sinec</SuiteName>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.6</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>true</Prefer32Bit>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>67D19E8C521D73BDB4E630BE52A33E6C2EBBCFA5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PRESENTACION_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PRESENTACION_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRFicha.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRFicha.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuFarmacia.Designer.vb">
+      <DependentUpon>FormMenuFarmacia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuFarmacia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FromMenuTriaje.Designer.vb">
+      <DependentUpon>FromMenuTriaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FromMenuTriaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormAsignarControlPrestaciones.Designer.vb">
+      <DependentUpon>FormAsignarControlPrestaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormAsignarControlPrestaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormProcesarAvisosAsignacionesFamiliares.Designer.vb">
+      <DependentUpon>FormProcesarAvisosAsignacionesFamiliares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormProcesarAvisosAsignacionesFamiliares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormProcesarProgramacionEP.Designer.vb">
+      <DependentUpon>FormProcesarProgramacionEP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormProcesarProgramacionEP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBaja.Designer.vb">
+      <DependentUpon>FormRegistrarBaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBajaPorEmpresa.Designer.vb">
+      <DependentUpon>FormRegistrarBajaPorEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBajaPorEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBeneficiario.Designer.vb">
+      <DependentUpon>FormRegistrarBeneficiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarBeneficiario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarEmpresa.Designer.vb">
+      <DependentUpon>FormRegistrarEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarProgramacionExamenPreocupacional.Designer.vb">
+      <DependentUpon>FormRegistrarProgramacionExamenPreocupacional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarProgramacionExamenPreocupacional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarReingreso.Designer.vb">
+      <DependentUpon>FormRegistrarReingreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarReingreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarTitular.Designer.vb">
+      <DependentUpon>FormRegistrarTitular.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormRegistrarTitular.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormActualizarAsegurado.designer.vb">
+      <DependentUpon>FormActualizarAsegurado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\FormActualizarAsegurado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\Forms Modales\FormRegistrarDatosEmpresa.Designer.vb">
+      <DependentUpon>FormRegistrarDatosEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\Forms Modales\FormRegistrarDatosEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\Forms Reportes\FormReporteProgrmacionExamenPreocupacional.Designer.vb">
+      <DependentUpon>FormReporteProgrmacionExamenPreocupacional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Afiliación viejo\Forms Reportes\FormReporteProgrmacionExamenPreocupacional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormAsignarTurno.Designer.vb">
+      <DependentUpon>FormAsignarTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormAsignarTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormRegistrarUsuario.Designer.vb">
+      <DependentUpon>FormRegistrarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormRegistrarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormCambiarContrasenha.designer.vb">
+      <DependentUpon>FormCambiarContrasenha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormCambiarContrasenha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuAfiliacion.Designer.vb">
+      <DependentUpon>FormMenuAfiliacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuAfiliacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuBajasMedicas.Designer.vb">
+      <DependentUpon>FormMenuBajasMedicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuBajasMedicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Baja Medica\FormRegistrarBajaMedica.Designer.vb">
+      <DependentUpon>FormRegistrarBajaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Baja Medica\FormRegistrarBajaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormMenuControlDeUsuario.Designer.vb">
+      <DependentUpon>FormMenuControlDeUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormMenuControlDeUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.Designer.vb">
+      <DependentUpon>FormRegistrarMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Enfermería\FormRegistrarEjecucionServicio.Designer.vb">
+      <DependentUpon>FormRegistrarEjecucionServicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Enfermería\FormRegistrarEjecucionServicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormActivarDesactivarMedicamento.Designer.vb">
+      <DependentUpon>FormActivarDesactivarMedicamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormActivarDesactivarMedicamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormAgregarSubMedicamento.Designer.vb">
+      <DependentUpon>FormAgregarSubMedicamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormAgregarSubMedicamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormDetalleTraspaso.Designer.vb">
+      <DependentUpon>FormDetalleTraspaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormDetalleTraspaso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormRecetas.Designer.vb">
+      <DependentUpon>FormRecetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormRecetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormIngresarInventario.Designer.vb">
+      <DependentUpon>FormIngresarInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormIngresarInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormRecibirTraspaso.Designer.vb">
+      <DependentUpon>FormRecibirTraspaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormRecibirTraspaso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormTraspasos.Designer.vb">
+      <DependentUpon>FormTraspasos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormTraspasos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FromNuevoInsumo.Designer.vb">
+      <DependentUpon>FromNuevoInsumo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FromNuevoInsumo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Inventario\FormReporteInventarioGeneral.Designer.vb">
+      <DependentUpon>FormReporteInventarioGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Inventario\FormReporteInventarioGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Inventario\ReporteInventarioGeneral.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteInventarioGeneral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Recetas\SubReporte.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubReporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormRegistrarAsignacionAreasLab.Designer.vb">
+      <DependentUpon>FormRegistrarAsignacionAreasLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormRegistrarAsignacionAreasLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Imprimir resultados\ReporteResultadosCR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteResultadosCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarConjuntoOpcionesResultadoLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarConjuntoOpcionesResultadoLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarConjuntoOpcionesResultadoLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarExamenLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarExamenLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarExamenLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormRegistrarTomaMuestra.Designer.vb">
+      <DependentUpon>FormRegistrarTomaMuestra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormRegistrarTomaMuestra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormMenuLaboratorio.Designer.vb">
+      <DependentUpon>FormMenuLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\FormMenuLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\FormConfimarOrdenLaboratorio.Designer.vb">
+      <DependentUpon>FormConfimarOrdenLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\FormConfimarOrdenLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\FormRegistrarOrdenLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarOrdenLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\FormRegistrarOrdenLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarAreaLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarAreaLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarAreaLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarKitEquipoLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarKitEquipoLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarKitEquipoLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarProveedorKitEquipo.Designer.vb">
+      <DependentUpon>FormRegistrarProveedorKitEquipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarProveedorKitEquipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarReferenciaResultadoLaboratorio.designer.vb">
+      <DependentUpon>FormRegistrarReferenciaResultadoLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar kit\FormRegistrarReferenciaResultadoLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarSubareaLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarSubareaLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarSubareaLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarUnidadMedidaLaboratorio.Designer.vb">
+      <DependentUpon>FormRegistrarUnidadMedidaLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar examen\FormRegistrarUnidadMedidaLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Imprimir resultados\FormImprimirResultadosLaboratorio.Designer.vb">
+      <DependentUpon>FormImprimirResultadosLaboratorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Imprimir resultados\FormImprimirResultadosLaboratorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\mydataset1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mydataset1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\mydataset1.vb">
+      <DependentUpon>mydataset1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\ReporteOrdenLaboratorio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteOrdenLaboratorio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar orden\reportPrueba.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportPrueba.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadosLab.Designer.vb">
+      <DependentUpon>FormRegistrarResultadosLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadosLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorOpcionSeleccion.Designer.vb">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorOpcionSeleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorOpcionSeleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorComun.Designer.vb">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorComun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorComun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.Designer.vb">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorTextual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormRegistrarOrdenAtencionServiciosEnfermeria.Designer.vb">
+      <DependentUpon>FormRegistrarOrdenAtencionServiciosEnfermeria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormRegistrarOrdenAtencionServiciosEnfermeria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuEnfermeria.Designer.vb">
+      <DependentUpon>FormMenuEnfermeria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuEnfermeria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Enfermería\FormRegistrarAtencionInyectables.Designer.vb">
+      <DependentUpon>FormRegistrarAtencionInyectables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Enfermería\FormRegistrarAtencionInyectables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormSolicitudRayosX.Designer.vb">
+      <DependentUpon>FormSolicitudRayosX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormSolicitudRayosX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormConfirmarSolMed.designer.vb">
+      <DependentUpon>FormConfirmarSolMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormConfirmarSolMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormEliminarSolMed.designer.vb">
+      <DependentUpon>FormEliminarSolMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormEliminarSolMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormIniciarSesion.designer.vb">
+      <DependentUpon>FormIniciarSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\FormIniciarSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormIniciarSesionEliminarSolMed.designer.vb">
+      <DependentUpon>FormIniciarSesionEliminarSolMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormIniciarSesionEliminarSolMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuMedicos.designer.vb">
+      <DependentUpon>FormMenuMedicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus por separado\FormMenuMedicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuPrincipal.designer.vb">
+      <DependentUpon>FormMenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormRegistrarSolMed.designer.vb">
+      <DependentUpon>FormRegistrarSolMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormRegistrarSolMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormRegistrarTransferenciaMed.designer.vb">
+      <DependentUpon>FormRegistrarTransferenciaMed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormRegistrarTransferenciaMed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormReporteDeSolicitudes.Designer.vb">
+      <DependentUpon>FormReporteDeSolicitudes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\FormReporteDeSolicitudes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\CRFichaReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRFichaReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\CrisReportSolMedOffline.vb">
+      <DependentUpon>CrisReportSolMedOffline.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\CrisReportSolMedOnline.vb">
+      <DependentUpon>CrisReportSolMedOnline.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\FormCristalReportFicha.Designer.vb">
+      <DependentUpon>FormCristalReportFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\FormCristalReportFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\ReporteDeSolicitudesMedicas.Designer.vb">
+      <DependentUpon>ReporteDeSolicitudesMedicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Solicitudes Medicas\Reportes\ReporteDeSolicitudesMedicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reloj.Designer.vb">
+      <DependentUpon>Reloj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reloj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormDespachoRecetas.Designer.vb">
+      <DependentUpon>FormDespachoRecetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\FormDespachoRecetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Recetas\FormComprobanteReceta.Designer.vb">
+      <DependentUpon>FormComprobanteReceta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Recetas\FormComprobanteReceta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Farmacia\reportes\Recetas\ModeloComprobanteReceta.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloComprobanteReceta.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CRFicha.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRFicha.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FormMenuFarmacia.resx">
+      <DependentUpon>FormMenuFarmacia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FromMenuTriaje.resx">
+      <DependentUpon>FromMenuTriaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormActualizarAsegurado.resx">
+      <DependentUpon>FormActualizarAsegurado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormAsignarControlPrestaciones.resx">
+      <DependentUpon>FormAsignarControlPrestaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormProcesarAvisosAsignacionesFamiliares.resx">
+      <DependentUpon>FormProcesarAvisosAsignacionesFamiliares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormProcesarProgramacionEP.resx">
+      <DependentUpon>FormProcesarProgramacionEP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarBaja.resx">
+      <DependentUpon>FormRegistrarBaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarBajaPorEmpresa.resx">
+      <DependentUpon>FormRegistrarBajaPorEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarBeneficiario.resx">
+      <DependentUpon>FormRegistrarBeneficiario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarEmpresa.resx">
+      <DependentUpon>FormRegistrarEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarProgramacionExamenPreocupacional.resx">
+      <DependentUpon>FormRegistrarProgramacionExamenPreocupacional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarReingreso.resx">
+      <DependentUpon>FormRegistrarReingreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\FormRegistrarTitular.resx">
+      <DependentUpon>FormRegistrarTitular.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\Forms Modales\FormRegistrarDatosEmpresa.resx">
+      <DependentUpon>FormRegistrarDatosEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Afiliación viejo\Forms Reportes\FormReporteProgrmacionExamenPreocupacional.resx">
+      <DependentUpon>FormReporteProgrmacionExamenPreocupacional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\FormAsignarTurno.resx">
+      <DependentUpon>FormAsignarTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\FormRegistrarUsuario.resx">
+      <DependentUpon>FormRegistrarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\FormCambiarContrasenha.resx">
+      <DependentUpon>FormCambiarContrasenha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FormMenuAfiliacion.resx">
+      <DependentUpon>FormMenuAfiliacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FormMenuBajasMedicas.resx">
+      <DependentUpon>FormMenuBajasMedicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Baja Medica\FormRegistrarBajaMedica.resx">
+      <DependentUpon>FormRegistrarBajaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\FormMenuControlDeUsuario.resx">
+      <DependentUpon>FormMenuControlDeUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.resx">
+      <DependentUpon>FormRegistrarMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Enfermería\FormRegistrarEjecucionServicio.resx">
+      <DependentUpon>FormRegistrarEjecucionServicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormActivarDesactivarMedicamento.resx">
+      <DependentUpon>FormActivarDesactivarMedicamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormDetalleTraspaso.resx">
+      <DependentUpon>FormDetalleTraspaso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormRecetas.resx">
+      <DependentUpon>FormRecetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormRecibirTraspaso.resx">
+      <DependentUpon>FormRecibirTraspaso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormTraspasos.resx">
+      <DependentUpon>FormTraspasos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormAgregarSubMedicamento.resx">
+      <DependentUpon>FormAgregarSubMedicamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormIngresarInventario.resx">
+      <DependentUpon>FormIngresarInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FromNuevoInsumo.resx">
+      <DependentUpon>FromNuevoInsumo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\reportes\Inventario\FormReporteInventarioGeneral.resx">
+      <DependentUpon>FormReporteInventarioGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\reportes\Inventario\ReporteInventarioGeneral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteInventarioGeneral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\reportes\Recetas\SubReporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SubReporte.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\FormRegistrarAsignacionAreasLab.resx">
+      <DependentUpon>FormRegistrarAsignacionAreasLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Imprimir resultados\ReporteResultadosCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteResultadosCR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar examen\FormRegistrarConjuntoOpcionesResultadoLaboratorio.resx">
+      <DependentUpon>FormRegistrarConjuntoOpcionesResultadoLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar examen\FormRegistrarExamenLaboratorio.resx">
+      <DependentUpon>FormRegistrarExamenLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\FormRegistrarTomaMuestra.resx">
+      <DependentUpon>FormRegistrarTomaMuestra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\FormMenuLaboratorio.resx">
+      <DependentUpon>FormMenuLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar orden\FormConfimarOrdenLaboratorio.resx">
+      <DependentUpon>FormConfimarOrdenLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar orden\FormRegistrarOrdenLaboratorio.resx">
+      <DependentUpon>FormRegistrarOrdenLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar examen\FormRegistrarAreaLaboratorio.resx">
+      <DependentUpon>FormRegistrarAreaLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar kit\FormRegistrarKitEquipoLaboratorio.resx">
+      <DependentUpon>FormRegistrarKitEquipoLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar kit\FormRegistrarProveedorKitEquipo.resx">
+      <DependentUpon>FormRegistrarProveedorKitEquipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar kit\FormRegistrarReferenciaResultadoLaboratorio.resx">
+      <DependentUpon>FormRegistrarReferenciaResultadoLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar examen\FormRegistrarSubareaLaboratorio.resx">
+      <DependentUpon>FormRegistrarSubareaLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar examen\FormRegistrarUnidadMedidaLaboratorio.resx">
+      <DependentUpon>FormRegistrarUnidadMedidaLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Imprimir resultados\FormImprimirResultadosLaboratorio.resx">
+      <DependentUpon>FormImprimirResultadosLaboratorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar orden\ReporteOrdenLaboratorio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteOrdenLaboratorio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar orden\reportPrueba.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportPrueba.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadosLab.resx">
+      <DependentUpon>FormRegistrarResultadosLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorOpcionSeleccion.resx">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorOpcionSeleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorComun.resx">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorComun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.resx">
+      <DependentUpon>FormRegistrarResultadoLabTipoValorTextual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\FormRegistrarOrdenAtencionServiciosEnfermeria.resx">
+      <DependentUpon>FormRegistrarOrdenAtencionServiciosEnfermeria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FormMenuEnfermeria.resx">
+      <DependentUpon>FormMenuEnfermeria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Enfermería\FormRegistrarAtencionInyectables.resx">
+      <DependentUpon>FormRegistrarAtencionInyectables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\FormSolicitudRayosX.resx">
+      <DependentUpon>FormSolicitudRayosX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\FormConfirmarSolMed.resx">
+      <DependentUpon>FormConfirmarSolMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\FormEliminarSolMed.resx">
+      <DependentUpon>FormEliminarSolMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\FormIniciarSesion.resx">
+      <DependentUpon>FormIniciarSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\FormIniciarSesionEliminarSolMed.resx">
+      <DependentUpon>FormIniciarSesionEliminarSolMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus por separado\FormMenuMedicos.resx">
+      <DependentUpon>FormMenuMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuPrincipal.resx">
+      <DependentUpon>FormMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\FormRegistrarSolMed.resx">
+      <DependentUpon>FormRegistrarSolMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\FormRegistrarTransferenciaMed.resx">
+      <DependentUpon>FormRegistrarTransferenciaMed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\FormReporteDeSolicitudes.resx">
+      <DependentUpon>FormReporteDeSolicitudes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\Reportes\CRFichaReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRFichaReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\Reportes\CrisReportSolMedOffline.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrisReportSolMedOffline.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\Reportes\CrisReportSolMedOnline.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrisReportSolMedOnline.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\Reportes\FormCristalReportFicha.resx">
+      <DependentUpon>FormCristalReportFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Solicitudes Medicas\Reportes\ReporteDeSolicitudesMedicas.resx">
+      <DependentUpon>ReporteDeSolicitudesMedicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reloj.resx">
+      <DependentUpon>Reloj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\FormDespachoRecetas.resx">
+      <DependentUpon>FormDespachoRecetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\reportes\Recetas\FormComprobanteReceta.resx">
+      <DependentUpon>FormComprobanteReceta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Farmacia\reportes\Recetas\ModeloComprobanteReceta.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ModeloComprobanteReceta.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Modulo Laboratorio\Registrar orden\mydataset1.xsc">
+      <DependentUpon>mydataset1.xsd</DependentUpon>
+    </None>
+    <None Include="Modulo Laboratorio\Registrar orden\mydataset1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mydataset1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Modulo Laboratorio\Registrar orden\mydataset1.xss">
+      <DependentUpon>mydataset1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="PRESENTACION_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NEGOCIO\NEGOCIO.vbproj">
+      <Project>{57b6a465-3b05-4cb6-92e2-c0a6bfb136bc}</Project>
+      <Name>NEGOCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ZPrueba\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

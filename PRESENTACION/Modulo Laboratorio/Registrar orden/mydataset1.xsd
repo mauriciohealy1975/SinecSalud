@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mydataset1" targetNamespace="http://tempuri.org/mydataset1.xsd" xmlns:mstns="http://tempuri.org/mydataset1.xsd" xmlns="http://tempuri.org/mydataset1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="mydataset1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="mydataset1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="mydataset1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tableAsegurado" msprop:Generator_RowEvHandlerName="tableAseguradoRowChangeEventHandler" msprop:Generator_RowDeletedName="tableAseguradoRowDeleted" msprop:Generator_RowDeletingName="tableAseguradoRowDeleting" msprop:Generator_RowEvArgName="tableAseguradoRowChangeEvent" msprop:Generator_TablePropName="tableAsegurado" msprop:Generator_RowChangedName="tableAseguradoRowChanged" msprop:Generator_UserTableName="tableAsegurado" msprop:Generator_RowChangingName="tableAseguradoRowChanging" msprop:Generator_RowClassName="tableAseguradoRow" msprop:Generator_TableClassName="tableAseguradoDataTable" msprop:Generator_TableVarName="tabletableAsegurado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombreAsegurado" msprop:Generator_ColumnPropNameInTable="nombreAseguradoColumn" msprop:Generator_ColumnPropNameInRow="nombreAsegurado" msprop:Generator_UserColumnName="nombreAsegurado" msprop:Generator_ColumnVarNameInTable="columnnombreAsegurado" type="xs:string" minOccurs="0" />
+              <xs:element name="matriculaAsegurado" msprop:Generator_ColumnPropNameInTable="matriculaAseguradoColumn" msprop:Generator_ColumnPropNameInRow="matriculaAsegurado" msprop:Generator_UserColumnName="matriculaAsegurado" msprop:Generator_ColumnVarNameInTable="columnmatriculaAsegurado" type="xs:string" minOccurs="0" />
+              <xs:element name="sexoAsegurado" msprop:Generator_ColumnPropNameInTable="sexoAseguradoColumn" msprop:Generator_ColumnPropNameInRow="sexoAsegurado" msprop:Generator_UserColumnName="sexoAsegurado" msprop:Generator_ColumnVarNameInTable="columnsexoAsegurado" type="xs:string" minOccurs="0" />
+              <xs:element name="edadAsegurado" msprop:Generator_UserColumnName="edadAsegurado" msprop:Generator_ColumnPropNameInTable="edadAseguradoColumn" msprop:Generator_ColumnPropNameInRow="edadAsegurado" msprop:Generator_ColumnVarNameInTable="columnedadAsegurado" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tableMedico" msprop:Generator_RowEvHandlerName="tableMedicoRowChangeEventHandler" msprop:Generator_RowDeletedName="tableMedicoRowDeleted" msprop:Generator_RowDeletingName="tableMedicoRowDeleting" msprop:Generator_RowEvArgName="tableMedicoRowChangeEvent" msprop:Generator_TablePropName="tableMedico" msprop:Generator_RowChangedName="tableMedicoRowChanged" msprop:Generator_UserTableName="tableMedico" msprop:Generator_RowChangingName="tableMedicoRowChanging" msprop:Generator_RowClassName="tableMedicoRow" msprop:Generator_TableClassName="tableMedicoDataTable" msprop:Generator_TableVarName="tabletableMedico">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombreMedico" msprop:Generator_ColumnPropNameInTable="nombreMedicoColumn" msprop:Generator_ColumnPropNameInRow="nombreMedico" msprop:Generator_UserColumnName="nombreMedico" msprop:Generator_ColumnVarNameInTable="columnnombreMedico" type="xs:string" minOccurs="0" />
+              <xs:element name="especialidadMedico" msprop:Generator_UserColumnName="especialidadMedico" msprop:Generator_ColumnPropNameInTable="especialidadMedicoColumn" msprop:Generator_ColumnPropNameInRow="especialidadMedico" msprop:Generator_ColumnVarNameInTable="columnespecialidadMedico" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tableUsuario" msprop:Generator_RowEvHandlerName="tableUsuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="tableUsuarioRowDeleted" msprop:Generator_RowDeletingName="tableUsuarioRowDeleting" msprop:Generator_RowEvArgName="tableUsuarioRowChangeEvent" msprop:Generator_TablePropName="tableUsuario" msprop:Generator_RowChangedName="tableUsuarioRowChanged" msprop:Generator_RowChangingName="tableUsuarioRowChanging" msprop:Generator_TableClassName="tableUsuarioDataTable" msprop:Generator_RowClassName="tableUsuarioRow" msprop:Generator_TableVarName="tabletableUsuario" msprop:Generator_UserTableName="tableUsuario">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombreUsuario" msprop:Generator_ColumnPropNameInRow="nombreUsuario" msprop:Generator_ColumnPropNameInTable="nombreUsuarioColumn" msprop:Generator_ColumnVarNameInTable="columnnombreUsuario" msprop:Generator_UserColumnName="nombreUsuario" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
