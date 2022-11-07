@@ -5,7 +5,6 @@ Public Class FormRecibirTraspaso
     Private objetoFarmacia As NEGOCIO.FuncionesFarmacia = New NEGOCIO.FuncionesFarmacia(False)
     Public codTraspaso As FormDetalleTraspaso
     Dim fase1 As Boolean = False
-
 #End Region
 #Region "principales"
     Private Sub FormRecibirTraspasovb_Load(sender As Object, e As EventArgs) Handles MyBase.Load

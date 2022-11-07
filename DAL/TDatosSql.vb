@@ -18,9 +18,9 @@ Public Class TDatosSql
     Protected Conexion As SqlConnection
     Protected Comando As SqlCommand
     Private mDataSet As DataSet
-
+    Public baseDB As Int16
     Public Sub New(ByVal Restauracion As Boolean)
-        Dim baseDB As Int16 = 3
+        baseDB = 4
         Select Case baseDB
             Case 0
                 'base local

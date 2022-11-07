@@ -32,10 +32,13 @@ Partial Class FormMenuPrincipal
         Me.btnLaboratorio = New System.Windows.Forms.Button()
         Me.btnControlUsuario = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BtnCD = New System.Windows.Forms.Button()
         Me.BtnRayosX = New System.Windows.Forms.Button()
         Me.BtnFarmacia = New System.Windows.Forms.Button()
         Me.Fecha = New System.Windows.Forms.Label()
+        Me.BtnRadiologo = New System.Windows.Forms.Button()
+        Me.BtnVisorRX = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -144,27 +147,27 @@ Partial Class FormMenuPrincipal
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
-        'Button1
+        'BtnCD
         '
-        Me.Button1.Location = New System.Drawing.Point(352, 176)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(160, 60)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Centro De Diagonostico (pendiente)"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnCD.Location = New System.Drawing.Point(519, 238)
+        Me.BtnCD.Name = "BtnCD"
+        Me.BtnCD.Size = New System.Drawing.Size(160, 60)
+        Me.BtnCD.TabIndex = 9
+        Me.BtnCD.Text = "Solicitar Cita CD(en proceso)"
+        Me.BtnCD.UseVisualStyleBackColor = True
         '
         'BtnRayosX
         '
-        Me.BtnRayosX.Location = New System.Drawing.Point(352, 241)
+        Me.BtnRayosX.Location = New System.Drawing.Point(352, 176)
         Me.BtnRayosX.Name = "BtnRayosX"
         Me.BtnRayosX.Size = New System.Drawing.Size(160, 60)
         Me.BtnRayosX.TabIndex = 9
-        Me.BtnRayosX.Text = "Rayos X (En Proceso)"
+        Me.BtnRayosX.Text = "Rayos X (Médico)"
         Me.BtnRayosX.UseVisualStyleBackColor = True
         '
         'BtnFarmacia
         '
-        Me.BtnFarmacia.Location = New System.Drawing.Point(352, 302)
+        Me.BtnFarmacia.Location = New System.Drawing.Point(518, 176)
         Me.BtnFarmacia.Name = "BtnFarmacia"
         Me.BtnFarmacia.Size = New System.Drawing.Size(160, 60)
         Me.BtnFarmacia.TabIndex = 9
@@ -175,21 +178,51 @@ Partial Class FormMenuPrincipal
         '
         Me.Fecha.AutoSize = True
         Me.Fecha.Font = New System.Drawing.Font("Lucida Handwriting", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Fecha.Location = New System.Drawing.Point(555, 88)
+        Me.Fecha.Location = New System.Drawing.Point(12, 131)
         Me.Fecha.Name = "Fecha"
         Me.Fecha.Size = New System.Drawing.Size(215, 40)
         Me.Fecha.TabIndex = 7
         Me.Fecha.Text = "00/00/0000"
+        '
+        'BtnRadiologo
+        '
+        Me.BtnRadiologo.Location = New System.Drawing.Point(351, 238)
+        Me.BtnRadiologo.Name = "BtnRadiologo"
+        Me.BtnRadiologo.Size = New System.Drawing.Size(160, 59)
+        Me.BtnRadiologo.TabIndex = 10
+        Me.BtnRadiologo.Text = "Rayos X(Radiologo)"
+        Me.BtnRadiologo.UseVisualStyleBackColor = True
+        '
+        'BtnVisorRX
+        '
+        Me.BtnVisorRX.Location = New System.Drawing.Point(352, 303)
+        Me.BtnVisorRX.Name = "BtnVisorRX"
+        Me.BtnVisorRX.Size = New System.Drawing.Size(159, 59)
+        Me.BtnVisorRX.TabIndex = 11
+        Me.BtnVisorRX.Text = "VisorRX"
+        Me.BtnVisorRX.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(518, 302)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(160, 60)
+        Me.Button1.TabIndex = 12
+        Me.Button1.Text = "Agendar Cita CD (Pendiente)"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'FormMenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(782, 553)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnVisorRX)
+        Me.Controls.Add(Me.BtnRadiologo)
         Me.Controls.Add(Me.Fecha)
         Me.Controls.Add(Me.BtnFarmacia)
         Me.Controls.Add(Me.BtnRayosX)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnCD)
         Me.Controls.Add(Me.btnControlUsuario)
         Me.Controls.Add(Me.btnLaboratorio)
         Me.Controls.Add(Me.btnEnfermeria)
@@ -220,8 +253,11 @@ Partial Class FormMenuPrincipal
     Friend WithEvents btnLaboratorio As System.Windows.Forms.Button
     Friend WithEvents btnControlUsuario As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BtnCD As Button
     Friend WithEvents BtnRayosX As Button
     Friend WithEvents BtnFarmacia As Button
     Friend WithEvents Fecha As Label
+    Friend WithEvents BtnRadiologo As Button
+    Friend WithEvents BtnVisorRX As Button
+    Friend WithEvents Button1 As Button
 End Class

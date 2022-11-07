@@ -459,9 +459,9 @@ Public Class FormRegistrarUsuario
         Dim datosCargados As Boolean = cargarObjetos()
 
         If datosCargados Then
-            Dim revisionExitosa As Boolean = revisarRegistroMedico()
+            Dim EsMedico As Boolean = revisarRegistroMedico()
 
-            If revisionExitosa Then
+            If EsMedico Then
                 Dim registroCompletado As Boolean = registrarMedico()
 
                 If registroCompletado Then
@@ -471,9 +471,26 @@ Public Class FormRegistrarUsuario
                 End If
 
             Else
-                guardarUsuarioComun()
+                If (registro.EsTipoCD) Then 'AQUI ESTOY TRABAJNAOD NO TE PASES
+                    Dim proxr = registro.obtenerproximoregistro()
+                    Dim FormGMCD = New FormRegMedDiagnostico
+                    Dim nombre = nuevoUsuario.getNombres() + " " + nuevoUsuario.getApellidoPaterno + " " + nuevoUsuario.getApellidoMaterno
+                    FormGMCD.SetProximoRegistro(proxr)
+                    FormGMCD.SetNombre(nombre)
+                    FormGMCD.ShowDialog()
+                    If Not FormGMCD.GetCompleto() = "" Then
+                        guardarUsuarioComun()
+
+                        MessageBox.Show("Registro Realizado")
+                    Else
+                        MessageBox.Show("Registro Cancelado")
+                    End If
+                    'MessageBox.Show("El porixmo registr0o es " + proxr)
+                Else
+                    guardarUsuarioComun()
+                End If
             End If
-        End If
+            End If
     End Sub
 
 
@@ -907,6 +924,7 @@ Public Class FormRegistrarUsuario
             txtTelefono.Text = "00000000"
         End If
     End Sub
+
 
 End Class
 

@@ -64,7 +64,7 @@ Public Class FromMenuTriaje
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        FormReportedeSolicitudes.Show()
+        FormReporteDeSolicitudes.Show()
         Close()
     End Sub
 End Class

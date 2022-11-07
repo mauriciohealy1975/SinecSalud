@@ -231,6 +231,12 @@
     <Compile Include="Modulo Afiliación viejo\Forms Reportes\FormReporteProgrmacionExamenPreocupacional.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulo Centro de Diagnóstico\FormSolicitudExamenDiagnostico.Designer.vb">
+      <DependentUpon>FormSolicitudExamenDiagnostico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Centro de Diagnóstico\FormSolicitudExamenDiagnostico.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulo Control de Usuario\FormAsignarTurno.Designer.vb">
       <DependentUpon>FormAsignarTurno.vb</DependentUpon>
     </Compile>
@@ -273,10 +279,22 @@
     <Compile Include="Modulo Control de Usuario\FormMenuControlDeUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormNewPOE.Designer.vb">
+      <DependentUpon>FormNewPOE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormNewPOE.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.Designer.vb">
       <DependentUpon>FormRegistrarMedico.vb</DependentUpon>
     </Compile>
     <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegMedDiagnostico.Designer.vb">
+      <DependentUpon>FormRegMedDiagnostico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Control de Usuario\Forms Modales\FormRegMedDiagnostico.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo Enfermería\FormRegistrarEjecucionServicio.Designer.vb">
@@ -503,10 +521,40 @@
     <Compile Include="Modulo Enfermería\FormRegistrarAtencionInyectables.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulo Rayos X\FormVisorRX.Designer.vb">
+      <DependentUpon>FormVisorRX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormVisorRX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormCargarImg.Designer.vb">
+      <DependentUpon>FormCargarImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormCargarImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormDetalleRayosX.Designer.vb">
+      <DependentUpon>FormDetalleRayosX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormDetalleRayosX.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulo Rayos X\FormSolicitudRayosX.Designer.vb">
       <DependentUpon>FormSolicitudRayosX.vb</DependentUpon>
     </Compile>
     <Compile Include="Modulo Rayos X\FormSolicitudRayosX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormVerRayosXSolicitados.Designer.vb">
+      <DependentUpon>FormVerRayosXSolicitados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\FormVerRayosXSolicitados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Rayos X\VisorRXimg.Designer.vb">
+      <DependentUpon>VisorRXimg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Rayos X\VisorRXimg.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo Solicitudes Medicas\FormConfirmarSolMed.designer.vb">
@@ -684,6 +732,9 @@
     <EmbeddedResource Include="Modulo Afiliación viejo\Forms Reportes\FormReporteProgrmacionExamenPreocupacional.resx">
       <DependentUpon>FormReporteProgrmacionExamenPreocupacional.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Centro de Diagnóstico\FormSolicitudExamenDiagnostico.resx">
+      <DependentUpon>FormSolicitudExamenDiagnostico.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo Control de Usuario\FormAsignarTurno.resx">
       <DependentUpon>FormAsignarTurno.vb</DependentUpon>
     </EmbeddedResource>
@@ -705,8 +756,14 @@
     <EmbeddedResource Include="Modulo Control de Usuario\FormMenuControlDeUsuario.resx">
       <DependentUpon>FormMenuControlDeUsuario.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\Forms Modales\FormNewPOE.resx">
+      <DependentUpon>FormNewPOE.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo Control de Usuario\Forms Modales\FormRegistrarMedico.resx">
       <DependentUpon>FormRegistrarMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Control de Usuario\Forms Modales\FormRegMedDiagnostico.resx">
+      <DependentUpon>FormRegMedDiagnostico.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo Enfermería\FormRegistrarEjecucionServicio.resx">
       <DependentUpon>FormRegistrarEjecucionServicio.vb</DependentUpon>
@@ -821,8 +878,23 @@
     <EmbeddedResource Include="Modulo Enfermería\FormRegistrarAtencionInyectables.resx">
       <DependentUpon>FormRegistrarAtencionInyectables.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\FormCargarImg.resx">
+      <DependentUpon>FormCargarImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\FormDetalleRayosX.resx">
+      <DependentUpon>FormDetalleRayosX.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo Rayos X\FormSolicitudRayosX.resx">
       <DependentUpon>FormSolicitudRayosX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\FormVerRayosXSolicitados.resx">
+      <DependentUpon>FormVerRayosXSolicitados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\FormVisorRX.resx">
+      <DependentUpon>FormVisorRX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Rayos X\VisorRXimg.resx">
+      <DependentUpon>VisorRXimg.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo Solicitudes Medicas\FormConfirmarSolMed.resx">
       <DependentUpon>FormConfirmarSolMed.vb</DependentUpon>

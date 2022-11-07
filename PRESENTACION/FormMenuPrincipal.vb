@@ -42,8 +42,13 @@ Public Class FormMenuPrincipal
 
     'EVENTOS G1 derivaciones a diferentes menú
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSolicitudesMedicas.Click
-        FromMenuTriaje.Show()
-        Me.Close()
+        Try
+            FromMenuTriaje.Show()
+            Me.Close()
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnMedicos.Click
@@ -84,6 +89,21 @@ Public Class FormMenuPrincipal
 
     Private Sub BtnRayosX_Click(sender As Object, e As EventArgs) Handles BtnRayosX.Click
         FormSolicitudRayosX.Show()
+        Close()
+    End Sub
+
+    Private Sub BtnRadiologo_Click(sender As Object, e As EventArgs) Handles BtnRadiologo.Click
+        FormVerRayosXSolicitados.Show()
+        Close()
+    End Sub
+
+    Private Sub BtnVisorRX_Click(sender As Object, e As EventArgs) Handles BtnVisorRX.Click
+        FormVisorRX.Show()
+        Close()
+    End Sub
+
+    Private Sub BtnCD_Click(sender As Object, e As EventArgs) Handles BtnCD.Click
+        FormSolicitudExamenDiagnostico.Show()
         Close()
     End Sub
 End Class

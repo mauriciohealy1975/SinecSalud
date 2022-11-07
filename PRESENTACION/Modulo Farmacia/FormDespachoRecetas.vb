@@ -79,7 +79,7 @@ Public Class FormDespachoRecetas
         Try
             Dim CF As String = Usuario.codUserLoggedSystem.ToString()
             Dim codR As String = TxbCodReceta.Text()
-            objetoFarmacia.ActualizarEstadoReceta(codR, "7", CF)
+            objetoFarmacia.ActualizarEstadoReceta(codR, "8", CF)
             Return True
         Catch ex As Exception
             Return False
@@ -107,7 +107,7 @@ Public Class FormDespachoRecetas
 
             Next
             Dim CF As String = Usuario.codUserLoggedSystem.ToString()
-            objetoFarmacia.ActualizarEstadoReceta(IdCodR, 6, CF)
+            objetoFarmacia.ActualizarEstadoReceta(IdCodR, 7, CF)
             Return True
         Catch ex As Exception
             Return False

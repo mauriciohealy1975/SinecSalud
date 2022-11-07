@@ -136,6 +136,20 @@
 
         Return False
     End Function
+    '----------------------
+    Public Function EsTipoCD() As Boolean
+        Dim codigoArea As Int16 = 0
+        Dim codigoPuesto As Int16 = 0
+        codigoArea = oAreaSeleccionada.getCodigo()
+        codigoPuesto = oPuestoSeleccionado.getCodigo()
+
+
+        If codigoArea = 7 Then
+            Return True
+        End If
+
+        Return False
+    End Function
 
     Public Sub actualizarMedico(ByVal _codUsuario As Int16, ByVal _codMedico As Int16)
         actualizarMedicoBD(_codUsuario, _codMedico)
@@ -540,6 +554,16 @@
 
         Return (objDAL.Ejecutar("SPEliminarMedico", P))
     End Function
+
+
+    ' rodeeando la montaña a caray por aquiconmienzo sho 
+
+    Public Function obtenerproximoregistro()
+        Dim tabla = objDAL.TraerDataTable("proximousuario")
+
+        Return tabla.Rows(0).Item(0).ToString()
+    End Function
+
 
 End Class
 

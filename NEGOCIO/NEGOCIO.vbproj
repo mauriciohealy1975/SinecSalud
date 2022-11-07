@@ -121,7 +121,9 @@
     <Compile Include="Clases form\Modulo Afiliacion\RegistroProcesoProgramcionExamenPreocupacional.vb" />
     <Compile Include="Clases form\Modulo Afiliacion\RegistroProgramacionExamenPreocupacional.vb" />
     <Compile Include="Clases form\Modulo Afiliacion\RegistroReingreso.vb" />
+    <Compile Include="Clases form\Modulo Centro de Diagnostico\FuncionesCD.vb" />
     <Compile Include="Clases form\Modulo Control de Usuario\AsignacionTurno.vb" />
+    <Compile Include="Clases form\Modulo Control de Usuario\FuncAgregarCD.vb" />
     <Compile Include="Clases form\Modulo Control de Usuario\RegistroMedico.vb" />
     <Compile Include="Clases form\Modulo Control de Usuario\RegistroUsuario.vb" />
     <Compile Include="Clases form\Modulo Enfermeria\RegistroEjecucionServicio.vb" />
@@ -258,7 +260,9 @@
   <ItemGroup>
     <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Clases form\Modulo Rayos X\Constructores\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

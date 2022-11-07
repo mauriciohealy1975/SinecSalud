@@ -6,6 +6,7 @@ Imports CrystalDecisions.CrystalReports.Engine
 Public Class FormReporteDeSolicitudes
 
     Private objetoTriaje As NEGOCIO.FuncionesTriaje = New NEGOCIO.FuncionesTriaje(False)
+    'Dim DB As Int16 = objetoTriaje.DB
     Private Sub checkDia_CheckedChanged(sender As Object, e As EventArgs) Handles checkDia.CheckedChanged
         If checkDia.Checked = True Then
 
@@ -92,6 +93,7 @@ Public Class FormReporteDeSolicitudes
         f.desde = _desde
         f.hasta = _hasta
         f.lugartrabajo = lugarTrabajo
+        f.db = 4 ' 3= reporte desde dentro del sinec, 4 reporte desde afuera
         f.ShowDialog()
 
     End Sub
