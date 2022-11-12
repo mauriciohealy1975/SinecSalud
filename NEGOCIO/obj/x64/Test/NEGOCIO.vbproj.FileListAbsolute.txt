@@ -1,0 +1,6 @@
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\x64\Test\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\x64\Test\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\x64\Test\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\x64\Test\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\x64\Test\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\x64\Test\NEGOCIO.dll

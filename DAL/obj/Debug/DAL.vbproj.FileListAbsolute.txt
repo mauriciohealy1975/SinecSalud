@@ -1,0 +1,79 @@
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.cache
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.AssemblyReference.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\DAL\obj\Debug\DAL.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\bin\Debug\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\bin\Debug\DAL.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\bin\Debug\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.vbproj.AssemblyReference.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.vbproj.GenerateResource.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\DAL\obj\Debug\DAL.pdb

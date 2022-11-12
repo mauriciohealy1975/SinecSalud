@@ -1,0 +1,487 @@
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarProgSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarRegSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTipoExamen.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormValoresOpcionales.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormValoresReferencia.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarKit.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTipoExamen.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarProgSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarRegSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTomaMuestra.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadosLab.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVOpcional.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVReferencia.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVTextual.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarAreaABioquímio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuControlDeUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReactivarUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarMedico.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarTurno.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEmpresa.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTitular.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarDatosEmpresa.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAplicarControlPrestaciones.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarAvisosAsignacionesFamiliares.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarProgramacionEP.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBaja.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaPorEmpresa.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBeneficiario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEmpresa.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProgramacionExamenPreocupacional.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReingreso.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTitular.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarDatosEmpresa.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteProgrmacionExamenPreocupacional.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarTurno.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReactivarUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuControlDeUsuario.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarMedico.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarAreaABioquímio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTomaMuestra.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarKit.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadosLab.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTipoExamen.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVOpcional.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVReferencia.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVTextual.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarProgSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarRegSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\stdole.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.AssemblyReference.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CopyComplete
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\stdole.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.AssemblyReference.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAplicarControlPrestaciones.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarAvisosAsignacionesFamiliares.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarProgramacionEP.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBaja.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaPorEmpresa.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBeneficiario.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEmpresa.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProgramacionExamenPreocupacional.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReingreso.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTitular.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarDatosEmpresa.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteProgrmacionExamenPreocupacional.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarTurno.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReactivarUsuario.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUsuario.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuControlDeUsuario.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarMedico.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarAreaABioquímio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarExamenLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTomaMuestra.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAreaLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarKitEquipoLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReferenciaResultadoLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSubareaLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUnidadMedidaLaboratorio.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadosLab.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorOpcionSeleccion.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorComun.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormGuardarResultadoVTextual.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarProgSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarRegSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CopyComplete
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarConjuntoOpcionesResultadoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.manifest
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.application
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\stdole.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.AssemblyReference.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.SuggestedBindingRedirects.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuFarmacia.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FromMenuTriaje.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarControlPrestaciones.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarAvisosAsignacionesFamiliares.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarProgramacionEP.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBaja.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaPorEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBeneficiario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProgramacionExamenPreocupacional.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReingreso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTitular.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarDatosEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteProgrmacionExamenPreocupacional.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarTurno.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUsuario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuControlDeUsuario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarMedico.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActivarDesactivarMedicamento.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormDetalleTraspaso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRecetas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRecibirTraspaso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormTraspasos.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAgregarSubMedicamento.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIngresarInventario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FromNuevoInsumo.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteInventarioGeneral.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAsignacionAreasLab.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarConjuntoOpcionesResultadoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarExamenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTomaMuestra.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfimarOrdenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAreaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarKitEquipoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProveedorKitEquipo.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReferenciaResultadoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSubareaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUnidadMedidaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormImprimirResultadosLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadosLab.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorOpcionSeleccion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorComun.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorTextual.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormSolicitudRayosX.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarProgSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormControlarRegSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteDeSolicitudes.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCristalReportFicha.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.ReporteDeSolicitudesMedicas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Reloj.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormDespachoRecetas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormComprobanteReceta.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.TrustInfo.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe.manifest
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.application
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CopyComplete
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.config
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe.manifest
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.application
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.exe
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\PRESENTACION.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\stdole.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\DAL.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\bin\Release\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.AssemblyReference.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.SuggestedBindingRedirects.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuFarmacia.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FromMenuTriaje.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActualizarAsegurado.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarControlPrestaciones.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarAvisosAsignacionesFamiliares.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormProcesarProgramacionEP.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBaja.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaPorEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBeneficiario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProgramacionExamenPreocupacional.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReingreso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTitular.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarDatosEmpresa.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteProgrmacionExamenPreocupacional.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAsignarTurno.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUsuario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCambiarContrasenha.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuAfiliacion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuBajasMedicas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarBajaMedica.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuControlDeUsuario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarMedico.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarEjecucionServicio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormActivarDesactivarMedicamento.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormDetalleTraspaso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRecetas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRecibirTraspaso.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormTraspasos.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormAgregarSubMedicamento.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIngresarInventario.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FromNuevoInsumo.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteInventarioGeneral.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAsignacionAreasLab.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarConjuntoOpcionesResultadoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarExamenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTomaMuestra.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfimarOrdenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAreaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarKitEquipoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarProveedorKitEquipo.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarReferenciaResultadoLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSubareaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarUnidadMedidaLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormImprimirResultadosLaboratorio.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadosLab.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorOpcionSeleccion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorComun.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarResultadoLabTipoValorTextual.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarOrdenAtencionServiciosEnfermeria.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuEnfermeria.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarAtencionInyectables.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormSolicitudRayosX.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormConfirmarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormEliminarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesion.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormIniciarSesionEliminarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuMedicos.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormMenuPrincipal.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarSolMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormRegistrarTransferenciaMed.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormReporteDeSolicitudes.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormCristalReportFicha.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.ReporteDeSolicitudesMedicas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Resources.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.Reloj.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormDespachoRecetas.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.FormComprobanteReceta.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.GenerateResource.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.TrustInfo.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe.manifest
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.application
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.vbproj.CopyComplete
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.exe
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Release\PRESENTACION.pdb

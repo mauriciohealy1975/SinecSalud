@@ -1,0 +1,116 @@
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\Codigos Trabajo\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\Control de Usuario\ControlUsuarioSinec\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SISActualizacionDatos\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Trabajo\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.Cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.AssemblyReference.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CopyComplete
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.AssemblyReference.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CoreCompileInputs.cache
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CopyComplete
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\Mauricio\Desktop\Work Desktop\0001 Sinec Nuevo Sistema\002 Software (proyectos)\001 Modulos escritorio\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.AssemblyReference.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CopyComplete
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\prueba\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\DAL.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\DAL.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\bin\Release\DAL.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.AssemblyReference.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.Resources.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.GenerateResource.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CoreCompileInputs.cache
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.vbproj.CopyComplete
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.dll
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.xml
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Release\NEGOCIO.pdb

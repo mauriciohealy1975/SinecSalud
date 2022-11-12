@@ -34,16 +34,29 @@ Partial Class FormSolicitudExamenDiagnostico
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.CbxPaciente = New System.Windows.Forms.ComboBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckBCP = New System.Windows.Forms.CheckBox()
         Me.TxbBuscarPaciente = New System.Windows.Forms.TextBox()
         Me.LCP = New System.Windows.Forms.Label()
         Me.LNP = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.CheckBCP = New System.Windows.Forms.CheckBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.BtnAgregarEco = New System.Windows.Forms.Button()
+        Me.CbxEcografias = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TxbBuscarEco = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TxbBuscarproc = New System.Windows.Forms.TextBox()
+        Me.BtnAgegarProced = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.CbxProcedimientos = New System.Windows.Forms.ComboBox()
+        Me.DgvPOE = New System.Windows.Forms.DataGridView()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBarra, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        CType(Me.DgvPOE, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BtnCerrar
@@ -85,7 +98,7 @@ Partial Class FormSolicitudExamenDiagnostico
         Me.PictureBarra.Dock = System.Windows.Forms.DockStyle.Top
         Me.PictureBarra.Location = New System.Drawing.Point(0, 0)
         Me.PictureBarra.Name = "PictureBarra"
-        Me.PictureBarra.Size = New System.Drawing.Size(782, 50)
+        Me.PictureBarra.Size = New System.Drawing.Size(800, 50)
         Me.PictureBarra.TabIndex = 47
         Me.PictureBarra.TabStop = False
         '
@@ -155,8 +168,18 @@ Partial Class FormSolicitudExamenDiagnostico
         Me.Panel1.Controls.Add(Me.CbxPaciente)
         Me.Panel1.Location = New System.Drawing.Point(12, 210)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(327, 183)
+        Me.Panel1.Size = New System.Drawing.Size(275, 162)
         Me.Panel1.TabIndex = 734
+        '
+        'CheckBCP
+        '
+        Me.CheckBCP.AutoSize = True
+        Me.CheckBCP.Location = New System.Drawing.Point(135, 28)
+        Me.CheckBCP.Name = "CheckBCP"
+        Me.CheckBCP.Size = New System.Drawing.Size(137, 20)
+        Me.CheckBCP.TabIndex = 740
+        Me.CheckBCP.Text = "Por Cod. Paciente"
+        Me.CheckBCP.UseVisualStyleBackColor = True
         '
         'TxbBuscarPaciente
         '
@@ -201,21 +224,116 @@ Partial Class FormSolicitudExamenDiagnostico
         Me.Label1.TabIndex = 734
         Me.Label1.Text = "Paciente"
         '
-        'CheckBCP
+        'Panel3
         '
-        Me.CheckBCP.AutoSize = True
-        Me.CheckBCP.Location = New System.Drawing.Point(135, 28)
-        Me.CheckBCP.Name = "CheckBCP"
-        Me.CheckBCP.Size = New System.Drawing.Size(137, 20)
-        Me.CheckBCP.TabIndex = 740
-        Me.CheckBCP.Text = "Por Cod. Paciente"
-        Me.CheckBCP.UseVisualStyleBackColor = True
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.BtnAgregarEco)
+        Me.Panel3.Controls.Add(Me.CbxEcografias)
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Controls.Add(Me.TxbBuscarEco)
+        Me.Panel3.Controls.Add(Me.Label8)
+        Me.Panel3.Controls.Add(Me.TxbBuscarproc)
+        Me.Panel3.Controls.Add(Me.BtnAgegarProced)
+        Me.Panel3.Controls.Add(Me.Label6)
+        Me.Panel3.Controls.Add(Me.CbxProcedimientos)
+        Me.Panel3.Controls.Add(Me.DgvPOE)
+        Me.Panel3.Location = New System.Drawing.Point(315, 157)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(473, 389)
+        Me.Panel3.TabIndex = 735
+        '
+        'BtnAgregarEco
+        '
+        Me.BtnAgregarEco.Location = New System.Drawing.Point(346, 134)
+        Me.BtnAgregarEco.Name = "BtnAgregarEco"
+        Me.BtnAgregarEco.Size = New System.Drawing.Size(107, 29)
+        Me.BtnAgregarEco.TabIndex = 36
+        Me.BtnAgregarEco.Text = "Agregar"
+        Me.BtnAgregarEco.UseVisualStyleBackColor = True
+        '
+        'CbxEcografias
+        '
+        Me.CbxEcografias.FormattingEnabled = True
+        Me.CbxEcografias.Location = New System.Drawing.Point(232, 96)
+        Me.CbxEcografias.Name = "CbxEcografias"
+        Me.CbxEcografias.Size = New System.Drawing.Size(221, 24)
+        Me.CbxEcografias.TabIndex = 35
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(229, 49)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(110, 16)
+        Me.Label9.TabIndex = 34
+        Me.Label9.Text = "Buscar Ecografía"
+        '
+        'TxbBuscarEco
+        '
+        Me.TxbBuscarEco.Location = New System.Drawing.Point(232, 68)
+        Me.TxbBuscarEco.Name = "TxbBuscarEco"
+        Me.TxbBuscarEco.Size = New System.Drawing.Size(221, 22)
+        Me.TxbBuscarEco.TabIndex = 33
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(3, 48)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(139, 16)
+        Me.Label8.TabIndex = 28
+        Me.Label8.Text = "Buscar Procedimiento"
+        '
+        'TxbBuscarproc
+        '
+        Me.TxbBuscarproc.Location = New System.Drawing.Point(5, 68)
+        Me.TxbBuscarproc.Name = "TxbBuscarproc"
+        Me.TxbBuscarproc.Size = New System.Drawing.Size(221, 22)
+        Me.TxbBuscarproc.TabIndex = 28
+        '
+        'BtnAgegarProced
+        '
+        Me.BtnAgegarProced.Location = New System.Drawing.Point(119, 127)
+        Me.BtnAgegarProced.Name = "BtnAgegarProced"
+        Me.BtnAgegarProced.Size = New System.Drawing.Size(107, 29)
+        Me.BtnAgegarProced.TabIndex = 32
+        Me.BtnAgegarProced.Text = "Agregar"
+        Me.BtnAgegarProced.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(43, 8)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(383, 32)
+        Me.Label6.TabIndex = 31
+        Me.Label6.Text = " Procedimientos o Ecografias"
+        '
+        'CbxProcedimientos
+        '
+        Me.CbxProcedimientos.FormattingEnabled = True
+        Me.CbxProcedimientos.Location = New System.Drawing.Point(5, 96)
+        Me.CbxProcedimientos.Name = "CbxProcedimientos"
+        Me.CbxProcedimientos.Size = New System.Drawing.Size(221, 24)
+        Me.CbxProcedimientos.TabIndex = 30
+        '
+        'DgvPOE
+        '
+        Me.DgvPOE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DgvPOE.Location = New System.Drawing.Point(5, 167)
+        Me.DgvPOE.Name = "DgvPOE"
+        Me.DgvPOE.RowHeadersWidth = 51
+        Me.DgvPOE.RowTemplate.Height = 24
+        Me.DgvPOE.Size = New System.Drawing.Size(454, 215)
+        Me.DgvPOE.TabIndex = 29
         '
         'FormSolicitudExamenDiagnostico
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(782, 553)
+        Me.ClientSize = New System.Drawing.Size(800, 600)
+        Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.LT)
         Me.Controls.Add(Me.Label11)
@@ -235,6 +353,9 @@ Partial Class FormSolicitudExamenDiagnostico
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        CType(Me.DgvPOE, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -257,4 +378,15 @@ Partial Class FormSolicitudExamenDiagnostico
     Friend WithEvents LNP As Label
     Friend WithEvents TxbBuscarPaciente As TextBox
     Friend WithEvents CheckBCP As CheckBox
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents BtnAgregarEco As Button
+    Friend WithEvents CbxEcografias As ComboBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents TxbBuscarEco As TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TxbBuscarproc As TextBox
+    Friend WithEvents BtnAgegarProced As Button
+    Friend WithEvents Label6 As Label
+    Friend WithEvents CbxProcedimientos As ComboBox
+    Friend WithEvents DgvPOE As DataGridView
 End Class

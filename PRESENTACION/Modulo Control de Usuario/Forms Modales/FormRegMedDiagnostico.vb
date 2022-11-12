@@ -497,15 +497,25 @@ Public Class FormRegMedDiagnostico
 
     Private Sub BtnAgregarEco_Click(sender As Object, e As EventArgs) Handles BtnAgregarEco.Click
         Try
-            CargarEcoCarritoDgvRX()
-            TxbBuscarEco.Text = ""
-            CbxEcografias.SelectedIndex += 1
-            'CargarcbxeEcografias()
+            If CbxEcografias.SelectedIndex > -1 Then
+                CargarEcoCarritoDgvRX()
+                TxbBuscarEco.Text = ""
+                ' CbxEcografias.SelectedIndex += 1
+                'CargarcbxeEcografias()
+            Else
+                MessageBox.Show("seleccione una Ecografia")
+            End If
+
         Catch ex As Exception
 
         End Try
     End Sub
 
+    Private Sub BtnAgegar_Click(sender As Object, e As EventArgs) Handles BtnAgegarProced.Click
+        CargarProcCarritoDgvRX()
+        TxbBuscarproc.Text = ""
+        CargarcbxeProcedimientos()
+    End Sub
     Private Sub BtnRegistrar_Click(sender As Object, e As EventArgs) Handles BtnRegistrar.Click
 
 
@@ -529,12 +539,6 @@ Public Class FormRegMedDiagnostico
             MessageBox.Show("ERROR AL REGISTRAR:" + Err.Description)
         End If
 
-    End Sub
-
-    Private Sub BtnAgegar_Click(sender As Object, e As EventArgs) Handles BtnAgegarProced.Click
-        CargarProcCarritoDgvRX()
-        TxbBuscarproc.Text = ""
-        CargarcbxeProcedimientos()
     End Sub
 
     Private Sub BtnAgregarNuevoPoe_Click(sender As Object, e As EventArgs) Handles BtnAgregarNuevoPoe.Click
