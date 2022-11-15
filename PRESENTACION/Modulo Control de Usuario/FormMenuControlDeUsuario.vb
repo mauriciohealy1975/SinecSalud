@@ -16,6 +16,8 @@ Public Class FormMenuControlDeUsuario
         resEjeX = Utilitarios.resolucionEstandarEjeX
         resEjeY = Utilitarios.resolucionEstandarEjeY
 
+        Icon = New System.Drawing.Icon("icono.ico")
+
         Size = New Size(resEjeX, resEjeY)
         MaximumSize = New System.Drawing.Size(resEjeX, resEjeY)
         MinimumSize = New System.Drawing.Size(resEjeX, resEjeY)
@@ -45,5 +47,10 @@ Public Class FormMenuControlDeUsuario
         ' Formreactivarusuario.show()
         ' Close()
         'falto realizar............
+    End Sub
+
+    Private Sub bntCDAsignarPOES_Click(sender As Object, e As EventArgs) Handles bntCDAsignarPOES.Click
+        FormRegMedDiagnostico.Show()
+        Close()
     End Sub
 End Class

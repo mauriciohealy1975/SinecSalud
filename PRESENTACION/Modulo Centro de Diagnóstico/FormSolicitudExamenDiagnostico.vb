@@ -1,4 +1,5 @@
-﻿Imports System.Web.UI.WebControls
+﻿Imports System.Web.Services.Description
+Imports System.Web.UI.WebControls
 Imports NEGOCIO
 
 Public Class FormSolicitudExamenDiagnostico
@@ -97,7 +98,7 @@ Public Class FormSolicitudExamenDiagnostico
             Dim IDPOE, NombrePOE
             IDPOE = CbxEcografias.SelectedValue.ToString()
             NombrePOE = CbxEcografias.Text.ToString()
-            If Creado = False Then
+            If creado = False Then
                 DgvPOE.ColumnCount = 2
                 DgvPOE.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
 
@@ -108,7 +109,7 @@ Public Class FormSolicitudExamenDiagnostico
                 DgvPOE.Columns(1).Name = "Nombre"
                 DgvPOE.Columns(1).FillWeight = 90
                 DgvPOE.Columns(1).ReadOnly = True
-                Creado = True
+                creado = True
             End If
             If (Not ExisteDatoEnGrid(IDPOE)) Then
                 Dim row As String() = New String() {IDPOE, NombrePOE}
@@ -127,7 +128,7 @@ Public Class FormSolicitudExamenDiagnostico
             Dim IDPOE, NombrePOE
             IDPOE = CbxProcedimientos.SelectedValue.ToString()
             NombrePOE = CbxProcedimientos.Text.ToString()
-            If Creado = False Then
+            If creado = False Then
                 DgvPOE.ColumnCount = 2
                 DgvPOE.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
 
@@ -138,7 +139,7 @@ Public Class FormSolicitudExamenDiagnostico
                 DgvPOE.Columns(1).Name = "Nombre"
                 DgvPOE.Columns(1).FillWeight = 90
                 DgvPOE.Columns(1).ReadOnly = True
-                Creado = True
+                creado = True
             End If
             If (Not ExisteDatoEnGrid(IDPOE)) Then
                 Dim row As String() = New String() {IDPOE, NombrePOE}
@@ -205,6 +206,8 @@ Public Class FormSolicitudExamenDiagnostico
     Private Sub DgvPOE_DoubleClick(sender As Object, e As EventArgs) Handles DgvPOE.DoubleClick
         EliminarFilaDGVPOE()
     End Sub
+
+
 #End Region
 #Region "Botones"
     Private Sub BtnCerrar_Click(sender As Object, e As EventArgs) Handles BtnCerrar.Click

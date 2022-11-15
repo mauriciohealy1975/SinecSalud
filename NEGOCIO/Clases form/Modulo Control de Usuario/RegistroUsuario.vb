@@ -1,6 +1,6 @@
 ﻿Public Class RegistroUsuario
 
-    Private objDAL As DAL.TDatosSql = New DAL.TDatosSql(False)
+    Private ReadOnly objDAL As New DAL.TDatosSql(False)
     Public modoFormulario As Int16
 
 
@@ -9,9 +9,9 @@
 
     Public listaAreasTrabajo() As AreaTrabajo
     Public listaPuestosTrabajo() As PuestoTrabajo
-    Public oAreaSeleccionada As AreaTrabajo = New AreaTrabajo()
-    Public oPuestoSeleccionado As PuestoTrabajo = New PuestoTrabajo()
-    Public oAreaSeleccionadaAgregarArea As AreaTrabajo = New AreaTrabajo()
+    Public oAreaSeleccionada As New AreaTrabajo()
+    Public oPuestoSeleccionado As New PuestoTrabajo()
+    Public oAreaSeleccionadaAgregarArea As New AreaTrabajo()
 
 
     'ATRIBUTOS MODO ELIMINAR
@@ -52,7 +52,7 @@
             Dim codigoArea As Int16 = Int16.Parse(row("COD AREA"))
             Dim nombre As String = row("NOM AREA").ToString()
 
-            Dim objArea As AreaTrabajo = New AreaTrabajo(codigoArea, nombre)
+            Dim objArea As New AreaTrabajo(codigoArea, nombre)
             listaAreasTrabajo(index) = objArea
             index += 1
         Next
@@ -72,9 +72,9 @@
             Dim codigoArea As Int16 = Int16.Parse(row("COD AREA"))
 
 
-            Dim objArea As AreaTrabajo = New AreaTrabajo()
+            Dim objArea As New AreaTrabajo()
             objArea.setCodigo(codigoArea)
-            Dim objPuestoTrabajo As PuestoTrabajo = New PuestoTrabajo(codigoPuesto, nombrePuesto, objArea)
+            Dim objPuestoTrabajo As New PuestoTrabajo(codigoPuesto, nombrePuesto, objArea)
             listaPuestosTrabajo(index) = objPuestoTrabajo
             index += 1
         Next
@@ -105,53 +105,39 @@
         Return codigoUsuario
     End Function
 
-    Public Function guardarUsuarioComun(ByRef _usuario As Usuario) As Short
-        Dim respuesta As Int16 = 0
+    Public Function GuardarUsuarioComun(ByRef _usuario As Usuario) As Short
+        Dim respuesta As Int16
         respuesta = guardarUsuarioComunBD(_usuario)
         Return respuesta
     End Function
 
-    Public Function guardarArea(ByVal _nombreArea As String) As Int16
-        Dim respuesta As Int16 = 0
+    Public Function GuardarArea(ByVal _nombreArea As String) As Int16
+        Dim respuesta As Int16
         respuesta = guardarAreaBD(_nombreArea)
         Return respuesta
     End Function
 
-    Public Function guardarPuesto(ByVal _nombrePuesto As String) As Int16
-        Dim respuesta As Int16 = 0
+    Public Function GuardarPuesto(ByVal _nombrePuesto As String) As Int16
+        Dim respuesta As Int16
         respuesta = guardarPuestoBD(_nombrePuesto)
         Return respuesta
     End Function
 
-    Public Function revisarUsuarioTipoMedico() As Boolean
-        Dim codigoArea As Int16 = 0
-        Dim codigoPuesto As Int16 = 0
+    Public Function RevisarUsuarioTipoMedico() As Boolean
+        Dim codigoArea As Int16
+        Dim codigoPuesto As Int16
         codigoArea = oAreaSeleccionada.getCodigo()
         codigoPuesto = oPuestoSeleccionado.getCodigo()
 
 
-        If codigoArea = 5 And codigoPuesto = 7 Then
-            Return True
-        End If
-
-        Return False
-    End Function
-    '----------------------
-    Public Function EsTipoCD() As Boolean
-        Dim codigoArea As Int16 = 0
-        Dim codigoPuesto As Int16 = 0
-        codigoArea = oAreaSeleccionada.getCodigo()
-        codigoPuesto = oPuestoSeleccionado.getCodigo()
-
-
-        If codigoArea = 7 Then
+        If codigoArea = 5 And codigoPuesto = 6 Then
             Return True
         End If
 
         Return False
     End Function
 
-    Public Sub actualizarMedico(ByVal _codUsuario As Int16, ByVal _codMedico As Int16)
+    Public Sub ActualizarMedico(ByVal _codUsuario As Int16, ByVal _codMedico As Int16)
         actualizarMedicoBD(_codUsuario, _codMedico)
     End Sub
 
@@ -500,7 +486,7 @@
             Dim nombreArea As String = row("NOM AREA").ToString()
             Dim nombrePuesto As String = row("NOM PUE").ToString()
 
-            Dim objUsuario As Usuario = New Usuario()
+            Dim objUsuario As New Usuario()
             objUsuario.setCodigo(codUsuario)
             objUsuario.setUsername(username)
             objUsuario.setContraseña(contraseña)
@@ -516,11 +502,11 @@
         Next
     End Sub
 
-    Public Sub fmeSeleccionarUSuario(ByVal _index)
+    Public Sub FmeSeleccionarUSuario(ByVal _index)
         oUsuarioSeleccionado = listaUsuarios(_index)
     End Sub
 
-    Public Sub fmeEliminarUsuario(ByVal _nombreFormulario As String)
+    Public Sub FmeEliminarUsuario(ByVal _nombreFormulario As String)
         fmeEliminarUsuarioBD(_nombreFormulario)
     End Sub
 

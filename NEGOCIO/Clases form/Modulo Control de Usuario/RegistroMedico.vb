@@ -207,17 +207,6 @@
             Return "Error. La hora de salida no puede ser menor a la hora de entrada."
         End If
 
-        If tipoTurno = "M" Then
-            If _horaEntrada = "13:30" Or _horaSalida = "13:30" Then
-                Return "Error. El turno de la mañana termina a las 13:00. Seleccione otra hora"
-            End If
-
-        Else
-            If _horaEntrada = "19:30" Or _horaSalida = "19:30" Then
-                Return "Error. El turno de la mañana termina a las 19:00. Seleccione otra hora"
-            End If
-        End If
-
         Return ""
     End Function
 

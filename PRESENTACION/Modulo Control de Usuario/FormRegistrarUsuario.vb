@@ -357,7 +357,7 @@ Public Class FormRegistrarUsuario
                 mostrarMensaje(mensaje)
             Else
                 Dim respuesta As Int16 = 0
-                respuesta = registro.guardarArea(nombreArea)
+                respuesta = registro.GuardarArea(nombreArea)
 
                 If respuesta = 1 Then
                     mostrarMensaje("Los datos se guardaron correctamente")
@@ -387,7 +387,7 @@ Public Class FormRegistrarUsuario
                 mostrarMensaje(mensaje)
             Else
                 Dim respuesta As Int16 = 0
-                respuesta = registro.guardarPuesto(nombrePuesto)
+                respuesta = registro.GuardarPuesto(nombrePuesto)
 
                 If respuesta = 1 Then
                     mostrarMensaje("Los datos se guardaron correctamente")
@@ -407,7 +407,7 @@ Public Class FormRegistrarUsuario
     End Sub
 
     Private Function revisarRegistroMedico()
-        Return (registro.revisarUsuarioTipoMedico())
+        Return (registro.RevisarUsuarioTipoMedico())
     End Function
 
     Private Function registrarMedico()
@@ -440,11 +440,11 @@ Public Class FormRegistrarUsuario
         codigoUsuario = registro.guardarUsuarioTipoMedico(nuevoUsuario)
         codigoMedico = oMedicoInsertado.getCodigo()
 
-        registro.actualizarMedico(codigoUsuario, codigoMedico)
+        registro.ActualizarMedico(codigoUsuario, codigoMedico)
     End Sub
 
     Private Sub guardarUsuarioComun()
-        Dim respuesta As Int16 = registro.guardarUsuarioComun(nuevoUsuario)
+        Dim respuesta As Int16 = registro.GuardarUsuarioComun(nuevoUsuario)
 
         If respuesta = 1 Then
             mostrarMensaje("Se guardaron los datos correctmente.")
@@ -468,29 +468,14 @@ Public Class FormRegistrarUsuario
                     guardarUsuarioTipoMedico()
                     mostrarMensaje("El usuario de tipo médico se guardó correctamente.")
                     reiniciarFormulario()
+                Else
+                    MessageBox.Show("Fallo Registrar Medico")
                 End If
 
             Else
-                If (registro.EsTipoCD) Then 'AQUI ESTOY TRABAJNAOD NO TE PASES
-                    Dim proxr = registro.obtenerproximoregistro()
-                    Dim FormGMCD = New FormRegMedDiagnostico
-                    Dim nombre = nuevoUsuario.getNombres() + " " + nuevoUsuario.getApellidoPaterno + " " + nuevoUsuario.getApellidoMaterno
-                    FormGMCD.SetProximoRegistro(proxr)
-                    FormGMCD.SetNombre(nombre)
-                    FormGMCD.ShowDialog()
-                    If Not FormGMCD.GetCompleto() = "" Then
-                        guardarUsuarioComun()
-
-                        MessageBox.Show("Registro Realizado")
-                    Else
-                        MessageBox.Show("Registro Cancelado")
-                    End If
-                    'MessageBox.Show("El porixmo registr0o es " + proxr)
-                Else
-                    guardarUsuarioComun()
-                End If
+                guardarUsuarioComun()
             End If
-            End If
+        End If
     End Sub
 
 
@@ -844,10 +829,10 @@ Public Class FormRegistrarUsuario
 
             Dim revisionExitosa As Boolean = revisarRegistroMedico()
             If revisionExitosa Then
-                registro.fmeEliminarUsuario(Me.Text)
+                registro.FmeEliminarUsuario(Me.Text)
                 registro.fmeEliminarMedico(Me.Text)
             Else
-                registro.fmeEliminarUsuario(Me.Text)
+                registro.FmeEliminarUsuario(Me.Text)
             End If
 
             mostrarMensaje("El usuario se eliminó correctamente.")
@@ -896,7 +881,7 @@ Public Class FormRegistrarUsuario
             Dim index As Int16 = 0
             index = fmeCmboxUsername.SelectedIndex
 
-            registro.fmeSeleccionarUSuario(index)
+            registro.FmeSeleccionarUSuario(index)
 
             If modoFormulario = 2 Then
                 mostrarInfoUsuarioFmed()

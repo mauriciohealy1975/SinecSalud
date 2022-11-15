@@ -1,13 +1,12 @@
-﻿Imports NEGOCIO
+﻿Imports System.Web.UI.WebControls
+Imports NEGOCIO
 
 Public Class FormRegMedDiagnostico
 #Region "Declaraciones"
     Private ReadOnly ObjRegistro As New FuncAgregarCD(False)
 
-    Private proximoRegistro, ProximoRMCD
-    Private Nombre, completo As String
     Private Creado As Boolean
-
+    Dim TERMINADO As Boolean
     Dim diasdeTrabajo, horario As String
     Dim diasregistrados As Int16
 
@@ -15,45 +14,20 @@ Public Class FormRegMedDiagnostico
     Dim mover As Boolean
 
 #End Region
-#Region "Auxiliares"
-    Public Sub New()
-
-        ' Esta llamada es exigida por el diseñador.
-        InitializeComponent()
-        proximoRegistro = 0
-        Nombre = ""
-        completo = ""
-        DOM = 0
-        diasregistrados = 0
-        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
-
-    End Sub
-    Public Sub SetProximoRegistro(_proximoRegistro)
-        proximoRegistro = _proximoRegistro
-    End Sub
-    Public Sub SetNombre(_nombre)
-        Nombre = _nombre
-    End Sub
-    Public Function GetCompleto()
-        Return completo
-    End Function
-
-#End Region
     Private Sub FormRegMedDiagnostico_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Inicializar()
     End Sub
 #Region "funciones"
     Private Sub Inicializar()
-        completo = ""
-        TxbNombre.Text = Nombre
-        TxbNombre.Enabled = False
+        Icon = New System.Drawing.Icon("icono.ico")
         CbxHS.Visible = False
         CbxMS.Visible = False
-        ProximoRMCD = ObjRegistro.ObtenerCodMedCD()
         CheckDiaria.Checked = True
+        CbxMedico.Enabled = False
         CargarHorariosEntrada()
         CargarcbxeEcografias()
         CargarcbxeProcedimientos()
+        TERMINADO = True
 
     End Sub
     Private Sub CargarHorariosEntrada()
@@ -182,6 +156,50 @@ Public Class FormRegMedDiagnostico
         CbxProcedimientos.DisplayMember = "POE"
         CbxProcedimientos.ValueMember = "ID"
     End Sub
+    Private Sub CargarcbxMedicos()
+        Try
+            TERMINADO = False
+            Dim Nombre = TxbBuscarMedico.Text.ToString().Trim()
+            Dim tabla = ObjRegistro.ObtenerMédicos(Nombre)
+            CbxMedico.DataSource = tabla
+            CbxMedico.DisplayMember = "Medico"
+            CbxMedico.ValueMember = "CodTusu"
+            If CbxMedico.Items.Count < 1 Then
+                'CbxMedico.Items.Clear()
+                CbxMedico.DropDownStyle = ComboBoxStyle.DropDown
+                CbxMedico.Text = "No hay coincidencias"
+                TERMINADO = False
+            Else
+                TERMINADO = True
+                CbxMedico.DropDownStyle = ComboBoxStyle.DropDownList
+            End If
+            CbxMedico.Enabled = True
+            TERMINADO = True
+        Catch ex As Exception
+            CbxMedico.Enabled = False
+        End Try
+
+    End Sub
+    Private Sub CargarDGVasignados()
+
+        Try
+            Dim usuario = CbxMedico.SelectedValue.ToString()
+            Dim TABLA = ObjRegistro.ObtenerAsignados(usuario)
+            If TABLA.rows.count > 0 Then
+                DgvAsignados.DataSource = TABLA
+                LSA.Visible = False
+            Else
+                DgvAsignados.DataSource = Nothing
+                DgvAsignados.Rows.Clear()
+                DgvAsignados.Columns.Clear()
+
+                LSA.Visible = True
+            End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
     Private Function ExisteDatoEnGrid(id As Long) As Boolean
         Dim existe As Boolean = DgvPOE.Rows.Cast(Of DataGridViewRow).Any(Function(x) CInt(x.Cells("ID").Value) = id)
 
@@ -253,8 +271,13 @@ Public Class FormRegMedDiagnostico
         End Try
     End Function
     Private Sub EliminarFilaDGVPOE()
-        Dim NumDeFilaSeleccionada As DataGridViewRow = DgvPOE.CurrentRow
-        DgvPOE.Rows.Remove(DgvPOE.Rows(NumDeFilaSeleccionada.Index))
+        Try
+            Dim NumDeFilaSeleccionada As DataGridViewRow = DgvPOE.CurrentRow
+            DgvPOE.Rows.Remove(DgvPOE.Rows(NumDeFilaSeleccionada.Index))
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     ' Private Function ContarCheckBoxsActivados() ' esto solo funciona si los combobox estan fuera del panel puede que me sirva mas adelante 
@@ -270,41 +293,31 @@ Public Class FormRegMedDiagnostico
     ' End Function 'por el momento esta funcion no se ocupa luego veo si la elimino
 
     Private Function ValidarFormulario()
-        If Not TxbTelefono.Text = "" Or Not IsNumeric(TbxDireccion.Text) Then
-            If Not TbxDireccion.Text = "" Then
-                If Not diasdeTrabajo = "" Then
-                    If Not horario = "" Then
-                        If Not Convert.ToInt16(TxbCantidad.Text) = 0 Then
-                            If Not DOM = 0 Then
-                                If Not DgvPOE.Rows.Count < 1 Then
-                                    Return True
-                                Else
-                                    Return False
-                                    MessageBox.Show("Error, No asignó procedimientos ni ecografías.")
-                                End If
-                            Else
-                                MessageBox.Show("Error, No asignó procedimientos ni ecografías.")
-                                Return False
-                            End If
+        If Not diasdeTrabajo = "" Then
+            If Not horario = "" Then
+                If Not Convert.ToInt16(TxbCantidad.Text) = 0 Then
+                    If Not DOM = 0 Then
+                        If Not DgvPOE.Rows.Count < 1 Then
+                            Return True
                         Else
-                            MessageBox.Show("Error, Asignar cantidad de  días de trabajo.")
                             Return False
+                            MessageBox.Show("Error, No asignó procedimientos ni ecografías.")
                         End If
                     Else
-                        MessageBox.Show("Error, No completo el horario")
+                        MessageBox.Show("Error, No asignó procedimientos ni ecografías.")
                         Return False
                     End If
-
                 Else
-                    MessageBox.Show("Error, Seleccione dias de trabajo.")
+                    MessageBox.Show("Error, Asignar cantidad de  días de trabajo.")
                     Return False
                 End If
             Else
-                MessageBox.Show("La direcion no puede estar vacía.")
+                MessageBox.Show("Error, No completo el horario")
                 Return False
             End If
+
         Else
-            MessageBox.Show("Error, el numeor de telefono no puede estar vacio ni contener letras o caracteres especiales")
+            MessageBox.Show("Error, Seleccione dias de trabajo.")
             Return False
         End If
     End Function
@@ -313,59 +326,116 @@ Public Class FormRegMedDiagnostico
         ObtenerCadenaDeDias()
         ObtenerHorarioTrabajo()
         If ValidarFormulario() Then
-            Dim Dir, Tel, Dias, Hora, CantFicha, cmcd
+            Dim Dias, Hora, CantFicha, cmcd
             Dim resultado1, resultado2, DiaOMes As Int16
-            cmcd = proximoRegistro
-            Dir = TbxDireccion.Text.ToString().Trim()
-            Tel = TxbTelefono.Text.ToString().Trim()
+            cmcd = CbxMedico.SelectedValue.ToString()
             Dias = diasdeTrabajo
             Hora = horario
             CantFicha = TxbCantidad.Text.ToString().Trim()
             DiaOMes = DOM
-            resultado1 = ObjRegistro.REgistrarMCD(cmcd, Hora, Dias, CantFicha, DiaOMes, Dir, Tel)
+            resultado1 = ObjRegistro.REgistrarMCD(cmcd, Hora, Dias, CantFicha, DiaOMes)
             Dim ID
             If resultado1 = 1 Then
                 For X As Integer = 0 To DgvPOE.Rows.Count - 2
                     ID = Convert.ToString(DgvPOE.Rows(X).Cells("ID").Value)
-                    resultado2 = ObjRegistro.InsertarPOes(ID, ProximoRMCD)
+                    resultado2 = ObjRegistro.InsertarPOes(ID, cmcd)
                 Next
                 Return True
+            Else
+                Return False
             End If
+        Else
             Return False
         End If
     End Function
 
     Private Sub OtroRegistro()
         DgvPOE.Rows.Clear()
-        ChecklunesAviernes.Checked = False
-        ChecklunesAviernes.Enabled = False
-        If CheckLunes.Checked = True Then
-            CheckLunes.Checked = False
-            CheckLunes.Enabled = False
+        ChecklunesAviernes.Enabled = True
+        CheckLunes.Enabled = True
+        CheckMartes.Enabled = True
+        CheckMiercoles.Enabled = True
+        CheckJueves.Enabled = True
+        CheckViernes.Enabled = True
+
+        ChecklunesAviernes.Checked = True
+        CheckLunes.Checked = True
+        CheckMartes.Checked = True
+        CheckMiercoles.Checked = True
+        CheckJueves.Checked = True
+        CheckViernes.Checked = True
+        If CbxMedico.SelectedIndex > -1 Then
+            CargarDGVasignados()
+            VerificarDiasOcupados()
+        Else
+            MessageBox.Show("Seleccione un Médico")
         End If
-        If CheckMartes.Checked = True Then
-            CheckMartes.Checked = False
-            CheckMartes.Enabled = False
-        End If
-        If CheckMiercoles.Checked = True Then
-            CheckMiercoles.Checked = False
-            CheckMiercoles.Enabled = False
-        End If
-        If CheckJueves.Checked = True Then
-            CheckJueves.Checked = False
-            CheckJueves.Enabled = False
-        End If
-        If CheckViernes.Checked = True Then
-            CheckViernes.Checked = False
-            CheckViernes.Enabled = False
-        End If
+
+
         CbxHE.SelectedIndex = 0
         TxbCantidad.Text = 0
         diasdeTrabajo = ""
         horario = ""
     End Sub
+
+    Private Sub VerificarDiasOcupados()
+        If DgvAsignados.Rows.Count > 0 Then
+            ChecklunesAviernes.Checked = False
+            ChecklunesAviernes.Enabled = False
+            CheckLunes.Checked = False
+            CheckMartes.Checked = False
+            CheckMiercoles.Checked = False
+            CheckJueves.Checked = False
+            CheckViernes.Checked = False
+            For Each Fila As DataGridViewRow In DgvAsignados.Rows
+                If Not Fila Is Nothing Then
+                    Dim dias = DgvAsignados.CurrentRow.Cells(2).Value.ToString()
+                    Dim arraydias() = Split(dias, ",")
+                    Dim texto As String = ""
+                    For Each valor In arraydias
+                        texto += valor.ToString()
+                        Select Case valor
+                            Case 2
+
+                                CheckLunes.Enabled = False
+                            Case 3
+
+                                CheckMartes.Enabled = False
+                            Case 4
+
+                                CheckMiercoles.Enabled = False
+                            Case 5
+
+                                CheckJueves.Enabled = False
+                            Case 6
+
+                                CheckViernes.Enabled = False
+                        End Select
+
+                    Next
+                End If
+            Next
+        Else
+
+            CheckLunes.Enabled = True
+            CheckMartes.Enabled = True
+            CheckMiercoles.Enabled = True
+            CheckJueves.Enabled = True
+            CheckViernes.Enabled = True
+            ChecklunesAviernes.Enabled = True
+        End If
+    End Sub
 #End Region
 #Region "Eventos"
+    Private Sub CbxMedico_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxMedico.SelectedIndexChanged
+        If CbxMedico.SelectedIndex > -1 Then
+            If TERMINADO Then
+                CargarDGVasignados()
+                VerificarDiasOcupados()
+            End If
+        End If
+    End Sub
+
     Private Sub CbxHE_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxHE.SelectedIndexChanged
         If CbxHE.SelectedIndex > 0 Then
             CbxME.SelectedIndex = 0
@@ -428,8 +498,11 @@ Public Class FormRegMedDiagnostico
             CargarcbxeEcografias()
         End If
     End Sub
-
-
+    Private Sub TxbBuscarMedico_KeyDown(sender As Object, e As KeyEventArgs) Handles TxbBuscarMedico.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            CargarcbxMedicos()
+        End If
+    End Sub
 
     Private Sub TxbCantidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxbCantidad.KeyPress
         e.Handled = Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar)
@@ -437,7 +510,7 @@ Public Class FormRegMedDiagnostico
             TxbCantidad.Text = ""
         End If
     End Sub
-    Private Sub TxbTelefono_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxbTelefono.KeyPress
+    Private Sub TxbTelefono_KeyPress(sender As Object, e As KeyPressEventArgs)
         e.Handled = Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar)
     End Sub
 
@@ -476,7 +549,7 @@ Public Class FormRegMedDiagnostico
     Private Sub CheckMensual_CheckedChanged(sender As Object, e As EventArgs) Handles CheckMensual.CheckedChanged
         If CheckMensual.Checked = True Then
             CheckDiaria.Checked = False
-            DOM = 2
+            DOM = "M"
         End If
     End Sub
 
@@ -485,7 +558,7 @@ Public Class FormRegMedDiagnostico
     Private Sub CheckDiaria_CheckedChanged(sender As Object, e As EventArgs) Handles CheckDiaria.CheckedChanged
         If CheckDiaria.Checked = True Then
             CheckMensual.Checked = False
-            DOM = 1
+            DOM = "D"
         End If
     End Sub
 
@@ -500,8 +573,7 @@ Public Class FormRegMedDiagnostico
             If CbxEcografias.SelectedIndex > -1 Then
                 CargarEcoCarritoDgvRX()
                 TxbBuscarEco.Text = ""
-                ' CbxEcografias.SelectedIndex += 1
-                'CargarcbxeEcografias()
+                'CbxEcografias.SelectedIndex += 1
             Else
                 MessageBox.Show("seleccione una Ecografia")
             End If
@@ -516,24 +588,16 @@ Public Class FormRegMedDiagnostico
         TxbBuscarproc.Text = ""
         CargarcbxeProcedimientos()
     End Sub
+
+
     Private Sub BtnRegistrar_Click(sender As Object, e As EventArgs) Handles BtnRegistrar.Click
-
-
         If RegistrarNuevoMCD() Then
-            completo = "ok"
-            Dim S() = Split(diasdeTrabajo, ",")
-            Dim contarray = UBound(S) - LBound(S) + 1
-            diasregistrados += contarray
-            If diasregistrados < 5 Then
-                If MsgBox("Registro agregado correctamente.¿Desea realizar otro registro?", 4, "Alerta") = 6 Then
-                    OtroRegistro()
-                Else
-                    MessageBox.Show("registro Realizado")
-                    Close()
-                End If
+            If MsgBox("Registro agregado correctamente.¿Desea realizar otro registro?", 4, "Alerta") = 6 Then
+                OtroRegistro()
             Else
                 MessageBox.Show("registro Realizado")
                 Close()
+                FormMenuControlDeUsuario.Show()
             End If
         Else
             MessageBox.Show("ERROR AL REGISTRAR:" + Err.Description)
@@ -541,14 +605,16 @@ Public Class FormRegMedDiagnostico
 
     End Sub
 
+    Private Sub BtnCancelar_Click(sender As Object, e As EventArgs) Handles BtnCancelar.Click
+        FormMenuControlDeUsuario.Show()
+        Close()
+    End Sub
     Private Sub BtnAgregarNuevoPoe_Click(sender As Object, e As EventArgs) Handles BtnAgregarNuevoPoe.Click
         Dim NewPOE = New FormNewPOE
         NewPOE.ShowDialog()
         CargarcbxeEcografias()
         CargarcbxeProcedimientos()
     End Sub
-
-
 
 #End Region
 End Class

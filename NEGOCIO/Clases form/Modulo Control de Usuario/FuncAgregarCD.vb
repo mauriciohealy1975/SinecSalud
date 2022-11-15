@@ -12,21 +12,25 @@
         P(1) = _POE
         Return (objDatos.TraerDataTable("ObtenerPoe", P))
     End Function
-    Public Function ObtenerCodMedCD()
-        Dim tabla = objDatos.TraerDataTable("ProximoCodMedCD")
-        Return tabla.Rows(0).Item(0).ToString()
+    Public Function ObtenerMédicos(_Nombre)
+        Dim P As Object() = New Object(0) {}
+        P(0) = "%" + _Nombre + "%"
+        Return (objDatos.TraerDataTable("ObtenerListaMedicos", P))
+    End Function
+    Public Function ObtenerAsignados(_usu)
+        Dim P As Object() = New Object(0) {}
+        P(0) = _usu
+        Return (objDatos.TraerDataTable("ObtenerListaDeHoriariosCD", P))
     End Function
 #End Region
 #Region "Envios"
-    Public Function REgistrarMCD(_codUsu, _HoraAtencion, _DiasAtencion, _cantidad, _DOM, _dir, _Tel)
-        Dim P As Object() = New Object(6) {}
+    Public Function REgistrarMCD(_codUsu, _HoraAtencion, _DiasAtencion, _cantidad, _DOM)
+        Dim P As Object() = New Object(4) {}
         P(0) = _codUsu
         P(1) = _HoraAtencion
         P(2) = _DiasAtencion
         P(3) = _cantidad
         P(4) = _DOM
-        P(5) = _dir
-        P(6) = _Tel
         Return objDatos.Ejecutar("SpInsertarMCD", P)
     End Function
     Public Function InsertarPOes(_ID, _CMCD)

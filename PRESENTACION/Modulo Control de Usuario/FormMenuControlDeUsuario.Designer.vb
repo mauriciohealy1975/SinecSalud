@@ -22,40 +22,20 @@ Partial Class FormMenuControlDeUsuario
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.btnReactivarUsuario = New System.Windows.Forms.Button()
         Me.btnRegistrarUsuario = New System.Windows.Forms.Button()
         Me.btnAsignarTurno = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnVolver = New System.Windows.Forms.Button()
-        Me.TableLayoutPanel2.SuspendLayout()
+        Me.bntCDAsignarPOES = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TableLayoutPanel2
-        '
-        Me.TableLayoutPanel2.ColumnCount = 1
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.Controls.Add(Me.btnReactivarUsuario, 0, 1)
-        Me.TableLayoutPanel2.Controls.Add(Me.btnRegistrarUsuario, 0, 0)
-        Me.TableLayoutPanel2.Controls.Add(Me.btnAsignarTurno, 0, 2)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(709, 101)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 5
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.99788!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.99789!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.00141!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.00141!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.00141!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(203, 229)
-        Me.TableLayoutPanel2.TabIndex = 4
-        '
         'btnReactivarUsuario
         '
-        Me.btnReactivarUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReactivarUsuario.Location = New System.Drawing.Point(4, 49)
+        Me.btnReactivarUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReactivarUsuario.Location = New System.Drawing.Point(701, 171)
         Me.btnReactivarUsuario.Margin = New System.Windows.Forms.Padding(4)
         Me.btnReactivarUsuario.Name = "btnReactivarUsuario"
         Me.btnReactivarUsuario.Size = New System.Drawing.Size(192, 32)
@@ -65,8 +45,8 @@ Partial Class FormMenuControlDeUsuario
         '
         'btnRegistrarUsuario
         '
-        Me.btnRegistrarUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRegistrarUsuario.Location = New System.Drawing.Point(4, 4)
+        Me.btnRegistrarUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRegistrarUsuario.Location = New System.Drawing.Point(701, 126)
         Me.btnRegistrarUsuario.Margin = New System.Windows.Forms.Padding(4)
         Me.btnRegistrarUsuario.Name = "btnRegistrarUsuario"
         Me.btnRegistrarUsuario.Size = New System.Drawing.Size(192, 32)
@@ -76,8 +56,8 @@ Partial Class FormMenuControlDeUsuario
         '
         'btnAsignarTurno
         '
-        Me.btnAsignarTurno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAsignarTurno.Location = New System.Drawing.Point(4, 94)
+        Me.btnAsignarTurno.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAsignarTurno.Location = New System.Drawing.Point(701, 216)
         Me.btnAsignarTurno.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAsignarTurno.Name = "btnAsignarTurno"
         Me.btnAsignarTurno.Size = New System.Drawing.Size(192, 32)
@@ -120,28 +100,41 @@ Partial Class FormMenuControlDeUsuario
         Me.BtnVolver.Text = "←Volver al menú"
         Me.BtnVolver.UseVisualStyleBackColor = False
         '
+        'bntCDAsignarPOES
+        '
+        Me.bntCDAsignarPOES.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bntCDAsignarPOES.Location = New System.Drawing.Point(701, 256)
+        Me.bntCDAsignarPOES.Margin = New System.Windows.Forms.Padding(4)
+        Me.bntCDAsignarPOES.Name = "bntCDAsignarPOES"
+        Me.bntCDAsignarPOES.Size = New System.Drawing.Size(192, 93)
+        Me.bntCDAsignarPOES.TabIndex = 16
+        Me.bntCDAsignarPOES.Text = "Asignar Tareas CD(BUscar nombre para este boto)"
+        Me.bntCDAsignarPOES.UseVisualStyleBackColor = True
+        '
         'FormMenuControlDeUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1685, 690)
+        Me.Controls.Add(Me.bntCDAsignarPOES)
+        Me.Controls.Add(Me.btnReactivarUsuario)
+        Me.Controls.Add(Me.btnRegistrarUsuario)
         Me.Controls.Add(Me.BtnVolver)
+        Me.Controls.Add(Me.btnAsignarTurno)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "FormMenuControlDeUsuario"
         Me.Text = "FormMenuControlDeUsuario"
-        Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TableLayoutPanel2 As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents btnRegistrarUsuario As System.Windows.Forms.Button
     Friend WithEvents btnReactivarUsuario As System.Windows.Forms.Button
     Friend WithEvents btnAsignarTurno As System.Windows.Forms.Button
     Friend WithEvents BtnVolver As Button
+    Friend WithEvents bntCDAsignarPOES As Button
 End Class
