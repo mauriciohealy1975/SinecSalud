@@ -52,7 +52,45 @@ Public Class FormPacientesEsperaMedica
         End If
     End Sub
     Private Sub RellenarDGVPacientesCD()
+        'funcion para rellenar con pacientes de centro de diagnostico
+    End Sub
+    Private Sub DgvPacientes_DoubleClick(sender As Object, e As EventArgs) Handles DgvPacientes.DoubleClick
+        Try
+            'doble clic para obtener la lista del menu
+            Dim FilaSeleccionada As DataGridViewRow = DgvPacientes.CurrentRow
+            Dim valor As Integer = Val(FilaSeleccionada.Index)
+            If DgvPacientes.RowCount - 1 > 0 Then
+                Dim Paciente As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Paciente").Value)
+                Dim Matricula As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Matricula").Value)
+                Dim CodSol As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("CodSol").Value)
+                Dim esp As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Especialidad").Value)
+                If esp = "ODONTOLOGIA" Or esp = "ODONTOLOGIA PEDRIATICA" Then
+                    Dim FO = New FormDatosconsulta ' formulario historial(cambiar por el formulario de odontologia)
+                    FO.SetPaciente(Paciente)
+                    FO.SetMatricula(Matricula)
+                    FO.SetCodSolicitud(CodSol)
+                    FO.ShowDialog()
+                    Close()
+                Else
+                    If CheckCentroDiag.Checked Then
+                        'aqui va ir cuando exista una solicitud
 
+                    Else
+                        Dim FH = New FormDatosconsulta ' formulario historial
+                        FH.SetPaciente(Paciente)
+                        FH.SetMatricula(Matricula)
+                        FH.SetCodSolicitud(CodSol)
+                        FH.ShowDialog()
+
+                    End If
+                End If
+
+            Else
+                MessageBox.Show("vacio")
+            End If
+        Catch ex As Exception
+            MessageBox.Show(Err.Description)
+        End Try
     End Sub
 #End Region
 #Region "Eventos"
@@ -106,44 +144,9 @@ Public Class FormPacientesEsperaMedica
         End If
     End Sub
 
-    Private Sub DgvPacientes_DoubleClick(sender As Object, e As EventArgs) Handles DgvPacientes.DoubleClick
-        Try
-            'doble clic para obtener la lista del menu
-            Dim FilaSeleccionada As DataGridViewRow = DgvPacientes.CurrentRow
-            Dim valor As Integer = Val(FilaSeleccionada.Index)
-            If DgvPacientes.RowCount - 1 > 0 Then
-                Dim Paciente As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Paciente").Value)
-                Dim Matricula As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Matricula").Value)
-                Dim CodSol As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("CodSol").Value)
-                Dim esp As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Especialidad").Value)
-                If esp = "ODONTOLOGIA" Or esp = "ODONTOLOGIA PEDRIATICA" Then
-                    Dim FO = New FormDatosconsulta ' formulario historial(cambiar por el formulario de odontologia)
-                    FO.SetPaciente(Paciente)
-                    FO.SetMatricula(Matricula)
-                    FO.SetCodSolicitud(CodSol)
-                    FO.Show()
-                    Close()
-                Else
-                    If CheckCentroDiag.Checked Then
-                        'aqui va ir cuando exista una solicitud
-
-                    Else
-                        Dim FH = New FormDatosconsulta ' formulario historial
-                        FH.SetPaciente(Paciente)
-                        FH.SetMatricula(Matricula)
-                        FH.SetCodSolicitud(CodSol)
-                        FH.Show()
-                        Close()
-                    End If
-                End If
-
-            Else
-                MessageBox.Show("vacio")
-            End If
-        Catch ex As Exception
-            MessageBox.Show(Err.Description)
-        End Try
+    Private Sub BtnBM_Click(sender As Object, e As EventArgs) Handles BtnBM.Click
+        FormMenuBajasMedicas.Show()
+        Me.Close()
     End Sub
-
 #End Region
 End Class

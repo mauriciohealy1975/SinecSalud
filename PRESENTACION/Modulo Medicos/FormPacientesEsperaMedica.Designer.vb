@@ -37,6 +37,7 @@ Partial Class FormPacientesEsperaMedica
         Me.SP = New System.Windows.Forms.Label()
         Me.CheckCentroDiag = New System.Windows.Forms.CheckBox()
         Me.BtncerrarSesion = New System.Windows.Forms.Button()
+        Me.BtnBM = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBarra, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvPacientes, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -181,11 +182,21 @@ Partial Class FormPacientesEsperaMedica
         Me.BtncerrarSesion.Text = "Cerrar Sesión"
         Me.BtncerrarSesion.UseVisualStyleBackColor = True
         '
+        'BtnBM
+        '
+        Me.BtnBM.Location = New System.Drawing.Point(12, 660)
+        Me.BtnBM.Name = "BtnBM"
+        Me.BtnBM.Size = New System.Drawing.Size(144, 34)
+        Me.BtnBM.TabIndex = 743
+        Me.BtnBM.Text = "Bajas Medicas"
+        Me.BtnBM.UseVisualStyleBackColor = True
+        '
         'FormPacientesEsperaMedica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1006, 721)
+        Me.Controls.Add(Me.BtnBM)
         Me.Controls.Add(Me.BtncerrarSesion)
         Me.Controls.Add(Me.CheckCentroDiag)
         Me.Controls.Add(Me.SP)
@@ -226,4 +237,5 @@ Partial Class FormPacientesEsperaMedica
     Friend WithEvents SP As Label
     Friend WithEvents CheckCentroDiag As CheckBox
     Friend WithEvents BtncerrarSesion As Button
+    Friend WithEvents BtnBM As Button
 End Class

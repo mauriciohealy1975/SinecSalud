@@ -84,13 +84,14 @@ Public Class FormDatosconsulta
     End Sub
 
     Private Sub BtnGuardar_Click(sender As Object, e As EventArgs) Handles BtnGuardar.Click
-        'GuardarHistorial() 'aqui estara  la funcion de guardar formulario
-        Dim MM = New FormDatosconsulta
+
+        Dim MM = New FormMenuMedicos
         MM.SetPaciente(paciente)
         MM.SetMatricula(matricula)
         MM.SetCodSolicitud(codsolicitud)
-        MM.Show()
-        Close()
+        MM.ShowDialog()
+
+        'GuardarHistorial() 'aqui estara  la funcion de guardar formulario
     End Sub
 
 #End Region

@@ -1,21 +1,37 @@
 ﻿Imports NEGOCIO
 
 Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
+#Region "auxiliares"
+    Private matricula, codsolicitud, paciente As String
 
-    'RESOL 1280, 600
+    Public Sub New()
+
+        ' Esta llamada es exigida por el diseñador.
+        InitializeComponent()
+        matricula = ""
+        codsolicitud = ""
+        paciente = ""
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+
+    End Sub
+    Public Sub SetMatricula(_Mat)
+        matricula = _Mat
+    End Sub
+    Public Sub SetCodSolicitud(_sol)
+        codsolicitud = _sol
+    End Sub
+    Public Sub SetPaciente(_paciente)
+        paciente = _paciente
+    End Sub
+#End Region
+#Region "Declaraciones"
     Dim oRegOrden As RegistroOrdenAtencionEnfermeria
-
+#End Region
+#Region "Funciones"
     Private Sub FormRegistroOrdenAtencionServiciosEnfermeria_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         iniciarFormulario()
         configurarDisplay()
-
-
     End Sub
-
-
-
-
-    'METODOS INICIO INTERFAZ
     Public Sub iniciarFormulario()
         configurarDisplay()
         iniciarControles()
@@ -249,11 +265,8 @@ Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
     End Sub
 
 
-
-
-
-
-    'METODOS EVENTOS 
+#End Region
+#Region "Botones"
     Private Sub btnConfirmarServicios_Click(sender As Object, e As EventArgs) Handles btnConfirmarServicios.Click
         If lboxServicios.SelectedItems.Count > 0 Then
             guardarServiciosSeleccionadas()
@@ -295,7 +308,6 @@ Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
             SelectNextControl(ActiveControl, True, True, True, True)
         End If
     End Sub
-
-
+#End Region
 End Class
 

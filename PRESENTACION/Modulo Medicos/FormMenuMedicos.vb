@@ -24,56 +24,76 @@ Public Class FormMenuMedicos
         paciente = _paciente
     End Sub
 #End Region
+#Region "Declaraciones"
+    Private ReadOnly Objetoprestado As New FuncionesRayosX(False)
     Dim NivelAcceso = Usuario.tipoUsuUserLoggedSystem
-
+#End Region
+#Region "Funciones"
     Private Sub FormMenuMedicos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
-        VerificarNivel()
-    End Sub
-    Private Sub VerificarNivel()
-        If NivelAcceso = 1 Then
-            BtnVolver.Visible = True
-        Else
-            BtnVolver.Visible = False
-        End If
     End Sub
     Private Sub RellenarDatos()
         LN.Text = Usuario.nameUserLoggedSystem.ToString()
         LT.Text = Usuario.NomTipoUserLoggedSystem.ToString()
-    End Sub
 
+        LNP.Text = "PACIENTE: " + paciente
+        LMP.Text = "MATRICULA: " + matricula
+
+        Dim edadenmeses = Objetoprestado.ObtenerEdad(matricula)
+        If edadenmeses < 12 Then
+            LEP.Text = " Edad: " + edadenmeses.ToString() + " meses"
+
+        Else
+            LEP.Text = "Edad: " + (edadenmeses / 12).ToString + " años"
+
+        End If
+    End Sub
+#End Region
+#Region "Botones"
     Private Sub btnTransfernciaMedica_Click(sender As Object, e As EventArgs) Handles btnTransfernciaMedica.Click
-        FormRegistrarTransferenciaMed.Show()
-        Me.Close()
+        Dim TM = New FormRegistrarTransferenciaMed
+        TM.SetPaciente(paciente)
+        TM.SetMatricula(matricula)
+        TM.SetCodSolicitud(codsolicitud)
+        TM.ShowDialog()
     End Sub
-
-
-
     Private Sub btnOrdenServiciosEnfemeria_Click(sender As Object, e As EventArgs) Handles btnOrdenServiciosEnfemeria.Click
-        FormRegistrarOrdenAtencionServiciosEnfermeria.Show()
-        Me.Close()
+        Dim SE = New FormRegistrarOrdenAtencionServiciosEnfermeria
+        SE.SetPaciente(paciente)
+        SE.SetMatricula(matricula)
+        SE.SetCodSolicitud(codsolicitud)
+        SE.ShowDialog()
     End Sub
 
-    Private Sub BtnVolver_Click(sender As Object, e As EventArgs) Handles BtnVolver.Click
-        FormMenuPrincipal.Show()
-        Me.Close()
-    End Sub
-
-    Private Sub CerrarSesion_Click(sender As Object, e As EventArgs) Handles CerrarSesion.Click
-        Me.Close()
-        FormIniciarSesion.limpiarCampos()
-        FormIniciarSesion.Show()
-        FormIniciarSesion.txtUsuario.Focus()
-        Usuario.limpiarDatos()
-    End Sub
-
-    Private Sub BtnBM_Click(sender As Object, e As EventArgs) Handles BtnBM.Click
-        FormMenuBajasMedicas.Show()
-        Me.Close()
-    End Sub
-
-    Private Sub BtnRecetas_Click(sender As Object, e As EventArgs) Handles BtnRecetas.Click
-        FormRecetas.Show()
+    Private Sub BtnRayosX_Click(sender As Object, e As EventArgs) Handles BtnRayosX.Click
+        FormSolicitudRayosX.Show()
         Close()
     End Sub
+
+    Private Sub BtnCD_Click(sender As Object, e As EventArgs) Handles BtnCD.Click
+        Dim TM = New FormSolicitudExamenDiagnostico
+        TM.SetPaciente(paciente)
+        TM.SetMatricula(matricula)
+        TM.SetCodSolicitud(codsolicitud)
+        TM.ShowDialog()
+    End Sub
+
+    Private Sub BtnCerrar_Click(sender As Object, e As EventArgs) Handles BtnCerrar.Click
+        Close()
+    End Sub
+
+
+
+    Private Sub BtnRecetas_Click(sender As Object, e As EventArgs) Handles BtnRecetas.Click
+        Dim TM = New FormRecetas
+        TM.SetPaciente(paciente)
+        TM.SetMatricula(matricula)
+        TM.SetCodSolicitud(codsolicitud)
+        TM.ShowDialog()
+        If TM.Getterminado() = "si" Then
+            BtnRecetas.Enabled = False
+        End If
+
+    End Sub
+#End Region
 End Class
