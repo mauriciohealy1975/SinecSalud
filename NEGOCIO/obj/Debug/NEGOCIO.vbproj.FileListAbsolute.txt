@@ -126,3 +126,17 @@ C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.xml
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\NEGOCIO.xml
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\DAL.dll
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\DAL.pdb
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\bin\Debug\DAL.xml
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.vbproj.AssemblyReference.cache
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.Resources.resources
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.vbproj.GenerateResource.cache
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.vbproj.CoreCompileInputs.cache
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.vbproj.CopyComplete
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.xml
+C:\Users\Alex\Source\Repos\SinecSalud\NEGOCIO\obj\Debug\NEGOCIO.pdb

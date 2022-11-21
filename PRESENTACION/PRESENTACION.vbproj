@@ -90,10 +90,10 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>67D19E8C521D73BDB4E630BE52A33E6C2EBBCFA5</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>3D09FADC06D058CB58CC67FF8C0ADF0F0B6B1C0E</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>PRESENTACION_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>PRESENTACION_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -102,7 +102,7 @@
     <ApplicationIcon>icono.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>PRESENTACION_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>firmadeprueba.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -503,6 +503,24 @@
     <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulo Medicos\AtencionMedicaOdontologica.designer.vb">
+      <DependentUpon>AtencionMedicaOdontologica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\AtencionMedicaOdontologica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Medicos\Odontograma.designer.vb">
+      <DependentUpon>Odontograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\Odontograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Medicos\HistoriaClinicaOdontologica.designer.vb">
+      <DependentUpon>HistoriaClinicaOdontologica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\HistoriaClinicaOdontologica.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulo Medicos\FormDatosconsulta.Designer.vb">
       <DependentUpon>FormDatosconsulta.vb</DependentUpon>
     </Compile>
@@ -881,6 +899,15 @@
     <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.resx">
       <DependentUpon>FormRegistrarResultadoLabTipoValorTextual.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\AtencionMedicaOdontologica.resx">
+      <DependentUpon>AtencionMedicaOdontologica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\Odontograma.resx">
+      <DependentUpon>Odontograma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\HistoriaClinicaOdontologica.resx">
+      <DependentUpon>HistoriaClinicaOdontologica.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo Medicos\FormDatosconsulta.resx">
       <DependentUpon>FormDatosconsulta.vb</DependentUpon>
     </EmbeddedResource>
@@ -980,6 +1007,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="firmadeprueba.pfx" />
     <None Include="Modulo Laboratorio\Registrar orden\mydataset1.xsc">
       <DependentUpon>mydataset1.xsd</DependentUpon>
     </None>
@@ -1002,6 +1030,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="PRESENTACION_1_TemporaryKey.pfx" />
     <None Include="PRESENTACION_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

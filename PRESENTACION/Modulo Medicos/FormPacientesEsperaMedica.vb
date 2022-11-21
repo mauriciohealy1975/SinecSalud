@@ -117,12 +117,11 @@ Public Class FormPacientesEsperaMedica
                 Dim CodSol As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("CodSol").Value)
                 Dim esp As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Especialidad").Value)
                 If esp = "ODONTOLOGIA" Or esp = "ODONTOLOGIA PEDRIATICA" Then
-                    Dim FO = New FormDatosconsulta ' formulario historial(cambiar por el formulario de odontologia)
+                    Dim FO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
                     FO.SetPaciente(Paciente)
                     FO.SetMatricula(Matricula)
                     FO.SetCodSolicitud(CodSol)
-                    FO.Show()
-                    Close()
+                    FO.ShowDialog()
                 Else
                     If CheckCentroDiag.Checked Then
                         'aqui va ir cuando exista una solicitud
