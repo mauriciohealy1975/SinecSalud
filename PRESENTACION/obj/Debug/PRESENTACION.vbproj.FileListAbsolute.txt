@@ -580,3 +580,6 @@ C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.vbproj
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.exe
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.xml
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.pdb
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.AtencionMedicaOdontologica.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.Odontograma.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.HistoriaClinicaOdontologica.resources

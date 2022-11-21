@@ -20,7 +20,7 @@ Public Class TDatosSql
     Private mDataSet As DataSet
     Public baseDB As Int16
     Public Sub New(ByVal Restauracion As Boolean)
-        baseDB = 3
+        baseDB = 4
         Select Case baseDB
             Case 0
                 'base local

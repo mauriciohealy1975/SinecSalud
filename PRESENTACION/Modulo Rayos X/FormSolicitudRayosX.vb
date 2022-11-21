@@ -1,12 +1,36 @@
 ﻿Imports NEGOCIO
 
 Public Class FormSolicitudRayosX
+#Region "axuliares"
+    Private matricula, codsolicitud, paciente As String
+
+    Public Sub New()
+
+        ' Esta llamada es exigida por el diseñador.
+        InitializeComponent()
+        matricula = ""
+        codsolicitud = ""
+        paciente = ""
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+
+    End Sub
+    Public Sub SetMatricula(_Mat)
+        matricula = _Mat
+    End Sub
+    Public Sub SetCodSolicitud(_sol)
+        codsolicitud = _sol
+    End Sub
+    Public Sub SetPaciente(_paciente)
+        paciente = _paciente
+    End Sub
+#End Region
 #Region "Declaraciones"
     Private ReadOnly objetoRayosX As New FuncionesRayosX(False)
     Dim termino, creado, buscado, rellenado As Boolean
     Dim examen As String
     Dim codexamen, cantidad As Int16
 #End Region
+
 #Region "Principal"
     Private Sub FormSolicitudRayosX_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Inicializar()
@@ -42,50 +66,19 @@ Public Class FormSolicitudRayosX
         End If
     End Function
     Private Sub RellenarDatosPaciente()
-        Dim matricula = CbxPaciente.SelectedValue.ToString()
+
         Dim edadenmeses = objetoRayosX.ObtenerEdad(matricula)
+        LNP.Text = "PACIENTE: " + paciente
+        LMP.Text = "MATRICULA: " + matricula
         If edadenmeses < 12 Then
-            LCP.Text = "Codigo:" + CbxPaciente.SelectedValue.ToString() + "       Edad: " + edadenmeses.ToString() + " meses"
+            LEP.Text = "Edad: " + edadenmeses.ToString() + " meses"
 
         Else
-            LCP.Text = "Codigo:" + CbxPaciente.SelectedValue.ToString() + "       Edad: " + (edadenmeses / 12).ToString + " años"
+            LEP.Text = " Edad: " + (edadenmeses / 12).ToString + " años"
 
         End If
-        LNP.Text = "Paciente:" + CbxPaciente.Text.ToString()
+
     End Sub
-    Private Function TraerPacientes()
-        Try
-
-            LNP.Text = "Paciente:"
-            LCP.Text = "Cod Paciente:"
-            termino = False
-            Dim Nombre As String = TxbBuscarPaciente.Text.ToString().Trim()
-            Dim Tabla As DataTable
-            If Not CheckBCP.Checked = True Then
-                Tabla = objetoRayosX.BuscarPaciente(Nombre)
-            Else
-                Tabla = objetoRayosX.BuscarPacienteporCodigo(Nombre)
-            End If
-
-            If Tabla.Rows.Count < 1 Then
-                Return False
-            Else
-
-                CbxPaciente.Enabled = True
-                CbxPaciente.DataSource = Tabla
-                CbxPaciente.DisplayMember = "ASEGURADO"
-                CbxPaciente.ValueMember = "MATRICULA"
-
-                Return True
-            End If
-
-        Catch ex As Exception
-            LNP.Text = "Paciente:"
-            LCP.Text = "Cod Paciente:"
-            'MessageBox.Show(Err.Description)
-            Return False
-        End Try
-    End Function
 
     Private Function Validardatos()
         Dim valor As Int16
@@ -94,16 +87,15 @@ Public Class FormSolicitudRayosX
         Else
             valor = 0
         End If
-        If CbxPaciente.SelectedIndex > -1 Then
-            If CbxRadiografias.SelectedIndex > valor Then
+
+        If CbxRadiografias.SelectedIndex > valor Then
                 If IsNumeric(cantidad) Then
                     If cantidad > 0 Then
-                        If (ExisteDatoEnGrid(codexamen)) Then
-                            MessageBox.Show("El examen ya esta en lista")
-                            Return False
-                        Else
-
-                            Return True
+                    If (ExisteDatoEnGrid(codexamen)) Then
+                        MessageBox.Show("El examen ya esta en lista")
+                        Return False
+                    Else
+                        Return True
                         End If
                     Else
                         MessageBox.Show("Error: La cantidad no puede ser menor a 1 ")
@@ -116,10 +108,6 @@ Public Class FormSolicitudRayosX
                 MessageBox.Show("Error: No seleccionó un examen")
                 Return False
             End If
-        Else
-            MessageBox.Show("Error: no hay pacienteseleccionado")
-            Return False
-        End If
     End Function
     Private Function CargarCarritoDgvRX()
         Try
@@ -161,7 +149,6 @@ Public Class FormSolicitudRayosX
             Return False
         End Try
     End Function
-
     Private Function RellenarCbTipoRadiografia()
         Try
             Dim Nombre As String = TxbBuscarTipoRadiografia.Text.ToString().Trim()
@@ -192,7 +179,7 @@ Public Class FormSolicitudRayosX
         Try
             Dim proximoRegistro = objetoRayosX.ObtenerProximoRegistro()
             Dim codPaciente, codmedico, nombredeprocedimiento, cant As String
-            codPaciente = CbxPaciente.SelectedValue.ToString()
+            codPaciente = matricula
             codmedico = Usuario.codUserLoggedSystem.ToString()
             If objetoRayosX.RegistrarCabezaRX(codPaciente, codmedico, proximoRegistro) = 2 Then
                 For X As Integer = 0 To DGVExamenes.Rows.Count - 2
@@ -211,62 +198,13 @@ Public Class FormSolicitudRayosX
             Return False
         End Try
     End Function
-    Private Sub ReiniciarForm()
-        TxbBuscarPaciente.Text = ""
-        TxbBuscarTipoRadiografia.Text = ""
-        creado = False
-        rellenado = False
-        DGVExamenes.Rows.Clear()
-        DGVExamenes.Columns.Clear()
-        CbxPaciente.SelectedIndex = -1
-        CbxPaciente.Enabled = False
-
-        CbxRadiografias.SelectedIndex = -1
-
-        txbCantidad.Text = 0
-        Panel1.Visible = False
-        LNP.Text = "Paciente:"
-        LCP.Text = "Codigo:"
-    End Sub
 
 #End Region
 #Region "Eventos"
-    Private Sub TxbBuscarPaciente_KeyDown(sender As Object, e As KeyEventArgs) Handles TxbBuscarPaciente.KeyDown
-        If e.KeyCode = Keys.Enter Then
-            If (TraerPacientes()) Then
-                termino = True
-                CbxPaciente.SelectedIndex = 0
-                RellenarDatosPaciente()
-            Else
-
-                LNP.Text = "Paciente:"
-                LCP.Text = "Cod Paciente:"
-            End If
-
-
-        End If
-    End Sub
     Private Sub TxbBuscarTipoRadiografia_KeyDown(sender As Object, e As KeyEventArgs) Handles TxbBuscarTipoRadiografia.KeyDown
         If e.KeyCode = Keys.Enter Then
             RellenarCbTipoRadiografia()
         End If
-    End Sub
-    Private Sub CbxPaciente_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxPaciente.SelectedIndexChanged
-        Try
-            If termino Then
-                RellenarDatosPaciente()
-                If CbxPaciente.SelectedIndex > -1 Then
-                    Panel1.Visible = True
-                    If rellenado = False Then
-                        rellenado = RellenarCbTipoRadiografia()
-                    End If
-
-                Else
-                    Panel1.Visible = False
-                End If
-            End If
-        Catch ex As Exception
-        End Try
     End Sub
     Private Sub DGVExamenes_CellContentDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGVExamenes.CellContentDoubleClick
         Try
@@ -319,7 +257,7 @@ Public Class FormSolicitudRayosX
         If DGVExamenes.Rows.Count > 0 Then
             If Enviar() Then
                 MessageBox.Show("Solicitud Realizada")
-                ReiniciarForm()
+
             Else
                 MessageBox.Show("ERROR: OCURRIO UN ERROR AL ENVIAR")
             End If
@@ -328,11 +266,5 @@ Public Class FormSolicitudRayosX
         End If
 
     End Sub
-
-#End Region
-
-#Region "pruebas"
-
-
 #End Region
 End Class
