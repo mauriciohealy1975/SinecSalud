@@ -362,8 +362,8 @@
 
 
     '--GUARDAR SOL. MEDICAS
-    Public Sub guardarSolMedica(ByVal _matAse As String, ByVal _codEspc As Int16, ByVal _codMed As Int16, ByVal _horario As String, ByVal _prefCon As Int16, ByVal _corrCon As Int16, ByVal _codTurno As Int16, ByVal _codUSuario As Int16, ByVal _fecha As String)
-        If origenDelForm = "reg" Then
+    Public Sub guardarSolMedica(ByVal _matAse As String, ByVal _codEspc As Int16, ByVal _codMed As Int16, ByVal _horario As String, ByVal _prefCon As Int16, ByVal _corrCon As Int16, ByVal _codTurno As Int16, ByVal _codUSuario As Int16, ByVal _fecha As String, Esprogra As Int16)
+        If Not Esprogra = 1 Then
             guardarRegistroSolMedicaBD(_matAse, _codEspc, _codMed, _horario, _prefCon, _corrCon, _codTurno, _codUSuario, _fecha)
         Else
             guardarProgramacionSolMedicaBD(_matAse, _codEspc, _codMed, _horario, _prefCon, _corrCon, _codTurno, _codUSuario, _fecha)

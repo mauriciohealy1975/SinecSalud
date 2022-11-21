@@ -204,7 +204,7 @@ Public Class FormIniciarSesion
                         FromMenuTriaje.Show()
                         Me.Hide()
                     Case 3
-                        FormMenuMedicos.Show()
+                        FormPacientesEsperaMedica.Show()
                         Me.Hide()
                     Case 4
                         FormMenuEnfermeria.Show()

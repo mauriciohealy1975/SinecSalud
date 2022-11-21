@@ -7,10 +7,10 @@ Public Class FormRegMedDiagnostico
 
     Private Creado As Boolean
     Dim TERMINADO As Boolean
-    Dim diasdeTrabajo, horario As String
+    Dim diasdeTrabajo, horario, DOM As String
     Dim diasregistrados As Int16
 
-    Dim px, py, DOM As Integer
+    Dim px, py As Integer
     Dim mover As Boolean
 
 #End Region
@@ -28,6 +28,7 @@ Public Class FormRegMedDiagnostico
         CargarcbxeEcografias()
         CargarcbxeProcedimientos()
         TERMINADO = True
+        DOM = "SN"
 
     End Sub
     Private Sub CargarHorariosEntrada()
@@ -296,7 +297,7 @@ Public Class FormRegMedDiagnostico
         If Not diasdeTrabajo = "" Then
             If Not horario = "" Then
                 If Not Convert.ToInt16(TxbCantidad.Text) = 0 Then
-                    If Not DOM = 0 Then
+                    If Not DOM = "SN" Then
                         If Not DgvPOE.Rows.Count < 1 Then
                             Return True
                         Else
@@ -326,8 +327,8 @@ Public Class FormRegMedDiagnostico
         ObtenerCadenaDeDias()
         ObtenerHorarioTrabajo()
         If ValidarFormulario() Then
-            Dim Dias, Hora, CantFicha, cmcd
-            Dim resultado1, resultado2, DiaOMes As Int16
+            Dim Dias, Hora, CantFicha, cmcd, DiaOMes
+            Dim resultado1, resultado2 As Int16
             cmcd = CbxMedico.SelectedValue.ToString()
             Dias = diasdeTrabajo
             Hora = horario
@@ -351,6 +352,10 @@ Public Class FormRegMedDiagnostico
 
     Private Sub OtroRegistro()
         DgvPOE.Rows.Clear()
+        DOM = "SN"
+        CheckDiaria.Checked = False
+        CheckMensual.Checked = False
+
         ChecklunesAviernes.Enabled = True
         CheckLunes.Enabled = True
         CheckMartes.Enabled = True
@@ -358,38 +363,25 @@ Public Class FormRegMedDiagnostico
         CheckJueves.Enabled = True
         CheckViernes.Enabled = True
 
-        ChecklunesAviernes.Checked = True
-        CheckLunes.Checked = True
-        CheckMartes.Checked = True
-        CheckMiercoles.Checked = True
-        CheckJueves.Checked = True
-        CheckViernes.Checked = True
-        If CbxMedico.SelectedIndex > -1 Then
-            CargarDGVasignados()
-            VerificarDiasOcupados()
-        Else
-            MessageBox.Show("Seleccione un Médico")
-        End If
-
-
+        ChecklunesAviernes.Checked = False
+        CheckLunes.Checked = False
+        CheckMartes.Checked = False
+        CheckMiercoles.Checked = False
+        CheckJueves.Checked = False
+        CheckViernes.Checked = False
         CbxHE.SelectedIndex = 0
         TxbCantidad.Text = 0
         diasdeTrabajo = ""
         horario = ""
     End Sub
-
     Private Sub VerificarDiasOcupados()
         If DgvAsignados.Rows.Count > 0 Then
             ChecklunesAviernes.Checked = False
             ChecklunesAviernes.Enabled = False
-            CheckLunes.Checked = False
-            CheckMartes.Checked = False
-            CheckMiercoles.Checked = False
-            CheckJueves.Checked = False
-            CheckViernes.Checked = False
-            For Each Fila As DataGridViewRow In DgvAsignados.Rows
-                If Not Fila Is Nothing Then
-                    Dim dias = DgvAsignados.CurrentRow.Cells(2).Value.ToString()
+            For X As Integer = 0 To DgvAsignados.Rows.Count - 2
+                Dim AOD = Convert.ToString(DgvAsignados.Rows(X).Cells(5).Value)
+                If AOD = "Activo" Then
+                    Dim dias = Convert.ToString(DgvAsignados.Rows(X).Cells(2).Value)
                     Dim arraydias() = Split(dias, ",")
                     Dim texto As String = ""
                     For Each valor In arraydias
@@ -415,6 +407,7 @@ Public Class FormRegMedDiagnostico
                     Next
                 End If
             Next
+
         Else
 
             CheckLunes.Enabled = True
@@ -430,6 +423,7 @@ Public Class FormRegMedDiagnostico
     Private Sub CbxMedico_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxMedico.SelectedIndexChanged
         If CbxMedico.SelectedIndex > -1 Then
             If TERMINADO Then
+                OtroRegistro()
                 CargarDGVasignados()
                 VerificarDiasOcupados()
             End If
@@ -573,7 +567,7 @@ Public Class FormRegMedDiagnostico
             If CbxEcografias.SelectedIndex > -1 Then
                 CargarEcoCarritoDgvRX()
                 TxbBuscarEco.Text = ""
-                'CbxEcografias.SelectedIndex += 1
+                CbxEcografias.SelectedIndex += 1
             Else
                 MessageBox.Show("seleccione una Ecografia")
             End If
@@ -584,9 +578,16 @@ Public Class FormRegMedDiagnostico
     End Sub
 
     Private Sub BtnAgegar_Click(sender As Object, e As EventArgs) Handles BtnAgegarProced.Click
-        CargarProcCarritoDgvRX()
-        TxbBuscarproc.Text = ""
-        CargarcbxeProcedimientos()
+        Try
+            If CbxProcedimientos.SelectedIndex > -1 Then
+                CargarProcCarritoDgvRX()
+                TxbBuscarproc.Text = ""
+                CbxProcedimientos.SelectedIndex += 1
+            End If
+
+        Catch ex As Exception
+
+        End Try
     End Sub
 
 

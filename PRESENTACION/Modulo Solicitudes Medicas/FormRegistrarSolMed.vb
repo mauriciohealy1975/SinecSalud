@@ -244,6 +244,7 @@ Public Class FormRegistrarSolMed
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
         Dim matAsegurado As String = ""
         Dim codEspecialidad As Int16 = 0
+        Dim Esprogra As Int16 = 0
 
         Dim horario As String = ""
         Dim prefConceptoTipoCons As Int16 = 0
@@ -268,9 +269,13 @@ Public Class FormRegistrarSolMed
             codigoTurno = codturnoexterno
         End If
         codigoUsuario = Usuario.codUserLoggedSystem
+        If CheckProgramacion.Checked = True Then
+            Esprogra = 1
+        Else
+            Esprogra = 0
+        End If
 
-
-        funcionregistro.guardarSolMedica(matAsegurado, codEspecialidad, codMedico, horario, prefConceptoTipoCons, correConceptoTipoCons, codigoTurno, codigoUsuario, fecha)
+        funcionregistro.guardarSolMedica(matAsegurado, codEspecialidad, codMedico, horario, prefConceptoTipoCons, correConceptoTipoCons, codigoTurno, codigoUsuario, fecha, Esprogra)
         If imprimir() = False Then
             MessageBox.Show("ocurrio un error al imprimir")
         End If

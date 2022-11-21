@@ -503,6 +503,18 @@
     <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulo Medicos\FormDatosconsulta.Designer.vb">
+      <DependentUpon>FormDatosconsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormDatosconsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormPacientesEsperaMedica.Designer.vb">
+      <DependentUpon>FormPacientesEsperaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo Medicos\FormPacientesEsperaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulo Medicos\FormRegistrarOrdenAtencionServiciosEnfermeria.Designer.vb">
       <DependentUpon>FormRegistrarOrdenAtencionServiciosEnfermeria.vb</DependentUpon>
     </Compile>
@@ -581,10 +593,10 @@
     <Compile Include="Modulo Solicitudes Medicas\FormIniciarSesionEliminarSolMed.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menus por separado\FormMenuMedicos.designer.vb">
+    <Compile Include="Modulo Medicos\FormMenuMedicos.designer.vb">
       <DependentUpon>FormMenuMedicos.vb</DependentUpon>
     </Compile>
-    <Compile Include="Menus por separado\FormMenuMedicos.vb">
+    <Compile Include="Modulo Medicos\FormMenuMedicos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuPrincipal.designer.vb">
@@ -869,6 +881,12 @@
     <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.resx">
       <DependentUpon>FormRegistrarResultadoLabTipoValorTextual.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\FormDatosconsulta.resx">
+      <DependentUpon>FormDatosconsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo Medicos\FormPacientesEsperaMedica.resx">
+      <DependentUpon>FormPacientesEsperaMedica.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo Medicos\FormRegistrarOrdenAtencionServiciosEnfermeria.resx">
       <DependentUpon>FormRegistrarOrdenAtencionServiciosEnfermeria.vb</DependentUpon>
     </EmbeddedResource>
@@ -908,7 +926,7 @@
     <EmbeddedResource Include="Modulo Solicitudes Medicas\FormIniciarSesionEliminarSolMed.resx">
       <DependentUpon>FormIniciarSesionEliminarSolMed.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menus por separado\FormMenuMedicos.resx">
+    <EmbeddedResource Include="Modulo Medicos\FormMenuMedicos.resx">
       <DependentUpon>FormMenuMedicos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuPrincipal.resx">

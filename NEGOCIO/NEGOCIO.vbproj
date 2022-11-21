@@ -151,6 +151,7 @@
     <Compile Include="Clases form\Modulo Laboratorio\Registrar orden\RegistroOrdenLaboratorio.vb" />
     <Compile Include="Clases form\Modulo Laboratorio\RegistroTomaMuestra.vb" />
     <Compile Include="Clases form\Modulo Laboratorio\RegistroUnidadMedidaLaboratorio.vb" />
+    <Compile Include="Clases form\Modulo Medicos\FuncionesMedicas.vb" />
     <Compile Include="Clases form\Modulo Medicos\RegistroOrdenAtencionServiciosEnfermeria.vb" />
     <Compile Include="Clases form\Modulo Baja Medica\RegistroBajaMedica.vb" />
     <Compile Include="Clases entidad\Modulo Afiliacion\AreaTrabajo.vb" />

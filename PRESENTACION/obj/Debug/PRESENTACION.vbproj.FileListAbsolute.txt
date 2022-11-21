@@ -472,3 +472,5 @@ C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.FormRegMedDiagnostico.resources
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.FormNewPOE.resources
 C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.FormSolicitudExamenDiagnostico.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.FormPacientesEsperaMedica.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.FormDatosconsulta.resources
