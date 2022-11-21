@@ -3,10 +3,38 @@ Imports System.Runtime.Remoting
 Imports NEGOCIO
 
 Public Class FormRecetas
+#Region "axuliares"
+    Private matricula, codsolicitud, paciente, terminado As String
+
+    Public Sub New()
+
+        ' Esta llamada es exigida por el diseñador.
+        InitializeComponent()
+        matricula = ""
+        codsolicitud = ""
+        paciente = ""
+        terminado = ""
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+
+    End Sub
+    Public Sub SetMatricula(_Mat)
+        matricula = _Mat
+    End Sub
+    Public Sub SetCodSolicitud(_sol)
+        codsolicitud = _sol
+    End Sub
+    Public Sub SetPaciente(_paciente)
+        paciente = _paciente
+    End Sub
+    Public Function Getterminado()
+        Return terminado
+    End Function
+#End Region
 #Region "Declaraciones"
     Dim condUsuari As String = Usuario.codUserLoggedSystem.ToString()
     Dim MedCargados As Int16 = 0
-    Private objetoFarmacia As NEGOCIO.FuncionesFarmacia = New NEGOCIO.FuncionesFarmacia(False)
+    Private ReadOnly objetoFarmacia As New NEGOCIO.FuncionesFarmacia(False)
+    Private ReadOnly Objetoprestado As New FuncionesRayosX(False)
     Dim tabla As DataTable
     Dim completo As Boolean
 #End Region
@@ -20,25 +48,12 @@ Public Class FormRecetas
         completo = False
         configuracionVentana()
         RellenarDatos()
-        RellenarCbPaciente()
-        PanelPaciente.Enabled = True
-        PanelMedicamento.Enabled = False
+        RellenarCbMecicamentos()
         completo = True
     End Sub
 #End Region
-    '------------------------------------------------------FUNCIONES--------------------------------------------------------------------
+
 #Region "Funciones"
-    Private Sub ReiniciarFormulario()
-        Inicializar()
-        DgvListaReceta.Rows.Clear()
-        TbIndicaciones.Text = ""
-        txbBuscarMedcicamentos.Text = ""
-        TxbBuscarAsegurado.Text = ""
-        TxbCantidad.Text = 0
-        If completo Then
-            CbPaciente.SelectedIndex = -1
-        End If
-    End Sub
     Private Sub configuracionVentana()
         Me.Icon = New System.Drawing.Icon("icono.ico")
         Me.MaximizeBox = False
@@ -47,34 +62,22 @@ Public Class FormRecetas
         LN.Text = Usuario.nameUserLoggedSystem.ToString()
         LT.Text = Usuario.NomTipoUserLoggedSystem.ToString()
         Dim proximo = ObtenerPoximoRegistro()
-        If proximo > 1000000 Then
-            proximo = proximo + 1
-        Else
-            proximo = "000000" + (proximo + 1).ToString
-        End If
-        LNR.Text = proximo
-    End Sub
-    Private Function RellenarCbPaciente()
-        Try
-            Dim nombre As String = TxbBuscarAsegurado.Text.Trim()
-            tabla = objetoFarmacia.BuscarPaciente(nombre)
-            CbPaciente.DataSource = tabla
-            CbPaciente.DisplayMember = "ASEGURADO"
-            CbPaciente.ValueMember = "MATRICULA"
-            Return True
-        Catch ex As Exception
-            Return False
-        End Try
-    End Function
-    Private Sub RellenarDatosPaciente()
-        Dim matricula As String = CbPaciente.SelectedValue.ToString()
-        tabla = objetoFarmacia.BuscarPacienteporMatricula(matricula)
-        Dim ASEGURADO As String = Convert.ToString(tabla.Rows(0)("ASEGURADO"))
-        Dim TIPO As String = Convert.ToString(tabla.Rows(0)("TYPE"))
-        Ltp.Text = TIPO
-        Lnp.Text = ASEGURADO
-        Lmp.Text = matricula
+        Dim aux = ""
+        For x = 1 To 6 - Len(proximo) Step 1
+            aux += "0"
+        Next
+        LNR.Text = aux.ToString() + proximo
+        LNP.Text = "PACIENTE: " + paciente
+        LMP.Text = "MATRICULA: " + matricula
 
+        Dim edadenmeses = Objetoprestado.ObtenerEdad(matricula)
+        If edadenmeses < 12 Then
+            LEP.Text = " Edad: " + edadenmeses.ToString() + " meses"
+
+        Else
+            LEP.Text = "Edad: " + (edadenmeses / 12).ToString + " años"
+
+        End If
     End Sub
     Private Function RellenarCbMecicamentos()
         Try
@@ -148,7 +151,6 @@ Public Class FormRecetas
         End If
     End Function
     Private Function EnviarDatos()
-        Dim matricula As String = CbPaciente.SelectedValue.ToString()
         Dim completo As Boolean = objetoFarmacia.GuardarCabeceraReceta(condUsuari, matricula)
         If completo Then
             Dim termino As Boolean = enviarDGVaDB()
@@ -224,24 +226,12 @@ Public Class FormRecetas
         Return todobien
     End Function
 #End Region
-    '-------------------------------------------------------EVENTOS---------------------------------------------------------------------
+
 #Region "Eventos"
-    Private Sub TxbBuscarAsegurado_TextChanged(sender As Object, e As EventArgs) Handles TxbBuscarAsegurado.TextChanged
-        RellenarCbPaciente()
-    End Sub
     Private Sub txbBuscarMedcicamentos_TextChanged(sender As Object, e As EventArgs) Handles txbBuscarMedcicamentos.TextChanged
         RellenarCbMecicamentos()
     End Sub
     '***********************************************************************************************************************
-    Private Sub CbPaciente_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbPaciente.SelectedIndexChanged
-        Try
-            RellenarDatosPaciente()
-            PanelMedicamento.Enabled = True
-            RellenarCbMecicamentos()
-        Catch ex As Exception
-            'MessageBox.Show(Err.Description)
-        End Try
-    End Sub
     Private Sub CbMedicamentos_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbMedicamentos.SelectedIndexChanged
         Try
             CargarDatosMedicamentos()
@@ -266,7 +256,7 @@ Public Class FormRecetas
         End Try
     End Sub
 #End Region
-    '-------------------------------------------------------BOTONES---------------------------------------------------------------------
+
 #Region "Botones"
     Private Sub BtnagreaReceta_Click(sender As Object, e As EventArgs) Handles BtnagreaReceta.Click
         If Len(TbIndicaciones.Text.ToString()) Then
@@ -282,39 +272,25 @@ Public Class FormRecetas
         End If
     End Sub
     Private Sub BtnCancelar_Click(sender As Object, e As EventArgs) Handles BtnCancelar.Click
-        FormMenuMedicos.Show()
         Close()
     End Sub
     Private Sub BntRegistrarinformacion(sender As Object, e As EventArgs) Handles Button1.Click
-        If CbPaciente.SelectedIndex = -1 Then
-            MessageBox.Show("error. debe selecionar un paciente ")
-        Else
-            If RevisarDisponibilidadInventario() Then
-                Dim valor As Boolean = EnviarDatos()
-                If valor Then
-                    MessageBox.Show("ingreado correctamente")
-                    ReiniciarFormulario()
-                    MedCargados = 0
-                Else
-                    MessageBox.Show("error.")
-                End If
-            Else
-                MessageBox.Show("")
-            End If
 
+        If RevisarDisponibilidadInventario() Then
+            Dim valor As Boolean = EnviarDatos()
+            If valor Then
+                MessageBox.Show("ingreado correctamente")
+                MedCargados = 0
+                terminado = "si"
+                Close()
+            Else
+                MessageBox.Show("error.")
+            End If
+        Else
+            MessageBox.Show("")
         End If
 
 
-    End Sub
-    Private Sub BtnReiniciar_Click(sender As Object, e As EventArgs) Handles BtnReiniciar.Click
-        ReiniciarFormulario()
     End Sub
 #End Region
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-        If RevisarDisponibilidadInventario() Then
-            MessageBox.Show("todobien")
-        Else
-            MessageBox.Show("todo mal")
-        End If
-    End Sub
 End Class

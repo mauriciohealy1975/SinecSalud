@@ -260,14 +260,22 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+<<<<<<< HEAD
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="6311384">
+=======
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="5790632">
+>>>>>>> f56be1c71cc76d1bfdea4086fe87a3bc4b35a589
       <assemblyIdentity name="PRESENTACION" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>dSmsxkBaJB++tVJOg7xXG3ENX5WFLb49PLeXD2JNdH8=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>HMakvfQ4EdUfn9nsJJTseI0niFjsWf/+Yg58De8eVjw=</dsig:DigestValue>
+>>>>>>> f56be1c71cc76d1bfdea4086fe87a3bc4b35a589
       </hash>
     </dependentAssembly>
   </dependency>
