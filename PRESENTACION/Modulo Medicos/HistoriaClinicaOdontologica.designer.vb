@@ -34,6 +34,7 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.CheckBox10 = New System.Windows.Forms.CheckBox()
@@ -175,10 +176,9 @@ Partial Class HistoriaClinicaOdontologica
         Me.Fecha = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.LabelMatricula = New System.Windows.Forms.Label()
+        Me.LabelNumeroHCO = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -217,9 +217,9 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.2!)
         Me.Label2.Location = New System.Drawing.Point(18, 68)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 23)
+        Me.Label2.Size = New System.Drawing.Size(85, 23)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Matricula"
+        Me.Label2.Text = "Matricula:"
         '
         'Label3
         '
@@ -227,15 +227,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 10.2!)
         Me.Label3.Location = New System.Drawing.Point(240, 68)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(89, 23)
+        Me.Label3.Size = New System.Drawing.Size(110, 23)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "No de H.C"
+        Me.Label3.Text = "No de H.C.O:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label4.Location = New System.Drawing.Point(499, 68)
+        Me.Label4.Location = New System.Drawing.Point(545, 68)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 23)
         Me.Label4.TabIndex = 7
@@ -342,6 +342,16 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox1.Size = New System.Drawing.Size(963, 181)
         Me.GroupBox1.TabIndex = 14
         Me.GroupBox1.TabStop = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(818, 15)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(68, 20)
+        Me.Label10.TabIndex = 58
+        Me.Label10.Text = "Label10"
         '
         'Label24
         '
@@ -1822,39 +1832,35 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Timer1.Enabled = True
         '
-        'TextBox1
+        'LabelMatricula
         '
-        Me.TextBox1.Location = New System.Drawing.Point(97, 65)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(125, 22)
-        Me.TextBox1.TabIndex = 104
+        Me.LabelMatricula.AutoSize = True
+        Me.LabelMatricula.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelMatricula.Location = New System.Drawing.Point(117, 70)
+        Me.LabelMatricula.Name = "LabelMatricula"
+        Me.LabelMatricula.Size = New System.Drawing.Size(68, 20)
+        Me.LabelMatricula.TabIndex = 103
+        Me.LabelMatricula.Text = "Label11"
         '
-        'TextBox2
+        'LabelNumeroHCO
         '
-        Me.TextBox2.Location = New System.Drawing.Point(539, 65)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(125, 22)
-        Me.TextBox2.TabIndex = 105
+        Me.LabelNumeroHCO.AutoSize = True
+        Me.LabelNumeroHCO.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNumeroHCO.Location = New System.Drawing.Point(375, 68)
+        Me.LabelNumeroHCO.Name = "LabelNumeroHCO"
+        Me.LabelNumeroHCO.Size = New System.Drawing.Size(68, 20)
+        Me.LabelNumeroHCO.TabIndex = 104
+        Me.LabelNumeroHCO.Text = "Label12"
         '
-        'TextBox3
+        'Label75
         '
-        Me.TextBox3.Location = New System.Drawing.Point(338, 65)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(125, 22)
-        Me.TextBox3.TabIndex = 106
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(818, 15)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(68, 20)
-        Me.Label10.TabIndex = 58
-        Me.Label10.Text = "Label10"
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(588, 70)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(68, 20)
+        Me.Label75.TabIndex = 105
+        Me.Label75.Text = "Label75"
         '
         'HistoriaClinicaOdontologica
         '
@@ -1864,9 +1870,9 @@ Partial Class HistoriaClinicaOdontologica
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1006, 938)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label75)
+        Me.Controls.Add(Me.LabelNumeroHCO)
+        Me.Controls.Add(Me.LabelMatricula)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Fecha)
         Me.Controls.Add(Me.Panel1)
@@ -2070,8 +2076,8 @@ Partial Class HistoriaClinicaOdontologica
     Friend WithEvents Fecha As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label10 As Label
+    Friend WithEvents LabelMatricula As Label
+    Friend WithEvents LabelNumeroHCO As Label
+    Friend WithEvents Label75 As Label
 End Class

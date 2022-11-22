@@ -47,9 +47,9 @@ Partial Class AtencionMedicaOdontologica
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.LabelNombre = New System.Windows.Forms.Label()
+        Me.LabelMatricula = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -279,35 +279,21 @@ Partial Class AtencionMedicaOdontologica
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(81, 16)
+        Me.Label5.Location = New System.Drawing.Point(12, 15)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(81, 23)
+        Me.Label5.Size = New System.Drawing.Size(85, 23)
         Me.Label5.TabIndex = 2
-        Me.Label5.Text = "Matricula"
+        Me.Label5.Text = "Matricula:"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(348, 15)
+        Me.Label6.Location = New System.Drawing.Point(248, 15)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(171, 23)
+        Me.Label6.Size = New System.Drawing.Size(175, 23)
         Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Nombre del paciente"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(168, 16)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(150, 27)
-        Me.TextBox3.TabIndex = 4
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(525, 15)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(288, 27)
-        Me.TextBox4.TabIndex = 5
+        Me.Label6.Text = "Nombre del paciente:"
         '
         'Button3
         '
@@ -319,15 +305,35 @@ Partial Class AtencionMedicaOdontologica
         Me.Button3.Text = "GUARDAR"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'LabelNombre
+        '
+        Me.LabelNombre.AutoSize = True
+        Me.LabelNombre.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNombre.Location = New System.Drawing.Point(425, 15)
+        Me.LabelNombre.Name = "LabelNombre"
+        Me.LabelNombre.Size = New System.Drawing.Size(155, 23)
+        Me.LabelNombre.TabIndex = 7
+        Me.LabelNombre.Text = "Alex Castro Aguilar"
+        '
+        'LabelMatricula
+        '
+        Me.LabelMatricula.AutoSize = True
+        Me.LabelMatricula.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelMatricula.Location = New System.Drawing.Point(103, 15)
+        Me.LabelMatricula.Name = "LabelMatricula"
+        Me.LabelMatricula.Size = New System.Drawing.Size(50, 23)
+        Me.LabelMatricula.TabIndex = 8
+        Me.LabelMatricula.Text = "Label"
+        '
         'AtencionMedicaOdontologica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(882, 659)
+        Me.Controls.Add(Me.LabelMatricula)
+        Me.Controls.Add(Me.LabelNombre)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GroupBox1)
@@ -372,7 +378,7 @@ Partial Class AtencionMedicaOdontologica
     Friend WithEvents Button1 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Button3 As Button
+    Friend WithEvents LabelNombre As Label
+    Friend WithEvents LabelMatricula As Label
 End Class

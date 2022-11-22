@@ -111,19 +111,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LsoMSjnA5liU+4zCKy9xh/bet2vvz9M7cDmPKbRNxsE=</dsig:DigestValue>
+        <dsig:DigestValue>PGtgoE4DFf/TYBNRlM23XdD0GmoFWfu4UBF8eGf8nYU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="6317528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="6318552">
       <assemblyIdentity name="PRESENTACION" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>an+UEI0ssu3Tk0BvAhPFng/VxLVc+iS9VbDyzDCGUIk=</dsig:DigestValue>
+        <dsig:DigestValue>0vZ2kABJQL7CoW4RXdC0TbutJl/54jVC+NN7rc0dsNs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

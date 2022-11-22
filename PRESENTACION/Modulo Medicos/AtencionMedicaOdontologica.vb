@@ -18,13 +18,21 @@
     Public Sub SetCodSolicitud(_sol)
         codsolicitud = _sol
     End Sub
+
+    Private Sub AtencionMedicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RellenarDatos()
+    End Sub
+
     Public Sub SetPaciente(_paciente)
         paciente = _paciente
     End Sub
 #End Region
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
 
+#Region "Funciones"
+    Private Sub RellenarDatos()
+        LabelMatricula.Text = matricula
+        LabelNombre.Text = paciente
     End Sub
-
+#End Region
 
 End Class
