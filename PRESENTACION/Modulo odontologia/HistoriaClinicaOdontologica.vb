@@ -5,7 +5,7 @@ Public Class HistoriaClinicaOdontologica
     Dim aux As String
 
 #Region "Auxiliares"
-    Private matricula, codsolicitud, paciente As String
+    Private matricula, codsolicitud, paciente, CI As String
     Public Sub New()
 
         ' Esta llamada es exigida por el diseñador.
@@ -13,6 +13,7 @@ Public Class HistoriaClinicaOdontologica
         matricula = ""
         codsolicitud = ""
         paciente = ""
+        CI = ""
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
     End Sub
@@ -25,10 +26,18 @@ Public Class HistoriaClinicaOdontologica
     Public Sub SetPaciente(_paciente)
         paciente = _paciente
     End Sub
+    Public Sub SetCI(_CI)
+        CI = _CI
+    End Sub
 #End Region
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Fecha.Text = DateString
     End Sub
+
+    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
         aux = sender.name
     End Sub

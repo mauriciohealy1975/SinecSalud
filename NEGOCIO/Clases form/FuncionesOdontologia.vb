@@ -11,9 +11,9 @@
         Return (objDatos.TraerDataTable("BuscarHCO", P))
     End Function
 
-    Public Function BuscarCI(ByVal _ci) As DataTable
+    Public Function BuscarCI(ByVal _mat) As DataTable
         Dim P As Object() = New Object(0) {}
-        P(0) = _ci
+        P(0) = _mat
         Return (objDatos.TraerDataTable("TraerCI", P))
     End Function
 

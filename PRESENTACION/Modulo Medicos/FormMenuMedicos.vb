@@ -66,8 +66,13 @@ Public Class FormMenuMedicos
     End Sub
 
     Private Sub BtnRayosX_Click(sender As Object, e As EventArgs) Handles BtnRayosX.Click
-        FormSolicitudRayosX.Show()
-        Close()
+
+        Dim SRX = New FormSolicitudRayosX
+        SRX.SetPaciente(paciente)
+        SRX.SetMatricula(matricula)
+        SRX.SetCodSolicitud(codsolicitud)
+        SRX.ShowDialog()
+
     End Sub
 
     Private Sub BtnCD_Click(sender As Object, e As EventArgs) Handles BtnCD.Click

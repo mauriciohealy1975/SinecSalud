@@ -36,11 +36,6 @@ Public Class Odontograma
 
     End Sub
     '========================= BOTONES DE LOS COLORES ====================================================
-    Private Function colorearPanelPrueba(ByVal numColor As Integer)
-        If col = 1 Then
-            BackColor = Color.Red
-        End If
-    End Function
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
         panelPrueba.BackColor = Color.Red

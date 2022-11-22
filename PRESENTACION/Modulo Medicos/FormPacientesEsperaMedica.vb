@@ -78,12 +78,15 @@ Public Class FormPacientesEsperaMedica
                         Close()
                     Else
 
-                        Dim CI = ObjOdonto.BuscarCI(Matricula)
-                        Dim FHCO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
+                        Dim Tabla2 = ObjOdonto.BuscarCI(Matricula)
+                        Dim CI = Tabla2.Rows(0)("CI").ToString()
+                        Dim FHCO = New HistoriaClinicaOdontologica
                         FHCO.SetPaciente(Paciente)
                         FHCO.SetMatricula(Matricula)
                         FHCO.SetCodSolicitud(CodSol)
-                        Close()
+                        FHCO.SetCI(CI)
+                        FHCO.ShowDialog()
+
                     End If
 
                 Else

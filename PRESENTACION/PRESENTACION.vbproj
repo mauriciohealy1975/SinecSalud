@@ -90,10 +90,10 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>3D09FADC06D058CB58CC67FF8C0ADF0F0B6B1C0E</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>2010D7D2C1B675F26C902652CF70B2B4CC757B0E</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>PRESENTACION_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>firmadeprueba.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

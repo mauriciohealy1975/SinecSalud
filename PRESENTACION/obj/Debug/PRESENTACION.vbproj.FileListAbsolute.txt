@@ -580,6 +580,7 @@ C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.vbproj
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.exe
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.xml
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.pdb
+<<<<<<< HEAD
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -593,3 +594,8 @@ C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.Re
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Alex\Source\Repos\SinecSalud\PRESENTACION\bin\Debug\stdole.dll
+=======
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.AtencionMedicaOdontologica.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.Odontograma.resources
+C:\Users\anzli\OneDrive\Desktop\nuevo sistema trabajo sinec\software\SinecSalud\PRESENTACION\obj\Debug\PRESENTACION.HistoriaClinicaOdontologica.resources
+>>>>>>> 3684c76007fc2868919141fd3cdf931a2ed58606
