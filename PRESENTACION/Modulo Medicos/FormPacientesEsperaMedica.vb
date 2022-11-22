@@ -4,6 +4,7 @@ Public Class FormPacientesEsperaMedica
 
 #Region "Declaraciones"
     Private ReadOnly Objeto As New FuncionesMedicas(False)
+    Private ReadOnly ObjOdonto As New FuncionesOdontologia(False)
     Dim px, py As Integer
     Dim mover As Boolean
 #End Region
@@ -64,13 +65,27 @@ Public Class FormPacientesEsperaMedica
                 Dim Matricula As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Matricula").Value)
                 Dim CodSol As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("CodSol").Value)
                 Dim esp As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Especialidad").Value)
+                'Dim CI As String = Convert.ToString()
                 If esp = "ODONTOLOGIA" Or esp = "ODONTOLOGIA PEDRIATICA" Then
-                    Dim FO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
-                    FO.SetPaciente(Paciente)
-                    FO.SetMatricula(Matricula)
-                    FO.SetCodSolicitud(CodSol)
-                    FO.ShowDialog()
-                    Close()
+                    Dim tabla = ObjOdonto.BuscarHCO(Matricula)
+                    If tabla.Rows.Count > 0 Then
+                        Dim HCO = tabla.Rows(0)("HCO").ToString()
+                        Dim FO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
+                        FO.SetPaciente(Paciente)
+                        FO.SetMatricula(Matricula)
+                        FO.SetCodSolicitud(CodSol)
+                        FO.setHCO(HCO)
+                        Close()
+                    Else
+
+                        Dim CI = ObjOdonto.BuscarCI(Matricula)
+                        Dim FHCO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
+                        FHCO.SetPaciente(Paciente)
+                        FHCO.SetMatricula(Matricula)
+                        FHCO.SetCodSolicitud(CodSol)
+                        Close()
+                    End If
+
                 Else
                     If CheckCentroDiag.Checked Then
                         'aqui va ir cuando exista una solicitud
