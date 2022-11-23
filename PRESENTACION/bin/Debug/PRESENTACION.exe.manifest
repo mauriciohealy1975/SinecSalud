@@ -243,31 +243,27 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>W6N4aT4BC03bA60OA/5xUVu5Ve+aXcsxhde3sfcWgzE=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>glJt9sy+TgNDLlf0ot95Y4gt2yL75cD9UFjhs1gDzsM=</dsig:DigestValue>
+>>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
-      <assemblyIdentity name="log4net" version="2.0.12.0" publicKeyToken="669E0DDF0BB1AA2A" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iWq5ysQeOXd5K6IDTqhzBhDCd5+lG6tr7UJglOqNPs0=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NEGOCIO.dll" size="309248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NEGOCIO.dll" size="309760">
       <assemblyIdentity name="NEGOCIO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>J/nXmeDSCWe1LEbMr6evNVZUFfpgx7DcYwME9/a+U0Q=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>UDExSoMQc08Pw6wDMrtbQIg1MI9HrIcYEDbI3hf9gnw=</dsig:DigestValue>
+>>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70
       </hash>
     </dependentAssembly>
   </dependency>
@@ -279,7 +275,11 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>wiIAOHx6zuYce7ZiNd17j6rXXsLlNs/Jb3+G+RLNORw=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>e/fEmv9l3XbkcoyQfCNgu5skqlzGtfGTNWJLk2Y7X84=</dsig:DigestValue>
+>>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70
       </hash>
     </dependentAssembly>
   </dependency>

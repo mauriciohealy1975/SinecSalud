@@ -110,6 +110,7 @@
     <Compile Include="Clases estructura de datos\Titulares\NodoTitular.vb" />
     <Compile Include="Clases estructura de datos\Turnos\ListaEnlazadaTurnos.vb" />
     <Compile Include="Clases estructura de datos\Turnos\NodoTurno.vb" />
+    <Compile Include="Clases form\FuncionesOdontologia.vb" />
     <Compile Include="Clases form\Modulo Afiliacion\ActualizacionAsegurado.vb" />
     <Compile Include="Clases form\Modulo Afiliacion\Clases Form Reportes\ReporteProgramacionReprogramacionExamenPreocupacional.vb" />
     <Compile Include="Clases form\Modulo Afiliacion\RegistroAplicacionControlPrestaciones.vb" />

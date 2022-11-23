@@ -72,6 +72,14 @@ Public Class FormDatosconsulta
             Me.Location = Me.PointToScreen(New Point(MousePosition.X - Location.X - px, MousePosition.Y - Location.Y - py))
         End If
     End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub PictureBarra_Click(sender As Object, e As EventArgs) Handles PictureBarra.Click
+
+    End Sub
 #End Region
 #Region "Botones"
     Private Sub BtnCerrar_Click(sender As Object, e As EventArgs) Handles BtnCerrar.Click

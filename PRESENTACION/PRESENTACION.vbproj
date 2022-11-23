@@ -503,22 +503,22 @@
     <Compile Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo Medicos\AtencionMedicaOdontologica.designer.vb">
+    <Compile Include="Modulo odontologia\AtencionMedicaOdontologica.designer.vb">
       <DependentUpon>AtencionMedicaOdontologica.vb</DependentUpon>
     </Compile>
-    <Compile Include="Modulo Medicos\AtencionMedicaOdontologica.vb">
+    <Compile Include="Modulo odontologia\AtencionMedicaOdontologica.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo Medicos\Odontograma.designer.vb">
+    <Compile Include="Modulo odontologia\Odontograma.designer.vb">
       <DependentUpon>Odontograma.vb</DependentUpon>
     </Compile>
-    <Compile Include="Modulo Medicos\Odontograma.vb">
+    <Compile Include="Modulo odontologia\Odontograma.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo Medicos\HistoriaClinicaOdontologica.designer.vb">
+    <Compile Include="Modulo odontologia\HistoriaClinicaOdontologica.designer.vb">
       <DependentUpon>HistoriaClinicaOdontologica.vb</DependentUpon>
     </Compile>
-    <Compile Include="Modulo Medicos\HistoriaClinicaOdontologica.vb">
+    <Compile Include="Modulo odontologia\HistoriaClinicaOdontologica.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo Medicos\FormDatosconsulta.Designer.vb">
@@ -899,13 +899,13 @@
     <EmbeddedResource Include="Modulo Laboratorio\Registrar resultados\FormRegistrarResultadoLabTipoValorTextual.resx">
       <DependentUpon>FormRegistrarResultadoLabTipoValorTextual.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulo Medicos\AtencionMedicaOdontologica.resx">
+    <EmbeddedResource Include="Modulo odontologia\AtencionMedicaOdontologica.resx">
       <DependentUpon>AtencionMedicaOdontologica.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulo Medicos\Odontograma.resx">
+    <EmbeddedResource Include="Modulo odontologia\Odontograma.resx">
       <DependentUpon>Odontograma.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulo Medicos\HistoriaClinicaOdontologica.resx">
+    <EmbeddedResource Include="Modulo odontologia\HistoriaClinicaOdontologica.resx">
       <DependentUpon>HistoriaClinicaOdontologica.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo Medicos\FormDatosconsulta.resx">
