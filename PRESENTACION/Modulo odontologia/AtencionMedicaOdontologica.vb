@@ -28,13 +28,6 @@
         paciente = _paciente
     End Sub
 #End Region
-<<<<<<< HEAD:PRESENTACION/Modulo Medicos/AtencionMedicaOdontologica.vb
-#Region "Funciones"
-    Private Sub RellenarDatos()
-        txbMatricula.Text = matricula
-
-    End Sub
-=======
     Private Sub AtencionMedicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
     End Sub
@@ -43,7 +36,6 @@
         LabelMatricula.Text = matricula
         LabelNombre.Text = paciente
     End Sub
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70:PRESENTACION/Modulo odontologia/AtencionMedicaOdontologica.vb
 #End Region
 
 End Class

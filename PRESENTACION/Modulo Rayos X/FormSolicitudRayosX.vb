@@ -45,10 +45,7 @@ Public Class FormSolicitudRayosX
         creado = False
         ConfiguracionVentana()
         RellenarDatos()
-<<<<<<< HEAD
         RellenarDatosPaciente()
-=======
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70
         CbxRadiografias.DropDownStyle = ComboBoxStyle.DropDownList
 
     End Sub

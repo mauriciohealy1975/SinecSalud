@@ -67,13 +67,6 @@ Public Class FormPacientesEsperaMedica
                 Dim esp As String = Convert.ToString(DgvPacientes.Rows(valor).Cells("Especialidad").Value)
                 'Dim CI As String = Convert.ToString()
                 If esp = "ODONTOLOGIA" Or esp = "ODONTOLOGIA PEDRIATICA" Then
-<<<<<<< HEAD
-                    Dim FO = New AtencionMedicaOdontologica ' formulario historial(cambiar por el formulario de odontologia)
-                    FO.SetPaciente(Paciente)
-                    FO.SetMatricula(Matricula)
-                    FO.SetCodSolicitud(CodSol)
-                    Close()
-=======
                     Dim tabla = ObjOdonto.BuscarHCO(Matricula)
                     If tabla.Rows.Count > 0 Then
                         Dim HCO = tabla.Rows(0)("HCO").ToString()
@@ -81,7 +74,7 @@ Public Class FormPacientesEsperaMedica
                         FO.SetPaciente(Paciente)
                         FO.SetMatricula(Matricula)
                         FO.SetCodSolicitud(CodSol)
-                        FO.setHCO(HCO)
+                        FO.SetHCO(HCO)
                         Close()
                     Else
 
@@ -96,7 +89,6 @@ Public Class FormPacientesEsperaMedica
 
                     End If
 
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70
                 Else
                     If CheckCentroDiag.Checked Then
                         'aqui va ir cuando exista una solicitud

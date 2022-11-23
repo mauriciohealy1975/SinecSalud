@@ -45,16 +45,12 @@ Partial Class AtencionMedicaOdontologica
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-<<<<<<< HEAD:PRESENTACION/Modulo Medicos/AtencionMedicaOdontologica.designer.vb
-        Me.txbMatricula = New System.Windows.Forms.TextBox()
-=======
         Me.Button3 = New System.Windows.Forms.Button()
         Me.LabelNombre = New System.Windows.Forms.Label()
         Me.LabelMatricula = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70:PRESENTACION/Modulo odontologia/AtencionMedicaOdontologica.designer.vb
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.LCHCO = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
@@ -282,15 +278,7 @@ Partial Class AtencionMedicaOdontologica
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(175, 23)
         Me.Label6.TabIndex = 3
-<<<<<<< HEAD:PRESENTACION/Modulo Medicos/AtencionMedicaOdontologica.designer.vb
         Me.Label6.Text = "Nombre del paciente"
-        '
-        'txbMatricula
-        '
-        Me.txbMatricula.Location = New System.Drawing.Point(168, 16)
-        Me.txbMatricula.Name = "txbMatricula"
-        Me.txbMatricula.Size = New System.Drawing.Size(150, 27)
-        Me.txbMatricula.TabIndex = 4
         '
         'TextBox4
         '
@@ -298,9 +286,6 @@ Partial Class AtencionMedicaOdontologica
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(288, 27)
         Me.TextBox4.TabIndex = 5
-=======
-        Me.Label6.Text = "Nombre del paciente:"
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70:PRESENTACION/Modulo odontologia/AtencionMedicaOdontologica.designer.vb
         '
         'Button3
         '
@@ -386,11 +371,6 @@ Partial Class AtencionMedicaOdontologica
         Me.Controls.Add(Me.LabelMatricula)
         Me.Controls.Add(Me.LabelNombre)
         Me.Controls.Add(Me.Button3)
-<<<<<<< HEAD:PRESENTACION/Modulo Medicos/AtencionMedicaOdontologica.designer.vb
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.txbMatricula)
-=======
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70:PRESENTACION/Modulo odontologia/AtencionMedicaOdontologica.designer.vb
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GroupBox1)
@@ -433,11 +413,6 @@ Partial Class AtencionMedicaOdontologica
     Friend WithEvents Button1 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-<<<<<<< HEAD:PRESENTACION/Modulo Medicos/AtencionMedicaOdontologica.designer.vb
-    Friend WithEvents txbMatricula As TextBox
-    Friend WithEvents TextBox4 As TextBox
-=======
->>>>>>> 5cfa36f1edfd1d4d29f2ba07d7c1052ea47b7d70:PRESENTACION/Modulo odontologia/AtencionMedicaOdontologica.designer.vb
     Friend WithEvents Button3 As Button
     Friend WithEvents LabelNombre As Label
     Friend WithEvents LabelMatricula As Label
