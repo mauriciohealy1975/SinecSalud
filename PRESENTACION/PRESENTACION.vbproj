@@ -1243,6 +1243,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icono.ico" />
+    <None Include="Resources\sinec-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ZPrueba\" />

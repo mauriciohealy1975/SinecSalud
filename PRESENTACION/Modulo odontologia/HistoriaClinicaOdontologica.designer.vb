@@ -193,10 +193,11 @@ Partial Class HistoriaClinicaOdontologica
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(745, 26)
+        Me.PictureBox1.Image = Global.PRESENTACION.My.Resources.Resources.sinec_removebg_preview
+        Me.PictureBox1.Location = New System.Drawing.Point(745, 11)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(216, 59)
+        Me.PictureBox1.Size = New System.Drawing.Size(216, 74)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -720,7 +721,7 @@ Partial Class HistoriaClinicaOdontologica
         'antecedentes_patologicos_familiares
         '
         Me.antecedentes_patologicos_familiares.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.antecedentes_patologicos_familiares.Location = New System.Drawing.Point(314, 14)
+        Me.antecedentes_patologicos_familiares.Location = New System.Drawing.Point(316, 12)
         Me.antecedentes_patologicos_familiares.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.antecedentes_patologicos_familiares.Name = "antecedentes_patologicos_familiares"
         Me.antecedentes_patologicos_familiares.Size = New System.Drawing.Size(642, 27)
