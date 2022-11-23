@@ -34,10 +34,6 @@ Public Class HistoriaClinicaOdontologica
         Fecha.Text = DateString
     End Sub
 
-    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
         aux = sender.name
     End Sub
