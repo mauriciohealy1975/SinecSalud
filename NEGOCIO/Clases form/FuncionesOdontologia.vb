@@ -17,6 +17,9 @@
         Return (objDatos.TraerDataTable("TraerCI", P))
     End Function
 
+    Public Function EviarDatosHCO(ByVal _nhco, ByVal _ldn, ByVal _gdi, ByVal _mtr, ByVal _tra, ByVal _medi, ByVal _hemr,
+                                  ByVal _espef) As DataTable
+    End Function
 #End Region
 #Region "Envios"
 
