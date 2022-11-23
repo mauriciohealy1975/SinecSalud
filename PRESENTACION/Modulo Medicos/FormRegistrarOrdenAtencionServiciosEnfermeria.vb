@@ -66,22 +66,18 @@ Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
     End Sub
 
     Private Sub iniciarControlesGrupo1()
-        txtAsegurado.Enabled = True
         txtAsegurado.Font = New Font("Microsoft Sans Serif", 9)
         txtAsegurado.Text = ""
         txtAsegurado.ReadOnly = False
 
-        txtMatriculaAsegurado.Enabled = True
         txtMatriculaAsegurado.Font = New Font("Microsoft Sans Serif", 9)
         txtMatriculaAsegurado.Text = ""
         txtMatriculaAsegurado.ReadOnly = False
 
-        txtEdad.Enabled = True
         txtEdad.Font = New Font("Microsoft Sans Serif", 9)
         txtEdad.Text = ""
         txtEdad.ReadOnly = False
 
-        txtMedico.Enabled = True
         txtMedico.Font = New Font("Microsoft Sans Serif", 9)
         txtMedico.Text = ""
         txtMedico.ReadOnly = False
@@ -138,10 +134,6 @@ Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
 
         dgviewServiciosConfirmados.EnableHeadersVisualStyles = False
     End Sub
-
-
-
-
 
 
     'METODOS INTERFAZ
