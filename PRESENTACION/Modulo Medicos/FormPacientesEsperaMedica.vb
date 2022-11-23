@@ -69,7 +69,6 @@ Public Class FormPacientesEsperaMedica
                     FO.SetPaciente(Paciente)
                     FO.SetMatricula(Matricula)
                     FO.SetCodSolicitud(CodSol)
-                    FO.ShowDialog()
                     Close()
                 Else
                     If CheckCentroDiag.Checked Then
@@ -80,8 +79,8 @@ Public Class FormPacientesEsperaMedica
                         FH.SetPaciente(Paciente)
                         FH.SetMatricula(Matricula)
                         FH.SetCodSolicitud(CodSol)
-                        FH.ShowDialog()
-
+                        FH.Show()
+                        Close()
                     End If
                 End If
 

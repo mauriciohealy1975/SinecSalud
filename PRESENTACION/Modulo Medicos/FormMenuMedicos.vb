@@ -72,6 +72,9 @@ Public Class FormMenuMedicos
         SRX.SetMatricula(matricula)
         SRX.SetCodSolicitud(codsolicitud)
         SRX.ShowDialog()
+        If SRX.GetCompleto() = "si" Then
+            BtnRayosX.Enabled = False
+        End If
 
     End Sub
 

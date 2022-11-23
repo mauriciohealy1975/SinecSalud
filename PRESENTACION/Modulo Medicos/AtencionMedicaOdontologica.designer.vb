@@ -47,7 +47,7 @@ Partial Class AtencionMedicaOdontologica
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txbMatricula = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -295,12 +295,12 @@ Partial Class AtencionMedicaOdontologica
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Nombre del paciente"
         '
-        'TextBox3
+        'txbMatricula
         '
-        Me.TextBox3.Location = New System.Drawing.Point(168, 16)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(150, 27)
-        Me.TextBox3.TabIndex = 4
+        Me.txbMatricula.Location = New System.Drawing.Point(168, 16)
+        Me.txbMatricula.Name = "txbMatricula"
+        Me.txbMatricula.Size = New System.Drawing.Size(150, 27)
+        Me.txbMatricula.TabIndex = 4
         '
         'TextBox4
         '
@@ -327,7 +327,7 @@ Partial Class AtencionMedicaOdontologica
         Me.ClientSize = New System.Drawing.Size(882, 659)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txbMatricula)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GroupBox1)
@@ -372,7 +372,7 @@ Partial Class AtencionMedicaOdontologica
     Friend WithEvents Button1 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txbMatricula As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Button3 As Button
 End Class

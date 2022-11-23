@@ -89,9 +89,11 @@ Public Class FormDatosconsulta
         MM.SetPaciente(paciente)
         MM.SetMatricula(matricula)
         MM.SetCodSolicitud(codsolicitud)
-        MM.ShowDialog()
-
         'GuardarHistorial() 'aqui estara  la funcion de guardar formulario
+        Hide()
+        MM.ShowDialog()
+        FormPacientesEsperaMedica.Show()
+        Close()
     End Sub
 
 #End Region

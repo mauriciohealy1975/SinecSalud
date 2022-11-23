@@ -2,7 +2,7 @@
 
 Public Class FormSolicitudRayosX
 #Region "axuliares"
-    Private matricula, codsolicitud, paciente As String
+    Private matricula, codsolicitud, paciente, completo As String
 
     Public Sub New()
 
@@ -11,6 +11,7 @@ Public Class FormSolicitudRayosX
         matricula = ""
         codsolicitud = ""
         paciente = ""
+        completo = ""
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
     End Sub
@@ -23,10 +24,13 @@ Public Class FormSolicitudRayosX
     Public Sub SetPaciente(_paciente)
         paciente = _paciente
     End Sub
+    Public Function GetCompleto()
+        Return completo
+    End Function
 #End Region
 #Region "Declaraciones"
     Private ReadOnly objetoRayosX As New FuncionesRayosX(False)
-    Dim termino, creado, buscado, rellenado As Boolean
+    Dim creado, buscado, rellenado As Boolean
     Dim examen As String
     Dim codexamen, cantidad As Int16
 #End Region
@@ -34,15 +38,14 @@ Public Class FormSolicitudRayosX
 #Region "Principal"
     Private Sub FormSolicitudRayosX_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Inicializar()
-        Panel1.Visible = False
+        Panel1.Visible = True
+
     End Sub
     Private Sub Inicializar()
-        termino = False
         creado = False
         ConfiguracionVentana()
         RellenarDatos()
-        CbxPaciente.Enabled = False
-        CbxPaciente.DropDownStyle = ComboBoxStyle.DropDownList
+        RellenarDatosPaciente()
         CbxRadiografias.DropDownStyle = ComboBoxStyle.DropDownList
 
     End Sub
@@ -257,7 +260,8 @@ Public Class FormSolicitudRayosX
         If DGVExamenes.Rows.Count > 0 Then
             If Enviar() Then
                 MessageBox.Show("Solicitud Realizada")
-
+                completo = "si"
+                Close()
             Else
                 MessageBox.Show("ERROR: OCURRIO UN ERROR AL ENVIAR")
             End If

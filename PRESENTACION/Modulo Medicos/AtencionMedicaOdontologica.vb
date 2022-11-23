@@ -22,9 +22,11 @@
         paciente = _paciente
     End Sub
 #End Region
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
+#Region "Funciones"
+    Private Sub RellenarDatos()
+        txbMatricula.Text = matricula
 
     End Sub
-
+#End Region
 
 End Class

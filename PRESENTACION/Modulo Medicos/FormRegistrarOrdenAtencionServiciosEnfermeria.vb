@@ -26,16 +26,29 @@ Public Class FormRegistrarOrdenAtencionServiciosEnfermeria
 #End Region
 #Region "Declaraciones"
     Dim oRegOrden As RegistroOrdenAtencionEnfermeria
+    Private ReadOnly Objetoprestado As New FuncionesRayosX(False)
 #End Region
 #Region "Funciones"
     Private Sub FormRegistroOrdenAtencionServiciosEnfermeria_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         iniciarFormulario()
         configurarDisplay()
+
     End Sub
     Public Sub iniciarFormulario()
+
         configurarDisplay()
         iniciarControles()
         poblarListBoxServiciosEnfermeria()
+        txtAsegurado.Text = paciente
+        txtMatriculaAsegurado.Text = matricula
+        Dim edadenmeses = Objetoprestado.ObtenerEdad(matricula)
+        If edadenmeses < 12 Then
+            txtEdad.Text = edadenmeses.ToString() + " Meses"
+        Else
+            txtEdad.Text = (edadenmeses / 12).ToString() + " Años"
+        End If
+        txtMedico.Text = Usuario.nameUserLoggedSystem
+
     End Sub
 
     Private Sub configurarDisplay()
