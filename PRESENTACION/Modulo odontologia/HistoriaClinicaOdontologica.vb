@@ -35,11 +35,15 @@ Public Class HistoriaClinicaOdontologica
     End Sub
 
 #Region "Funciones"
-    Private Function RellenarDtaos()
+    Private Function RellenarDatos()
         LabelMatricula.Text = matricula
         LabelCI.Text = CI
         TextNombre.Text = paciente
     End Function
+
+    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RellenarDatos()
+    End Sub
 #End Region
 
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
