@@ -1325,7 +1325,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(334, 180)
+        Me.TextBox21.Location = New System.Drawing.Point(324, 181)
         Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(147, 22)
@@ -1585,7 +1585,7 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox9.Controls.Add(Me.Label62)
         Me.GroupBox9.Controls.Add(Me.Label60)
         Me.GroupBox9.Controls.Add(Me.Label61)
-        Me.GroupBox9.Location = New System.Drawing.Point(17, 765)
+        Me.GroupBox9.Location = New System.Drawing.Point(17, 781)
         Me.GroupBox9.Margin = New System.Windows.Forms.Padding(0)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1749,10 +1749,10 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(259, 47)
+        Me.TextBox22.Location = New System.Drawing.Point(263, 47)
         Me.TextBox22.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(211, 22)
+        Me.TextBox22.Size = New System.Drawing.Size(207, 22)
         Me.TextBox22.TabIndex = 129
         '
         'Label63
