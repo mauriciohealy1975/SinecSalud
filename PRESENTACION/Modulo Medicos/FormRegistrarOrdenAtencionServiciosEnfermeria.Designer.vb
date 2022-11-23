@@ -22,7 +22,7 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnGuardarAtencion = New System.Windows.Forms.Button()
@@ -116,14 +116,14 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
         Me.dgviewServiciosConfirmados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgviewServiciosConfirmados.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(215, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(215, Byte), Integer))
         Me.dgviewServiciosConfirmados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgviewServiciosConfirmados.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgviewServiciosConfirmados.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgviewServiciosConfirmados.Location = New System.Drawing.Point(607, 322)
         Me.dgviewServiciosConfirmados.Margin = New System.Windows.Forms.Padding(4)
         Me.dgviewServiciosConfirmados.Name = "dgviewServiciosConfirmados"
@@ -166,6 +166,7 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
         '
         'txtEdad
         '
+        Me.txtEdad.Enabled = False
         Me.txtEdad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEdad.Location = New System.Drawing.Point(600, 215)
         Me.txtEdad.Margin = New System.Windows.Forms.Padding(4)
@@ -175,6 +176,7 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
         '
         'txtAsegurado
         '
+        Me.txtAsegurado.Enabled = False
         Me.txtAsegurado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAsegurado.Location = New System.Drawing.Point(77, 215)
         Me.txtAsegurado.Margin = New System.Windows.Forms.Padding(4)
@@ -217,6 +219,7 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
         '
         'txtMatriculaAsegurado
         '
+        Me.txtMatriculaAsegurado.Enabled = False
         Me.txtMatriculaAsegurado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMatriculaAsegurado.Location = New System.Drawing.Point(343, 215)
         Me.txtMatriculaAsegurado.Margin = New System.Windows.Forms.Padding(4)
@@ -259,6 +262,7 @@ Partial Class FormRegistrarOrdenAtencionServiciosEnfermeria
         '
         'txtMedico
         '
+        Me.txtMedico.Enabled = False
         Me.txtMedico.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMedico.Location = New System.Drawing.Point(788, 215)
         Me.txtMedico.Margin = New System.Windows.Forms.Padding(4)
