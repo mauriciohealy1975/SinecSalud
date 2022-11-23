@@ -34,6 +34,14 @@ Public Class HistoriaClinicaOdontologica
         Fecha.Text = DateString
     End Sub
 
+#Region "Funciones"
+    Private Function RellenarDtaos()
+        LabelMatricula.Text = matricula
+        LabelCI.Text = CI
+        TextNombre.Text = paciente
+    End Function
+#End Region
+
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
         aux = sender.name
     End Sub
