@@ -226,7 +226,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label3.Location = New System.Drawing.Point(240, 68)
+        Me.Label3.Location = New System.Drawing.Point(298, 67)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(110, 23)
         Me.Label3.TabIndex = 3
@@ -236,7 +236,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label4.Location = New System.Drawing.Point(545, 68)
+        Me.Label4.Location = New System.Drawing.Point(570, 67)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 23)
         Me.Label4.TabIndex = 7
@@ -1095,17 +1095,17 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(244, 14)
+        Me.TextBox13.Location = New System.Drawing.Point(309, 14)
         Me.TextBox13.Margin = New System.Windows.Forms.Padding(0)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(72, 22)
+        Me.TextBox13.Size = New System.Drawing.Size(69, 22)
         Me.TextBox13.TabIndex = 20
         '
         'Label45
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label45.Location = New System.Drawing.Point(151, 15)
+        Me.Label45.Location = New System.Drawing.Point(223, 14)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(78, 23)
         Me.Label45.TabIndex = 79
@@ -1115,7 +1115,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Segoe UI", 10.8!)
-        Me.Label44.Location = New System.Drawing.Point(320, 15)
+        Me.Label44.Location = New System.Drawing.Point(150, 14)
         Me.Label44.Margin = New System.Windows.Forms.Padding(0)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(39, 25)
@@ -1125,7 +1125,7 @@ Partial Class HistoriaClinicaOdontologica
         'CheckBox25
         '
         Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(359, 18)
+        Me.CheckBox25.Location = New System.Drawing.Point(189, 18)
         Me.CheckBox25.Margin = New System.Windows.Forms.Padding(0)
         Me.CheckBox25.Name = "CheckBox25"
         Me.CheckBox25.Size = New System.Drawing.Size(18, 17)
@@ -1166,7 +1166,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label49.Location = New System.Drawing.Point(15, 504)
+        Me.Label49.Location = New System.Drawing.Point(19, 506)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(237, 23)
         Me.Label49.TabIndex = 74
@@ -1176,7 +1176,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label50.Location = New System.Drawing.Point(467, 504)
+        Me.Label50.Location = New System.Drawing.Point(467, 506)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(332, 23)
         Me.Label50.TabIndex = 75
@@ -1184,7 +1184,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(255, 504)
+        Me.TextBox15.Location = New System.Drawing.Point(259, 506)
         Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(177, 22)
@@ -1192,7 +1192,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox16
         '
-        Me.TextBox16.Location = New System.Drawing.Point(805, 503)
+        Me.TextBox16.Location = New System.Drawing.Point(805, 505)
         Me.TextBox16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(171, 22)
@@ -1211,7 +1211,7 @@ Partial Class HistoriaClinicaOdontologica
         'Label64
         '
         Me.Label64.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label64.Location = New System.Drawing.Point(21, 905)
+        Me.Label64.Location = New System.Drawing.Point(23, 923)
         Me.Label64.Margin = New System.Windows.Forms.Padding(0)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(124, 18)
@@ -1220,7 +1220,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(153, 905)
+        Me.TextBox17.Location = New System.Drawing.Point(155, 923)
         Me.TextBox17.Margin = New System.Windows.Forms.Padding(0)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(822, 22)
@@ -1243,7 +1243,7 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox7.Controls.Add(Me.TextBox18)
         Me.GroupBox7.Controls.Add(Me.TextBox20)
         Me.GroupBox7.Controls.Add(Me.TextBox19)
-        Me.GroupBox7.Location = New System.Drawing.Point(11, 528)
+        Me.GroupBox7.Location = New System.Drawing.Point(13, 546)
         Me.GroupBox7.Margin = New System.Windows.Forms.Padding(0)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1417,7 +1417,7 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox8.Controls.Add(Me.Label66)
         Me.GroupBox8.Controls.Add(Me.Label65)
         Me.GroupBox8.Controls.Add(Me.Label52)
-        Me.GroupBox8.Location = New System.Drawing.Point(495, 527)
+        Me.GroupBox8.Location = New System.Drawing.Point(497, 545)
         Me.GroupBox8.Margin = New System.Windows.Forms.Padding(0)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1586,7 +1586,7 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox9.Controls.Add(Me.Label62)
         Me.GroupBox9.Controls.Add(Me.Label60)
         Me.GroupBox9.Controls.Add(Me.Label61)
-        Me.GroupBox9.Location = New System.Drawing.Point(17, 781)
+        Me.GroupBox9.Location = New System.Drawing.Point(19, 799)
         Me.GroupBox9.Margin = New System.Windows.Forms.Padding(0)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1821,7 +1821,7 @@ Partial Class HistoriaClinicaOdontologica
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 10.8!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(445, 945)
+        Me.Button1.Location = New System.Drawing.Point(447, 963)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(122, 34)
@@ -1847,7 +1847,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.LabelNumeroHCO.AutoSize = True
         Me.LabelNumeroHCO.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelNumeroHCO.Location = New System.Drawing.Point(356, 70)
+        Me.LabelNumeroHCO.Location = New System.Drawing.Point(414, 69)
         Me.LabelNumeroHCO.Name = "LabelNumeroHCO"
         Me.LabelNumeroHCO.Size = New System.Drawing.Size(68, 20)
         Me.LabelNumeroHCO.TabIndex = 104
@@ -1857,7 +1857,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.LabelCI.AutoSize = True
         Me.LabelCI.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCI.Location = New System.Drawing.Point(588, 70)
+        Me.LabelCI.Location = New System.Drawing.Point(613, 69)
         Me.LabelCI.Name = "LabelCI"
         Me.LabelCI.Size = New System.Drawing.Size(68, 20)
         Me.LabelCI.TabIndex = 105
