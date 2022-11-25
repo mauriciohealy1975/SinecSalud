@@ -8,7 +8,7 @@ Public Class HistoriaClinicaOdontologica
 
     Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
-        VerificarCheck()
+        'VerificarCheck()
         If CheckAlergiass.Checked = True Then
             CheckAlergiasn.Checked = False
         End If
@@ -72,6 +72,10 @@ Public Class HistoriaClinicaOdontologica
             CheckAlergiass.Checked = False
         End If
     End Function
+
+    Private Sub CheckAlergiass_CheckedChanged(sender As Object, e As EventArgs) Handles CheckAlergiass.CheckedChanged
+        VerificarAler()
+    End Sub
 #End Region
 
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
