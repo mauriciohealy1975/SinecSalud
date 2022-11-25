@@ -46,7 +46,7 @@ Public Class HistoriaClinicaOdontologica
     End Function
 
     Private Function VerificarCheck()
-        If grado1.Checked Then
+        If grado1.Checked = True Then
             grado2.Checked = False
             grado3.Checked = False
             grado4.Checked = False
