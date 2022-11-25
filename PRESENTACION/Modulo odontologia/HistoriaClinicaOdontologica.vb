@@ -4,6 +4,10 @@ Public Class HistoriaClinicaOdontologica
 
     Dim aux As String
 
+    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RellenarDatos()
+    End Sub
+
 #Region "Auxiliares"
     Private matricula, codsolicitud, paciente, CI As String
     Public Sub New()
@@ -41,9 +45,15 @@ Public Class HistoriaClinicaOdontologica
         TextNombre.Text = paciente
     End Function
 
-    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        RellenarDatos()
-    End Sub
+    Private Function VerificarCheck()
+        If grado1.Checked Then
+            grado2.Checked = False
+            grado3.Checked = False
+            grado4.Checked = False
+            grado5.Checked = False
+            grado6.Checked = False
+        End If
+    End Function
 #End Region
 
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged

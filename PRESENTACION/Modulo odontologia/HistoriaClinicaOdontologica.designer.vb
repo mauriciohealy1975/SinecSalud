@@ -48,17 +48,17 @@ Partial Class HistoriaClinicaOdontologica
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.grado6 = New System.Windows.Forms.CheckBox()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.grado5 = New System.Windows.Forms.CheckBox()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.grado4 = New System.Windows.Forms.CheckBox()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.grado3 = New System.Windows.Forms.CheckBox()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.grado2 = New System.Windows.Forms.CheckBox()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.grado1 = New System.Windows.Forms.CheckBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -307,17 +307,17 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox1.Controls.Add(Me.CheckBox14)
         Me.GroupBox1.Controls.Add(Me.Label23)
         Me.GroupBox1.Controls.Add(Me.Label22)
-        Me.GroupBox1.Controls.Add(Me.CheckBox8)
+        Me.GroupBox1.Controls.Add(Me.grado6)
         Me.GroupBox1.Controls.Add(Me.Label21)
-        Me.GroupBox1.Controls.Add(Me.CheckBox7)
+        Me.GroupBox1.Controls.Add(Me.grado5)
         Me.GroupBox1.Controls.Add(Me.Label20)
-        Me.GroupBox1.Controls.Add(Me.CheckBox6)
+        Me.GroupBox1.Controls.Add(Me.grado4)
         Me.GroupBox1.Controls.Add(Me.Label19)
-        Me.GroupBox1.Controls.Add(Me.CheckBox5)
+        Me.GroupBox1.Controls.Add(Me.grado3)
         Me.GroupBox1.Controls.Add(Me.Label18)
-        Me.GroupBox1.Controls.Add(Me.CheckBox4)
+        Me.GroupBox1.Controls.Add(Me.grado2)
         Me.GroupBox1.Controls.Add(Me.Label17)
-        Me.GroupBox1.Controls.Add(Me.CheckBox3)
+        Me.GroupBox1.Controls.Add(Me.grado1)
         Me.GroupBox1.Controls.Add(Me.Label16)
         Me.GroupBox1.Controls.Add(Me.Label15)
         Me.GroupBox1.Controls.Add(Me.Label14)
@@ -483,15 +483,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label22.TabIndex = 43
         Me.Label22.Text = "P"
         '
-        'CheckBox8
+        'grado6
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(272, 131)
-        Me.CheckBox8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox8.TabIndex = 42
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.grado6.AutoSize = True
+        Me.grado6.Location = New System.Drawing.Point(272, 131)
+        Me.grado6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado6.Name = "grado6"
+        Me.grado6.Size = New System.Drawing.Size(18, 17)
+        Me.grado6.TabIndex = 42
+        Me.grado6.UseVisualStyleBackColor = True
         '
         'Label21
         '
@@ -503,15 +503,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label21.TabIndex = 41
         Me.Label21.Text = "T"
         '
-        'CheckBox7
+        'grado5
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(220, 131)
-        Me.CheckBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox7.TabIndex = 40
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.grado5.AutoSize = True
+        Me.grado5.Location = New System.Drawing.Point(220, 131)
+        Me.grado5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado5.Name = "grado5"
+        Me.grado5.Size = New System.Drawing.Size(18, 17)
+        Me.grado5.TabIndex = 40
+        Me.grado5.UseVisualStyleBackColor = True
         '
         'Label20
         '
@@ -523,15 +523,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label20.TabIndex = 39
         Me.Label20.Text = "U"
         '
-        'CheckBox6
+        'grado4
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(168, 131)
-        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox6.TabIndex = 38
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.grado4.AutoSize = True
+        Me.grado4.Location = New System.Drawing.Point(168, 131)
+        Me.grado4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado4.Name = "grado4"
+        Me.grado4.Size = New System.Drawing.Size(18, 17)
+        Me.grado4.TabIndex = 38
+        Me.grado4.UseVisualStyleBackColor = True
         '
         'Label19
         '
@@ -543,15 +543,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label19.TabIndex = 37
         Me.Label19.Text = "S"
         '
-        'CheckBox5
+        'grado3
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(116, 131)
-        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox5.TabIndex = 36
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.grado3.AutoSize = True
+        Me.grado3.Location = New System.Drawing.Point(116, 131)
+        Me.grado3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado3.Name = "grado3"
+        Me.grado3.Size = New System.Drawing.Size(18, 17)
+        Me.grado3.TabIndex = 36
+        Me.grado3.UseVisualStyleBackColor = True
         '
         'Label18
         '
@@ -563,15 +563,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label18.TabIndex = 35
         Me.Label18.Text = "P"
         '
-        'CheckBox4
+        'grado2
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(64, 131)
-        Me.CheckBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox4.TabIndex = 34
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.grado2.AutoSize = True
+        Me.grado2.Location = New System.Drawing.Point(64, 131)
+        Me.grado2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado2.Name = "grado2"
+        Me.grado2.Size = New System.Drawing.Size(18, 17)
+        Me.grado2.TabIndex = 34
+        Me.grado2.UseVisualStyleBackColor = True
         '
         'Label17
         '
@@ -583,15 +583,15 @@ Partial Class HistoriaClinicaOdontologica
         Me.Label17.TabIndex = 33
         Me.Label17.Text = "I"
         '
-        'CheckBox3
+        'grado1
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(11, 131)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox3.TabIndex = 32
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.grado1.AutoSize = True
+        Me.grado1.Location = New System.Drawing.Point(11, 131)
+        Me.grado1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.grado1.Name = "grado1"
+        Me.grado1.Size = New System.Drawing.Size(18, 17)
+        Me.grado1.TabIndex = 32
+        Me.grado1.UseVisualStyleBackColor = True
         '
         'Label16
         '
@@ -1942,17 +1942,17 @@ Partial Class HistoriaClinicaOdontologica
     Friend WithEvents CheckBox14 As CheckBox
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents CheckBox8 As CheckBox
+    Friend WithEvents grado6 As CheckBox
     Friend WithEvents Label21 As Label
-    Friend WithEvents CheckBox7 As CheckBox
+    Friend WithEvents grado5 As CheckBox
     Friend WithEvents Label20 As Label
-    Friend WithEvents CheckBox6 As CheckBox
+    Friend WithEvents grado4 As CheckBox
     Friend WithEvents Label19 As Label
-    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents grado3 As CheckBox
     Friend WithEvents Label18 As Label
-    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents grado2 As CheckBox
     Friend WithEvents Label17 As Label
-    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents grado1 As CheckBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label14 As Label
