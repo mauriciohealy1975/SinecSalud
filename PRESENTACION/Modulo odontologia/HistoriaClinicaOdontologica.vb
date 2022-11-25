@@ -5,10 +5,17 @@ Public Class HistoriaClinicaOdontologica
 
     Dim aux As String
 
+
     Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
         VerificarCheck()
-        VerificarAler()
+        If CheckAlergiass.Checked = True Then
+            CheckAlergiasn.Checked = False
+        End If
+        If CheckAlergiasn.Checked = True Then
+            CheckAlergiass.Checked = False
+        End If
+
     End Sub
 
 #Region "Auxiliares"
