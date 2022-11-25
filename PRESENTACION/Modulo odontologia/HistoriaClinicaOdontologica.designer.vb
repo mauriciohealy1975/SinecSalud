@@ -1619,11 +1619,11 @@ Partial Class HistoriaClinicaOdontologica
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Font = New System.Drawing.Font("Segoe UI", 9.6!)
         Me.Label74.Location = New System.Drawing.Point(673, 23)
         Me.Label74.Margin = New System.Windows.Forms.Padding(0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(159, 20)
+        Me.Label74.Size = New System.Drawing.Size(165, 21)
         Me.Label74.TabIndex = 137
         Me.Label74.Text = "Utiliza enjuague bucal:"
         '
@@ -1641,7 +1641,7 @@ Partial Class HistoriaClinicaOdontologica
         'CheckBox37
         '
         Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.Location = New System.Drawing.Point(576, 23)
+        Me.CheckBox37.Location = New System.Drawing.Point(568, 23)
         Me.CheckBox37.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckBox37.Name = "CheckBox37"
         Me.CheckBox37.Size = New System.Drawing.Size(45, 22)
@@ -1653,7 +1653,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label73.Location = New System.Drawing.Point(425, 22)
+        Me.Label73.Location = New System.Drawing.Point(409, 21)
         Me.Label73.Margin = New System.Windows.Forms.Padding(0)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(147, 23)
@@ -1685,7 +1685,7 @@ Partial Class HistoriaClinicaOdontologica
         'CheckBox31
         '
         Me.CheckBox31.AutoSize = True
-        Me.CheckBox31.Location = New System.Drawing.Point(904, 47)
+        Me.CheckBox31.Location = New System.Drawing.Point(892, 47)
         Me.CheckBox31.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckBox31.Name = "CheckBox31"
         Me.CheckBox31.Size = New System.Drawing.Size(55, 22)
@@ -1707,7 +1707,7 @@ Partial Class HistoriaClinicaOdontologica
         'CheckBox32
         '
         Me.CheckBox32.AutoSize = True
-        Me.CheckBox32.Location = New System.Drawing.Point(855, 46)
+        Me.CheckBox32.Location = New System.Drawing.Point(832, 47)
         Me.CheckBox32.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckBox32.Name = "CheckBox32"
         Me.CheckBox32.Size = New System.Drawing.Size(45, 22)
@@ -1718,7 +1718,7 @@ Partial Class HistoriaClinicaOdontologica
         'CheckBox29
         '
         Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.Location = New System.Drawing.Point(196, 23)
+        Me.CheckBox29.Location = New System.Drawing.Point(207, 23)
         Me.CheckBox29.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckBox29.Name = "CheckBox29"
         Me.CheckBox29.Size = New System.Drawing.Size(55, 22)
