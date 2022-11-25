@@ -1,4 +1,5 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+﻿Imports System.Web.UI.WebControls
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class HistoriaClinicaOdontologica
 
@@ -7,6 +8,7 @@ Public Class HistoriaClinicaOdontologica
     Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
         VerificarCheck()
+        VerificarAler()
     End Sub
 
 #Region "Auxiliares"
@@ -53,6 +55,14 @@ Public Class HistoriaClinicaOdontologica
             grado4.Checked = False
             grado5.Checked = False
             grado6.Checked = False
+        End If
+    End Function
+    Private Function VerificarAler()
+        If CheckAlergiass.Checked = True Then
+            CheckAlergiasn.Checked = False
+        End If
+        If CheckAlergiasn.Checked = True Then
+            CheckAlergiass.Checked = False
         End If
     End Function
 #End Region
