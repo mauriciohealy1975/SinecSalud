@@ -102,8 +102,8 @@ Partial Class HistoriaClinicaOdontologica
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox27 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox26 = New System.Windows.Forms.CheckBox()
+        Me.CheckAlergiasn = New System.Windows.Forms.CheckBox()
+        Me.CheckAlergiass = New System.Windows.Forms.CheckBox()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
@@ -1032,8 +1032,8 @@ Partial Class HistoriaClinicaOdontologica
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.CheckBox27)
-        Me.GroupBox5.Controls.Add(Me.CheckBox26)
+        Me.GroupBox5.Controls.Add(Me.CheckAlergiasn)
+        Me.GroupBox5.Controls.Add(Me.CheckAlergiass)
         Me.GroupBox5.Controls.Add(Me.Label46)
         Me.GroupBox5.Location = New System.Drawing.Point(384, 449)
         Me.GroupBox5.Margin = New System.Windows.Forms.Padding(0)
@@ -1043,27 +1043,27 @@ Partial Class HistoriaClinicaOdontologica
         Me.GroupBox5.TabIndex = 18
         Me.GroupBox5.TabStop = False
         '
-        'CheckBox27
+        'CheckAlergiasn
         '
-        Me.CheckBox27.AutoSize = True
-        Me.CheckBox27.Location = New System.Drawing.Point(132, 16)
-        Me.CheckBox27.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox27.Name = "CheckBox27"
-        Me.CheckBox27.Size = New System.Drawing.Size(49, 20)
-        Me.CheckBox27.TabIndex = 73
-        Me.CheckBox27.Text = "NO"
-        Me.CheckBox27.UseVisualStyleBackColor = True
+        Me.CheckAlergiasn.AutoSize = True
+        Me.CheckAlergiasn.Location = New System.Drawing.Point(132, 16)
+        Me.CheckAlergiasn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.CheckAlergiasn.Name = "CheckAlergiasn"
+        Me.CheckAlergiasn.Size = New System.Drawing.Size(49, 20)
+        Me.CheckAlergiasn.TabIndex = 73
+        Me.CheckAlergiasn.Text = "NO"
+        Me.CheckAlergiasn.UseVisualStyleBackColor = True
         '
-        'CheckBox26
+        'CheckAlergiass
         '
-        Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.Location = New System.Drawing.Point(83, 15)
-        Me.CheckBox26.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.CheckBox26.Name = "CheckBox26"
-        Me.CheckBox26.Size = New System.Drawing.Size(41, 20)
-        Me.CheckBox26.TabIndex = 72
-        Me.CheckBox26.Text = "SI"
-        Me.CheckBox26.UseVisualStyleBackColor = True
+        Me.CheckAlergiass.AutoSize = True
+        Me.CheckAlergiass.Location = New System.Drawing.Point(83, 15)
+        Me.CheckAlergiass.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.CheckAlergiass.Name = "CheckAlergiass"
+        Me.CheckAlergiass.Size = New System.Drawing.Size(41, 20)
+        Me.CheckAlergiass.TabIndex = 72
+        Me.CheckAlergiass.Text = "SI"
+        Me.CheckAlergiass.UseVisualStyleBackColor = True
         '
         'Label46
         '
@@ -2000,8 +2000,8 @@ Partial Class HistoriaClinicaOdontologica
     Friend WithEvents Label48 As Label
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents Label47 As Label
-    Friend WithEvents CheckBox27 As CheckBox
-    Friend WithEvents CheckBox26 As CheckBox
+    Friend WithEvents CheckAlergiasn As CheckBox
+    Friend WithEvents CheckAlergiass As CheckBox
     Friend WithEvents Label46 As Label
     Friend WithEvents Label49 As Label
     Friend WithEvents Label50 As Label

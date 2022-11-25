@@ -6,6 +6,7 @@ Public Class HistoriaClinicaOdontologica
 
     Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RellenarDatos()
+        VerificarCheck()
     End Sub
 
 #Region "Auxiliares"
