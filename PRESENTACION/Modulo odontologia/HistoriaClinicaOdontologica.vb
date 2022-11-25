@@ -1,8 +1,22 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+﻿Imports System.Web.UI.WebControls
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class HistoriaClinicaOdontologica
 
     Dim aux As String
+
+
+    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RellenarDatos()
+        'VerificarCheck()
+        If CheckAlergiass.Checked = True Then
+            CheckAlergiasn.Checked = False
+        End If
+        If CheckAlergiasn.Checked = True Then
+            CheckAlergiass.Checked = False
+        End If
+
+    End Sub
 
 #Region "Auxiliares"
     Private matricula, codsolicitud, paciente, CI As String
@@ -34,9 +48,35 @@ Public Class HistoriaClinicaOdontologica
         Fecha.Text = DateString
     End Sub
 
-    Private Sub HistoriaClinicaOdontologica_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+#Region "Funciones"
+    Private Function RellenarDatos()
+        LabelMatricula.Text = matricula
+        LabelCI.Text = CI
+        TextNombre.Text = paciente
+    End Function
 
+    Private Function VerificarCheck()
+        If grado1.Checked = True Then
+            grado2.Checked = False
+            grado3.Checked = False
+            grado4.Checked = False
+            grado5.Checked = False
+            grado6.Checked = False
+        End If
+    End Function
+    Private Function VerificarAler()
+        If CheckAlergiass.Checked = True Then
+            CheckAlergiasn.Checked = False
+        End If
+        If CheckAlergiasn.Checked = True Then
+            CheckAlergiass.Checked = False
+        End If
+    End Function
+
+    Private Sub CheckAlergiass_CheckedChanged(sender As Object, e As EventArgs) Handles CheckAlergiass.CheckedChanged
+        VerificarAler()
     End Sub
+#End Region
 
     Private Sub antecedentes_patologicos_familiares_TextChanged(sender As Object, e As EventArgs) Handles antecedentes_patologicos_familiares.TextChanged
         aux = sender.name
