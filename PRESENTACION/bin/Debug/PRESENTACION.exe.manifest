@@ -260,26 +260,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NEGOCIO.dll" size="309760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NEGOCIO.dll" size="310784">
       <assemblyIdentity name="NEGOCIO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uC6xen8U0qs+TgN4WS7IflbSWQc5xC6VCUY8Lvkv4QA=</dsig:DigestValue>
+        <dsig:DigestValue>OdP5MvrGcUo0d9hedS22p/rSZcnozcTeHj1C30zc+64=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="6318152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRESENTACION.exe" size="6551112">
       <assemblyIdentity name="PRESENTACION" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7+hUctn5FCp6G3KxrkkT/u+2IYjsB4IXt3qQV9UWBmM=</dsig:DigestValue>
+        <dsig:DigestValue>PSAX0CAeAqChms7G1BseXKgpByU6zPxPbO4Va4noHVU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

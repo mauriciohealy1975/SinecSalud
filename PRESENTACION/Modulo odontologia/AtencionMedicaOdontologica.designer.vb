@@ -314,13 +314,6 @@ Partial Class AtencionMedicaOdontologica
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Nombre del paciente"
         '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(525, 15)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(288, 27)
-        Me.TextBox4.TabIndex = 5
-        '
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

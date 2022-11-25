@@ -27,7 +27,6 @@ Partial Class FormMenuMedicos
         Me.btnTransfernciaMedica = New System.Windows.Forms.Button()
         Me.LT = New System.Windows.Forms.Label()
         Me.LN = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnRecetas = New System.Windows.Forms.Button()
         Me.BtnRayosX = New System.Windows.Forms.Button()
         Me.BtnCD = New System.Windows.Forms.Button()
@@ -71,7 +70,7 @@ Partial Class FormMenuMedicos
         'LT
         '
         Me.LT.AutoSize = True
-        Me.LT.Location = New System.Drawing.Point(53, 670)
+        Me.LT.Location = New System.Drawing.Point(14, 680)
         Me.LT.Name = "LT"
         Me.LT.Size = New System.Drawing.Size(35, 16)
         Me.LT.TabIndex = 16
@@ -80,20 +79,11 @@ Partial Class FormMenuMedicos
         'LN
         '
         Me.LN.AutoSize = True
-        Me.LN.Location = New System.Drawing.Point(75, 696)
+        Me.LN.Location = New System.Drawing.Point(12, 696)
         Me.LN.Name = "LN"
         Me.LN.Size = New System.Drawing.Size(56, 16)
         Me.LN.TabIndex = 18
         Me.LN.Text = "Nombre"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 696)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 16)
-        Me.Label1.TabIndex = 19
-        Me.Label1.Text = "Usuario:"
         '
         'BtnRecetas
         '
@@ -232,7 +222,6 @@ Partial Class FormMenuMedicos
         Me.Controls.Add(Me.BtnRecetas)
         Me.Controls.Add(Me.LT)
         Me.Controls.Add(Me.LN)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnOrdenServiciosEnfemeria)
         Me.Controls.Add(Me.btnTransfernciaMedica)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -255,7 +244,6 @@ Partial Class FormMenuMedicos
     Friend WithEvents btnOrdenServiciosEnfemeria As System.Windows.Forms.Button
     Friend WithEvents LT As Label
     Friend WithEvents LN As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents BtnRecetas As Button
     Friend WithEvents BtnRayosX As Button
     Friend WithEvents BtnCD As Button
