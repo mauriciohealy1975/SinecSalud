@@ -1114,18 +1114,18 @@ Partial Class HistoriaClinicaOdontologica
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Segoe UI", 10.8!)
+        Me.Label44.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.Location = New System.Drawing.Point(150, 14)
         Me.Label44.Margin = New System.Windows.Forms.Padding(0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(39, 25)
+        Me.Label44.Size = New System.Drawing.Size(36, 23)
         Me.Label44.TabIndex = 78
         Me.Label44.Text = "NO"
         '
         'CheckBox25
         '
         Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(189, 18)
+        Me.CheckBox25.Location = New System.Drawing.Point(190, 19)
         Me.CheckBox25.Margin = New System.Windows.Forms.Padding(0)
         Me.CheckBox25.Name = "CheckBox25"
         Me.CheckBox25.Size = New System.Drawing.Size(18, 17)
@@ -1166,7 +1166,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label49.Location = New System.Drawing.Point(19, 506)
+        Me.Label49.Location = New System.Drawing.Point(4, 506)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(237, 23)
         Me.Label49.TabIndex = 74
@@ -1176,7 +1176,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label50.Location = New System.Drawing.Point(467, 506)
+        Me.Label50.Location = New System.Drawing.Point(460, 507)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(332, 23)
         Me.Label50.TabIndex = 75
@@ -1184,7 +1184,7 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(259, 506)
+        Me.TextBox15.Location = New System.Drawing.Point(255, 507)
         Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(177, 22)
@@ -1326,10 +1326,10 @@ Partial Class HistoriaClinicaOdontologica
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(324, 181)
+        Me.TextBox21.Location = New System.Drawing.Point(369, 180)
         Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(147, 22)
+        Me.TextBox21.Size = New System.Drawing.Size(100, 22)
         Me.TextBox21.TabIndex = 115
         Me.TextBox21.Text = "03/10/2022"
         '
@@ -1619,11 +1619,11 @@ Partial Class HistoriaClinicaOdontologica
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label74.Location = New System.Drawing.Point(670, 22)
+        Me.Label74.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(673, 23)
         Me.Label74.Margin = New System.Windows.Forms.Padding(0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(183, 23)
+        Me.Label74.Size = New System.Drawing.Size(159, 20)
         Me.Label74.TabIndex = 137
         Me.Label74.Text = "Utiliza enjuague bucal:"
         '
@@ -1740,11 +1740,11 @@ Partial Class HistoriaClinicaOdontologica
         'Label72
         '
         Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Segoe UI", 10.2!)
-        Me.Label72.Location = New System.Drawing.Point(470, 47)
+        Me.Label72.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(482, 49)
         Me.Label72.Margin = New System.Windows.Forms.Padding(0)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(384, 23)
+        Me.Label72.Size = New System.Drawing.Size(335, 20)
         Me.Label72.TabIndex = 130
         Me.Label72.Text = "Durante el cepillado dental le sangran las ensias?"
         '
@@ -1770,11 +1770,11 @@ Partial Class HistoriaClinicaOdontologica
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Font = New System.Drawing.Font("Segoe UI", 10.2!)
+        Me.Label62.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label62.Location = New System.Drawing.Point(11, 47)
         Me.Label62.Margin = New System.Windows.Forms.Padding(0)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(249, 23)
+        Me.Label62.Size = New System.Drawing.Size(219, 20)
         Me.Label62.TabIndex = 127
         Me.Label62.Text = "Frecuencia del cepillado dental:"
         '
